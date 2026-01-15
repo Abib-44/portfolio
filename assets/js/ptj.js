@@ -13,6 +13,12 @@ if (navClose) {
   });
 }
 
+  if (location.hostname.includes('github.io')) {
+    const base = document.createElement('base');
+    base.href = "/partafolio/";
+    document.head.appendChild(base);
+  }
+
 /*==================== REMOVE MENU MOBILE ====================*/
 const navLink = document.querySelectorAll(".nav__link");
 
