@@ -38,19 +38,3 @@ document.addEventListener('DOMContentLoaded', () => {
   loadPartial('navbar-placeholder', navPath);
   loadPartial('footer-placeholder', footerPath);
 });
-
-
-const fs = require('fs');
-const path = require('path');
-
-function printTree(dir, prefix = '') {
-  const items = fs.readdirSync(dir, { withFileTypes: true });
-  items.forEach(item => {
-    console.log(prefix + item.name);
-    if (item.isDirectory()) {
-      printTree(path.join(dir, item.name), prefix + '  ');
-    }
-  });
-}
-
-printTree(__dirname); // stampa tutto il tree della cartella corrente
