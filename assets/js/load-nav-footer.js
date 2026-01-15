@@ -7,9 +7,10 @@ function includeHTML(id, url) {
     .catch(err => console.error(`Error loading ${url}:`, err));
 }
 
+// Usa path relativi
 Promise.all([
-  includeHTML("navbar-placeholder", "/partafolio/assets/partials/navbar.html"),
-  includeHTML("footer-placeholder", "/partafolio/assets/partials/footer.html")
+  includeHTML("navbar-placeholder", "assets/partials/navbar.html"),
+  includeHTML("footer-placeholder", "assets/partials/footer.html")
 ]).then(() => {
   const path = window.location.pathname;
   const page = path.split("/").pop().replace(".html", "");
@@ -24,4 +25,3 @@ Promise.all([
 
   document.title = titles[page] || "Benaboud";
 });
-
