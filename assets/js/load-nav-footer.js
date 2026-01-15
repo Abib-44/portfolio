@@ -19,9 +19,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (currentUrl.protocol == "https:") {
     if (currentUrl.pathname === '/' || currentUrl.pathname.endsWith('/index.html')) {
+      console.log("helo deploi");
+      
       navPath = '../assets/partials/navbar.html';
       footerPath = '../assets/partials/footer.html';
     } else {
+            console.log("helo deploi aver");
       navPath = '../../assets/partials/navbar.html';
       footerPath = '../../assets/partials/footer.html';
     }
