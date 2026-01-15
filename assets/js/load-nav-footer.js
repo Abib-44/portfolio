@@ -7,7 +7,6 @@ function includeHTML(id, url) {
     .catch(err => console.error(`Error loading ${url}:`, err));
 }
 
-// Usa path relativi
 Promise.all([
   includeHTML("navbar-placeholder", "assets/partials/navbar.html"),
   includeHTML("footer-placeholder", "assets/partials/footer.html")
