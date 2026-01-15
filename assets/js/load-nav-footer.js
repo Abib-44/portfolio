@@ -8,8 +8,8 @@ function includeHTML(id, url) {
 }
 
 Promise.all([
-  includeHTML("navbar-placeholder", "../../_includes/navbar.html"),
-  includeHTML("footer-placeholder", "../../_includes/footer.html")
+  includeHTML("navbar-placeholder", "/assets/partials/navbar.html"),
+  includeHTML("footer-placeholder", "/assets/partials/footer.html")
 ]).then(() => {
   const path = window.location.pathname;
   const page = path.split("/").pop().replace(".html", "");
@@ -24,3 +24,4 @@ Promise.all([
 
   document.title = titles[page] || "Benaboud";
 });
+
