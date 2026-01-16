@@ -49,7 +49,7 @@ function replaceNavLinks() {
       link.setAttribute('href', '/portfolio/pages/contact.html');
     } else if (href.includes('hobbies.html')) {
       link.setAttribute('href', '/portfolio/pages/hobbies.html');
-    } else if (href.includes('avatar.jpeg')) {
+    } else if (src.includes('avatar.jpeg')) {
       link.setAttribute('href', '/portfolio/assets/img/avatar.jpeg');
     }
 
