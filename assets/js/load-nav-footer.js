@@ -22,9 +22,9 @@ document.addEventListener('DOMContentLoaded', async () => {
   await loadPartial('navbar-placeholder', 'navbar.html');
   await loadPartial('footer-placeholder', 'footer.html');
 
-  if (window.location.protocol === "https:") {
-    replaceNavLinks();
-  }
+  // if (window.location.protocol === "https:") {
+  //   replaceNavLinks();
+  // }
 });
 
 
@@ -49,9 +49,13 @@ function replaceNavLinks() {
       link.setAttribute('href', '/portfolio/pages/contact.html');
     } else if (href.includes('hobbies.html')) {
       link.setAttribute('href', '/portfolio/pages/hobbies.html');
-    } else if (src.includes('avatar.jpeg')) {
-      link.setAttribute('href', '/portfolio/assets/img/avatar.jpeg');
     }
+
+    const avatar = document.querySelector('img.avatar');
+
+    if (!avatar) return;
+
+    avatar.src = '/portfolio/assets/img/avatar.jpeg';
 
     console.log(`Link ${i} dopo:`, link.getAttribute('href'));
   });
