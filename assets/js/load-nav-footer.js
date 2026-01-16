@@ -55,6 +55,8 @@ function replaceNavLinksLocal() {
     const href = link.getAttribute('href');
     console.log(`Link ${i} prima:`, href);
 
+    console.log("locale");
+    
     if (!href) return;
 
     if (href.includes('index.html')) {
@@ -76,6 +78,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   await loadPartial('navbar-placeholder', 'navbar.html');
   await loadPartial('footer-placeholder', 'footer.html');
 
+  const currentUrl = new URL(window.location.href);
   if (currentUrl.protocol == "https:") {
     replaceNavLinks();
   } else {
