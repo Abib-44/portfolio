@@ -46,7 +46,7 @@ function replaceNavLinks() {
     console.log(`Link ${i} dopo:`, link.getAttribute('href'));
   });
 }
-function replaceNavLinks() {
+function replaceNavLinksLocal() {
   const navLinks = document.querySelectorAll('.nav__link');
 
   console.log('Nav links trovati:', navLinks.length);
@@ -79,6 +79,6 @@ document.addEventListener('DOMContentLoaded', async () => {
   if (currentUrl.protocol == "https:") {
     replaceNavLinks();
   } else {
-
+    replaceNavLinksLocal()
   }
 });
