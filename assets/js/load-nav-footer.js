@@ -21,19 +21,28 @@ async function loadPartial(id, file) {
 
 // -------------------- REPLACE NAV LINKS --------------------
 function replaceNavLinks() {
-  const navLinks = document.querySelectorAll('.deploy_link');
+  const elements = document.querySelectorAll('.deploy_link');
 
-  navLinks.forEach((link) => {
-    const href = link.getAttribute('href');
-    if (!href) return;
+  elements.forEach(el => {
+    ['href', 'src'].forEach(attr => {
+      console.log(attr);
+      
+      const value = el.getAttribute(attr);
+      if (!value) return;
 
-    let newHref = href.replace(/^\/?portfolio\//, '');
+      // Rimuove solo il prefisso "/portfolio/" se presente
+      let newValue = value.startsWith('/portfolio/') ? value.slice(10) : value;
 
-    if (newHref === 'index.html') {
-      newHref = '/';
-    }
+      // Se era index.html, trasformalo in '/'
+      if (newValue === 'index.html') {
+        newValue = '/';
+      } else if (!newValue.startsWith('/')) {
+        // Aggiunge lo slash iniziale se manca
+        newValue = '/' + newValue;
+      }
 
-    link.setAttribute('href', newHref);
+      el.setAttribute(attr, newValue);
+    });
   });
 }
 
@@ -82,7 +91,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   await loadPartial('navbar-placeholder', 'navbar.html');
   await loadPartial('footer-placeholder', 'footer.html');
 
-  if (window.location.protocol === "https:") {
+  if (window.location.protocol !== "https:") {
     replaceNavLinks();
   }
   
