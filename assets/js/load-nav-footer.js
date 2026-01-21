@@ -21,36 +21,20 @@ async function loadPartial(id, file) {
 
 // -------------------- REPLACE NAV LINKS --------------------
 function replaceNavLinks() {
-  const navLinks = document.querySelectorAll('.nav__link');
-  console.log('Nav links trovati:', navLinks.length);
+  const navLinks = document.querySelectorAll('.deploy_link');
 
-  navLinks.forEach((link, i) => {
+  navLinks.forEach((link) => {
     const href = link.getAttribute('href');
-    console.log(`Link ${i} prima:`, href);
-
     if (!href) return;
 
-    if (href.includes('index.html')) {
-      link.setAttribute('href', '/portfolio/');
-    } else if (href.includes('competences.html')) {
-      link.setAttribute('href', '/portfolio/pages/competences.html');
-    } else if (href.includes('projects.html')) {
-      link.setAttribute('href', '/portfolio/pages/projects.html');
-    } else if (href.includes('contact.html')) {
-      link.setAttribute('href', '/portfolio/pages/contact.html');
-    } else if (href.includes('hobbies.html')) {
-      link.setAttribute('href', '/portfolio/pages/hobbies.html');
+    let newHref = href.replace(/^\/?portfolio\//, '');
+
+    if (newHref === 'index.html') {
+      newHref = '/';
     }
 
-    console.log(`Link ${i} dopo:`, link.getAttribute('href'));
+    link.setAttribute('href', newHref);
   });
-
-  // -------------------- MODIFICA AVATAR --------------------
-  const avatar = document.querySelector('img.avatar');
-  if (avatar) {
-    avatar.src = '/portfolio/assets/img/avatar.jpeg';
-    console.log("Avatar aggiornato:", avatar.src);
-  }
 }
 
 // -------------------- DARK/LIGHT TOGGLE --------------------
@@ -104,3 +88,5 @@ document.addEventListener('DOMContentLoaded', async () => {
   
   setupDarkMode();
 });
+
+

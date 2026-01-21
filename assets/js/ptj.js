@@ -90,18 +90,13 @@ document.addEventListener("DOMContentLoaded", () => {
     else header.classList.remove("scroll-header");
   }
 
-  function scrollUp() {
-    if (!scrollUpEl) return;
-    if (window.scrollY >= 560) scrollUpEl.classList.add("show-scroll");
-    else scrollUpEl.classList.remove("show-scroll");
-  }
+function scrollUp() {
+  if (!scrollUpEl) return;
+  if (window.scrollY >= 560) scrollUpEl.classList.add("show-scroll");
+  else scrollUpEl.classList.remove("show-scroll");
+}
 
   window.addEventListener("scroll", scrollActive);
   window.addEventListener("scroll", scrollHeader);
-  window.addEventListener("scroll", scrollUp);
-
- // -------------------- DARK/LIGHT THEME --------------------
-
-
-  
+  window.addEventListener("scroll", scrollUp);  
 });
