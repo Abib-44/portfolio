@@ -103,6 +103,8 @@ body.dark-theme {
   color: var(--first-color);
 }
 
+
+
 /*================= Base ===============*/
 * {
   box-sizing: border-box;
@@ -440,10 +442,11 @@ img {
 }
 
 .skills__header {
-  display: flex;
-  align-items: center;
-  margin-bottom: var(--mb-2-5);
-  cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--mb-2-5);
+    cursor: pointer;
+    justify-content: space-around;
 }
 
 .skills__icon,

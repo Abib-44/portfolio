@@ -460,6 +460,7 @@ img {
   align-items: center;
   margin-bottom: var(--mb-2-5);
   cursor: pointer;
+  justify-content: space-around;
 }
 
 .skills__icon,
@@ -1357,6 +1358,12 @@ body.dark-theme .contact__title {
 
 .skills__container {
   gap: 25px;
+}
+
+.static-arrow {
+  color: var(--first-color); /* Viola */
+  font-size: 24px; /* Dimensione mediamente grande */
+  margin-left: 10px; /* Spazio dalla scritta */
 }
 
 .skills__filter {

@@ -9,12 +9,14 @@
   <link rel="stylesheet" href="./assets/scss/main.css">
   <link rel="shortcut icon" href="./assets/img/avatar-removebg-preview.png" type="image/x-icon">
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+  <!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 </head>
 
 <body>
-
   <div id="navbar-placeholder"></div>
-  
+
   <main class="main">
     <!--========================= Home =====================-->
     <section class="home section" id="home">
@@ -64,7 +66,7 @@
       <span class="section__subtitle">Mon introduction</span>
 
       <div class="about__container container grid">
-        <img src="assets/img/avatar.jpeg" alt="" class="about__img" />
+        <img src="assets/img/avatar_smoking.png" alt="" class="deploy_link" />
 
         <div class="about__data">
           <p class="about__description">
@@ -90,12 +92,248 @@
 
           <div class="about__buttons">
             <a download="" href="assets\MyCV.pdf" class="button button--flex">
+              reagarde mon parcour complete
+            </a>
+          </div>
+          <!-- <div class="about__buttons">
+            <a download="" href="assets\MyCV.pdf" class="button button--flex">
               Télécharger CV<i class="fas fa-download button__icon"></i>
             </a>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="qualification__section service__section" id="qualification">
+      <h2 class="section__title">Expérience</h2>
+      <span class="section__subtitle">
+        Expériences professionnelles en informatique
+      </span>
+
+
+      <div class="qualification__container container grid services__container">
+
+        <div class="qualification__sections">
+          <div class="qualification__content qualifiation__active services__content" data-content id="education">
+
+            <!-- EXPERIENCE 1 : STAGE -->
+            <div class="qualification__data">
+              <div>
+                <h3 class="qualification__title">Stagiaire Backend Developer</h3>
+                <span class="qualification__subtitle">
+                  Entreprise technologique – Backend & Cloud
+                </span>
+                <div class="qualification__calender">
+                  <i class="uil uil-calendar-alt"></i>
+                  2024
+                </div>
+
+                <span class="button button--flex button--small button--link services__button">
+                  Voir plus
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </span>
+
+                <div class="services__modal">
+                  <div class="services__modal-content">
+                    <h4 class="services__modal-title">Stage professionnel</h4>
+                    <i class="uil uil-times services__modal-close"></i>
+                    <ul class="services__modal-services grid">
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__modal-icon"></i>
+                        <p>Conception et développement d’APIs backend orientées performance et fiabilité.</p>
+                      </li>
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__modal-icon"></i>
+                        <p>Implémentation de pipelines de traitement de données et tâches asynchrones.</p>
+                      </li>
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__modal-icon"></i>
+                        <p>Mise en place de workflows CI/CD et automatisation des déploiements.</p>
+                      </li>
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__modal-icon"></i>
+                        <p>Travail en environnement cloud avec des équipes produit et DevOps.</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+            </div>
+
+            <!-- EXPERIENCE 2 : OPEN SOURCE -->
+            <div class="qualification__data">
+              <div></div>
+
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 class="qualification__title">Contributeur Open Source</h3>
+                <span class="qualification__subtitle">
+                  Projets open source – Backend & Data
+                </span>
+                <div class="qualification__calender">
+                  <i class="uil uil-calendar-alt"></i>
+                  2023 – Présent
+                </div>
+
+                <span class="button button--flex button--small button--link services__button">
+                  Voir plus
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </span>
+
+                <div class="services__modal">
+                  <div class="services__modal-content">
+                    <h4 class="services__modal-title">Contributions open source</h4>
+                    <i class="uil uil-times services__modal-close"></i>
+                    <ul class="services__modal-services grid">
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__modal-icon"></i>
+                        <p>Développement et amélioration de services backend open source.</p>
+                      </li>
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__modal-icon"></i>
+                        <p>Refactoring, correction de bugs et optimisation des performances.</p>
+                      </li>
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__modal-icon"></i>
+                        <p>Collaboration via Git, pull requests et revues de code distribuées.</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- EXPERIENCE 3 : PROJETS PERSONNELS -->
+            <div class="qualification__data">
+              <div>
+                <h3 class="qualification__title">Développeur Backend</h3>
+                <span class="qualification__subtitle">
+                  Projets personnels – Backend & Cloud
+                </span>
+                <div class="qualification__calender">
+                  <i class="uil uil-calendar-alt"></i>
+                  2023 – Présent
+                </div>
+
+                <span class="button button--flex button--small button--link services__button">
+                  Voir plus
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </span>
+
+                <div class="services__modal">
+                  <div class="services__modal-content">
+                    <h4 class="services__modal-title">Projets backend autonomes</h4>
+                    <i class="uil uil-times services__modal-close"></i>
+                    <ul class="services__modal-services grid">
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__modal-icon"></i>
+                        <p>Conception complète d’APIs REST, de la modélisation au déploiement.</p>
+                      </li>
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__modal-icon"></i>
+                        <p>Gestion de bases de données, logique métier et optimisation des performances.</p>
+                      </li>
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__modal-icon"></i>
+                        <p>Containerisation, automatisation des tests et déploiements cloud.</p>
+                      </li>
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__modal-icon"></i>
+                        <p>Approche orientée clean architecture, maintenabilité et qualité logicielle.</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <span class="qualification__rounder"></span>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!--=================== Portfolio ===================-->
     <section class="portfolio section" id="portfolio">
@@ -249,6 +487,117 @@
         <div class="swiper-pagination"></div>
       </div>
     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--===================== COMPÉTENCES =====================-->
+<section class="skills section" id="skills">
+  <h2 class="section__title">Compétences</h2>
+  <span class="section__subtitle">Mon expertise technique</span>
+
+  <div class="skills__container container grid">
+
+    <!--==================== Langages de programmation =================-->
+    <details class="skills__content">
+      <summary class="skills__header">
+        <i class="fas fa-code skills__icon"></i>
+        <h2 class="skills__title">Langages de programmation</h2>
+<!-- Freccia viola statica -->
+<i class="fas fa-chevron-down static-arrow"></i>
+
+
+      </summary>
+      <div class="skills__list grid">
+        <div class="skills__data"><h3 class="skills__subtitle">Python</h3></div>
+        <div class="skills__data"><h3 class="skills__subtitle">PHP</h3></div>
+        <div class="skills__data"><h3 class="skills__subtitle">JavaScript</h3></div>
+        <div class="skills__data"><h3 class="skills__subtitle">TypeScript</h3></div>
+        <div class="skills__data"><h3 class="skills__subtitle">C</h3></div>
+        <div class="skills__data"><h3 class="skills__subtitle">Java</h3></div>
+      </div>
+    </details>
+
+    <!--==================== Bases de données =================-->
+    <details class="skills__content">
+      <summary class="skills__header">
+        <i class="fas fa-database skills__icon"></i>
+        <h2 class="skills__title">Bases de données</h2>
+<!-- Freccia viola statica -->
+<i class="fas fa-chevron-down static-arrow"></i>
+      </summary>
+      <div class="skills__list grid">
+        <div class="skills__data"><h3 class="skills__subtitle">MySQL</h3></div>
+        <div class="skills__data"><h3 class="skills__subtitle">MongoDB</h3></div>
+        <div class="skills__data"><h3 class="skills__subtitle">PostgreSQL</h3></div>
+      </div>
+    </details>
+
+    <!--==================== Outils et analyse =================-->
+    <details class="skills__content">
+      <summary class="skills__header">
+        <i class="fas fa-chart-line skills__icon"></i>
+        <h2 class="skills__title">Outils et analyse de données</h2>
+<i class="fas fa-chevron-down static-arrow"></i>
+      </summary>
+      <div class="skills__list grid">
+        <div class="skills__data"><h3 class="skills__subtitle">Pandas</h3></div>
+        <div class="skills__data"><h3 class="skills__subtitle">NumPy</h3></div>
+        <div class="skills__data"><h3 class="skills__subtitle">ETL</h3></div>
+        <div class="skills__data"><h3 class="skills__subtitle">Modélisation de données</h3></div>
+      </div>
+    </details>
+
+    <!--==================== Version Control =================-->
+    <details class="skills__content">
+      <summary class="skills__header">
+        <i class="fas fa-code-branch skills__icon"></i>
+        <h2 class="skills__title">Gestion de versions</h2>
+<i class="fas fa-chevron-down static-arrow"></i>
+      </summary>
+      <div class="skills__list grid">
+        <div class="skills__data"><h3 class="skills__subtitle">Git</h3></div>
+        <div class="skills__data"><h3 class="skills__subtitle">GitHub</h3></div>
+        <div class="skills__data"><h3 class="skills__subtitle">GitLab</h3></div>
+      </div>
+    </details>
+
+    <!--==================== Automatisation & CI/CD =================-->
+    <details class="skills__content">
+      <summary class="skills__header">
+        <i class="fas fa-cogs skills__icon"></i>
+        <h2 class="skills__title">Automatisation & CI/CD</h2>
+<i class="fas fa-chevron-down static-arrow"></i>
+      </summary>
+      <div class="skills__list grid">
+        <div class="skills__data"><h3 class="skills__subtitle">Shell Scripting</h3></div>
+        <div class="skills__data"><h3 class="skills__subtitle">Jenkins</h3></div>
+        <div class="skills__data"><h3 class="skills__subtitle">Airflow</h3></div>
+        <div class="skills__data"><h3 class="skills__subtitle">Docker</h3></div>
+        <div class="skills__data"><h3 class="skills__subtitle">AWS</h3></div>
+      </div>
+    </details>
+
+  </div>
+</section>
+
+
+
+
 
   </main>
 
