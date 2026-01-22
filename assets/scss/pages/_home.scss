@@ -907,6 +907,32 @@ img {
 
 /*======================== Media Queries ======================*/
 
+.conteiner-btn-project {
+
+width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-projects {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color:  var(--first-color); /* Viola brillante */
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.btn-projects:hover {
+  background-color: #6a1fbf; /* Viola più scuro al passaggio */
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0,0,0,0.15);
+}
+
 /* For Small Devices */
 @media screen and (max-width: 350px) {
   .container {
