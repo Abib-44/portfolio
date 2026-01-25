@@ -54,7 +54,7 @@
 
 
       </ul>
-      
+
 
 
     </div>
@@ -63,7 +63,7 @@
 
 
     <div class="mobile">
-    <div class="nav__btns">
+      <div class="nav__btns">
   <div id="theme-button" class="theme-box">
     <div class="switch-knob"></div>
     <i class="switch-img switch-moon fa-solid fa-moon"></i>
@@ -72,8 +72,10 @@
 </div>
 
 
-<i class="fas fa-bars mobile-nav" id="nav-open"></i>
-<i class="fas fa-times mobile-nav" id="nav-close"></i>
+      <div class="nav__icon__navigation">
+        <i class="fas fa-bars mobile-nav" id="nav-open"></i>
+        <i class="fas fa-times mobile-nav" id="nav-close"></i>
+      </div>
 
     </div>
 
@@ -178,42 +180,43 @@
   <footer class="footer">
     <div class="footer__bg">
         <div class="footer__container container grid">
-            <div style="display: flex; align-items: center; justify-content: space-evenly;">
+            <div class="footer__logo">
+
                 <a href="/portfolio/index.html" class="nav__logo deploy_link nav__link">
                     <img class="avatar deploy_link" style="height: 81px;"
                         src="/portfolio/assets/img/avatar.jpeg" alt="avatar_footer">
                 </a>
 
-                <div class="footer__subtitle"
+                <!-- <div class="footer__subtitle"
                     style="height: 100%; display: flex; flex-direction: column; justify-content: space-evenly;">
                     <p>Automation & Cloud</p>
                     <p>Scripting & Tools</p>
                     <p>Data & Pipelines</p>
                     <p>Analytics & Monitoring</p>
-                </div>
+                </div> -->
             </div>
 
             <ul class="footer__links">
                 <li>
-                    <a href="/portfolio/pages/habbies" class="footer__link deploy_link nav__link">loisir</a>
+                    <a href="/portfolio/pages/habbies" class="footer__link nav__link">loisir</a>
                 </li>
                 <li>
-                    <a href="/portfolio/pages/contatc" class="footer__link deploy_link nav__link">Projets</a>
+                    <a href="/portfolio/pages/contatc" class="footer__link nav__link">Projets</a>
                 </li>
                 <li>
-                    <a href="/portfolio/pages/contatc" class="footer__link deploy_link nav__link">Contact</a>
+                    <a href="/portfolio/pages/contatc" class="footer__link nav__link">Contact</a>
                 </li>
             </ul>
 
-            <div class="">
+            <div class="footer__links__pages">
                 <a href="https://www.linkedin.com/in/el-habib-benaboud-data/" target="_blank" class="home__social-icon">
-                    <i class="fa-brands fa-linkedin general__card__title"></i>
+                    <i class="fa-brands fa-linkedin footer__contact"></i>
                 </a>
                 <a href="https://github.com/Abib-44" target="_blank" class="home__social-icon">
-                    <i class="fa-brands fa-github general__card__title"></i>
+                    <i class="fa-brands fa-github footer__contact"></i>
                 </a>
                 <a href="mailto:eh.benaboud@email.com" class="home__social-icon">
-                    <i class="fa-classic fa-solid fa-at general__card__title"></i>
+                    <i class="fa-classic fa-solid fa-at footer__contact"></i>
                 </a>
             </div>
         </div>

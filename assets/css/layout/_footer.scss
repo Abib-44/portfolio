@@ -2,3 +2,58 @@
   background-color: var(--first-color-second);
   padding: 2rem 0 3rem;
 }
+
+.footer__links {
+
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.footer__links li a{
+      font-size: 20px;
+}
+
+.footer__logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: var(--title-color);
+}
+
+.footer__copy {
+  color: var(--title-color);
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.footer__contact {
+
+  
+  color: var(--title-color);
+}
+
+.footer__container {
+
+  grid-template-columns: repeat(3, 1fr);
+}
+
+
+@media screen and (max-width: 767px) {
+  .footer__container {
+display: flex;
+flex-wrap: wrap;
+}
+
+.footer__links__pages {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main {
+
+    padding: 0px 25px;
+}
+}

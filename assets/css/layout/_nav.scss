@@ -1,31 +1,146 @@
+/* ---------- Navbar base ---------- */
 .nav {
   max-width: 968px;
   height: var(--header-height);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+  z-index: 100;
 
-  &__logo, &__toggle { color: var(--title-color); font-weight: var(--font-medium); }
-  &__logo:hover { color: var(--first-color); }
-  &__toggle { font-size: 1.1rem; cursor: pointer; &:hover { color: var(--first-color); } }
 
-  &__menu {
-    &.show-menu { bottom: 0; }
+}
+
+.nav__icon__navigation {
+  margin-right: 20px;
+}
+.header {
+
+    padding: 10px 0;
+}
+.nav__logo {
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+
+  &:hover {
+    color: var(--first-color);
+  }
+}
+
+/* ---------- Toggle mobile ---------- */
+.nav__toggle {
+  font-size: 1.6rem;
+  cursor: pointer;
+  color: var(--title-color);
+  display: none; /* nascosto in desktop */
+  transition: color 0.25s ease;
+
+  &:hover {
+    color: var(--first-color);
+  }
+}
+
+/* ---------- Menu ---------- */
+.nav__menu {
+  display: flex;
+  align-items: center;
+
+  .nav__list {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    list-style: none;
   }
 
-  &__link {
+  .nav__link {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    gap: 0.5rem;
     font-size: var(--small-font-size);
     color: var(--title-color);
     font-weight: var(--font-medium);
-    &:hover { color: var(--first-color); }
+    text-decoration: none;
+    transition: color 0.25s ease;
 
-    &.active-link { color: var(--first-color); }
+    &:hover {
+      color: var(--first-color);
+    }
+
+    .nav__icon {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+/* ---------- Mobile improvements ---------- */
+.mobile {
+  display: flex;
+  align-items: center;
+}
+
+/* Mobile nav icons */
+.mobile-nav {
+  display: none; /* default hidden su desktop */
+  font-size: 1.6rem;
+  cursor: pointer;
+  color: var(--title-color);
+  transition: transform 0.25s ease, color 0.25s ease;
+
+  &:hover {
+    color: var(--first-color);
+    transform: scale(1.1);
+  }
+}
+
+/* ---------- Navbar mobile ---------- */
+@media screen and (max-width: 767px) {
+  .nav__toggle {
+    display: block; /* visibile in mobile */
   }
 
-  &__close { position: absolute; right: 1.3rem; bottom: 0.5rem; font-size: 1.5rem; cursor: pointer; color: var(--first-color);
-    &:hover { color: var(--first-color-alt); }
+  .nav__menu {
+    position: fixed;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--body-color);
+    padding: 2rem 1.5rem 4rem;
+    box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 1.5rem 1.5rem 0 0;
+    transition: bottom 0.35s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &.show-menu {
+      bottom: 0;
+    }
+
+    .nav__list {
+      flex-direction: column;
+      gap: 1.5rem;
+      width: 100%;
+      align-items: center;
+    }
+
+    .nav__link {
+      font-size: 1.1rem;
+    }
+
+    .nav__close {
+      display: block;
+      position: absolute;
+      top: 1rem;
+      right: 1.5rem;
+      font-size: 1.6rem;
+      cursor: pointer;
+      color: var(--first-color);
+      transition: color 0.25s ease;
+
+      &:hover {
+        color: var(--first-color-alt);
+      }
+    }
   }
 }

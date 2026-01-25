@@ -54,7 +54,7 @@
 
 
       </ul>
-      
+
 
 
     </div>
@@ -63,7 +63,7 @@
 
 
     <div class="mobile">
-    <div class="nav__btns">
+      <div class="nav__btns">
   <div id="theme-button" class="theme-box">
     <div class="switch-knob"></div>
     <i class="switch-img switch-moon fa-solid fa-moon"></i>
@@ -72,8 +72,10 @@
 </div>
 
 
-<i class="fas fa-bars mobile-nav" id="nav-open"></i>
-<i class="fas fa-times mobile-nav" id="nav-close"></i>
+      <div class="nav__icon__navigation">
+        <i class="fas fa-bars mobile-nav" id="nav-open"></i>
+        <i class="fas fa-times mobile-nav" id="nav-close"></i>
+      </div>
 
     </div>
 
@@ -105,97 +107,91 @@
 
   <div class="general__card__containers container grid">
 
-  <article class="general__card" data-category="data">
-    <div class="general__card__header">
-      <div class="general__card__title-group">
-        <i class="general__card__icon fa-solid fa-database"></i>
-        <h3 class="general__card__title">Pipeline ETL</h3>
-      </div>
-      <span class="general__card__category">Data</span>
-    </div>
-    <p class="general__card__description">
-      Automatisation de pipelines de données robustes pour l’ingestion,
-      la transformation et le chargement de données à grande échelle.
-    </p>
-    <ul class="general__card__stack">
-      <li>Python</li>
-      <li>SQL</li>
-      <li>ETL</li>
-    </ul>
-    <a href="#" class="button button--small button--link">
-      Voir le projet
-      <i class="uil uil-arrow-right button__icon"></i>
-    </a>
-  </article>
+      <article class="project__card__carussel" data-category="data">
+        <img src="https://imgs.search.brave.com/XMex97I32pnL0H09A7JsdsDA8gl_R-yV7LqNENOpxAE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/ZmlsZXN0YWNrY29u/dGVudC5jb20vYXV0/b19pbWFnZS9yZXNp/emU9d2lkdGg6Mzc1/LGhlaWdodDoyMDAs/Zml0OmNyb3AvY29t/cHJlc3MvY2FjaGU9/ZXhwaXJ5Om1heC81/cHJYZ0cxSFFETzFO/ZlQ0aXNZSg" alt="Pipeline ETL" class="project__card__carussel__img" />
 
-  <article class="general__card" data-category="automation">
-    <div class="general__card__header">
-      <div class="general__card__title-group">
-        <i class="general__card__icon fa-solid fa-robot"></i>
-        <h3 class="general__card__title">CI/CD Automation</h3>
-      </div>
-      <span class="general__card__category">Automation</span>
-    </div>
-    <p class="general__card__description">
-      Mise en place de pipelines CI/CD pour automatiser les tests,
-      le déploiement et la surveillance d’applications cloud.
-    </p>
-    <ul class="general__card__stack">
-      <li>GitHub Actions</li>
-      <li>Docker</li>
-      <li>Linux</li>
-    </ul>
-    <a href="#" class="button button--small button--link">
-      Voir le projet
-      <i class="uil uil-arrow-right button__icon"></i>
-    </a>
-  </article>
+        <div class="project__card__carussel__content">
+          <div class="project__card__carussel__header">
+            <div class="project__card__carussel__title-group">
+              <i class="project__card__carussel__icon fas fa-database"></i>
+              <h3 class="project__card__carussel__title">Pipeline ETL</h3>
+            </div>
+            <span class="project__card__carussel__category">Data</span>
+          </div>
 
-  <article class="general__card" data-category="automation">
-    <div class="general__card__header">
-      <div class="general__card__title-group">
-        <i class="general__card__icon fa-solid fa-robot"></i>
-        <h3 class="general__card__title">CI/CD Automation</h3>
-      </div>
-      <span class="general__card__category">Automation</span>
-    </div>
-    <p class="general__card__description">
-      Mise en place de pipelines CI/CD pour automatiser les tests,
-      le déploiement et la surveillance d’applications cloud.
-    </p>
-    <ul class="general__card__stack">
-      <li>GitHub Actions</li>
-      <li>Docker</li>
-      <li>Linux</li>
-    </ul>
-    <a href="#" class="button button--small button--link">
-      Voir le projet
-      <i class="uil uil-arrow-right button__icon"></i>
-    </a>
-  </article>
+          <p class="project__card__carussel__description">
+            Orchestration de workflows avec Apache Airflow, PostgreSQL et pgAdmin. Conteneurisé avec Docker pour pipelines de données reproductibles.
+          </p>
 
-  <article class="general__card" data-category="automation">
-    <div class="general__card__header">
-      <div class="general__card__title-group">
-        <i class="general__card__icon fa-solid fa-robot"></i>
-        <h3 class="general__card__title">CI/CD Automation</h3>
-      </div>
-      <span class="general__card__category">Automation</span>
-    </div>
-    <p class="general__card__description">
-      Mise en place de pipelines CI/CD pour automatiser les tests,
-      le déploiement et la surveillance d’applications cloud.
-    </p>
-    <ul class="general__card__stack">
-      <li>GitHub Actions</li>
-      <li>Docker</li>
-      <li>Linux</li>
-    </ul>
-    <a href="#" class="button button--small button--link">
-      Voir le projet
-      <i class="uil uil-arrow-right button__icon"></i>
-    </a>
-  </article>
+          <ul class="project__card__carussel__stack">
+            <li>Python</li>
+            <li>SQL</li>
+            <li>ETL</li>
+          </ul>
+
+          <a href="https://github.com/Abib-44/airflow" class="button button--flex" target="_blank">
+            Voir le projet
+          </a>
+        </div>
+      </article>
+
+      <!-- Progetto 2 -->
+      <article class="project__card__carussel" data-category="data">
+        <img src="https://imgs.search.brave.com/KgUPkc5xQbqtsczJ2GdQW8jkLOq2GYV1vpVsOhyp4JA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS12ZWN0b3Iv/ZGF0YS1hbmFseXNp/cy1pbmZvZ3JhcGhp/Yy1pc29tZXRyaWMt/Zmxvd2NoYXJ0XzEy/ODQtMTExNzYuanBn/P3NlbXQ9YWlzX2h5/YnJpZCZ3PTc0MCZx/PTgw" alt="Pipeline CSV" class="project__card__carussel__img" />
+
+        <div class="project__card__carussel__content">
+          <div class="project__card__carussel__header">
+            <div class="project__card__carussel__title-group">
+              <i class="project__card__carussel__icon fas fa-database"></i>
+              <h3 class="project__card__carussel__title">Pipeline CSV</h3>
+            </div>
+            <span class="project__card__carussel__category">Data</span>
+          </div>
+
+          <p class="project__card__carussel__description">
+            Nettoyage et traitement automatique de fichiers CSV avec Python et Pandas. Conteneurisé avec Docker et stockage dans SQLite.
+          </p>
+
+          <ul class="project__card__carussel__stack">
+            <li>Python</li>
+            <li>Pandas</li>
+            <li>SQLite</li>
+          </ul>
+
+          <a href="https://github.com/200habib/csv" class="button button--flex" target="_blank">
+            Voir le projet
+          </a>
+        </div>
+      </article>
+
+      <!-- Progetto 3 -->
+      <article class="project__card__carussel" data-category="cloud">
+        <img src="https://imgs.search.brave.com/KgUPkc5xQbqtsczJ2GdQW8jkLOq2GYV1vpVsOhyp4JA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS12ZWN0b3Iv/ZGF0YS1hbmFseXNp/cy1pbmZvZ3JhcGhp/Yy1pc29tZXRyaWMt/Zmxvd2NoYXJ0XzEy/ODQtMTExNzYuanBn/P3NlbXQ9YWlzX2h5/YnJpZCZ3PTc0MCZx/PTgw" alt="CI/CD Python" class="project__card__carussel__img" />
+
+        <div class="project__card__carussel__content">
+          <div class="project__card__carussel__header">
+            <div class="project__card__carussel__title-group">
+              <i class="project__card__carussel__icon fas fa-cogs"></i>
+              <h3 class="project__card__carussel__title">Minio</h3>
+            </div>
+            <span class="project__card__carussel__category">DevOps</span>
+          </div>
+
+          <p class="project__card__carussel__description">
+            Pipeline CI/CD complet pour applications Python avec Docker et MinIO, automatisant tests, build et déploiement.
+          </p>
+
+          <ul class="project__card__carussel__stack">
+            <li>Python</li>
+            <li>Docker</li>
+            <li>CI/CD</li>
+          </ul>
+
+          <a href="https://github.com/Abib-44/python-ci-minio" class="button button--flex" target="_blank">
+            Voir le projet
+          </a>
+        </div>
+      </article>
 
 </div>
 
@@ -209,42 +205,43 @@
   <footer class="footer">
     <div class="footer__bg">
         <div class="footer__container container grid">
-            <div style="display: flex; align-items: center; justify-content: space-evenly;">
+            <div class="footer__logo">
+
                 <a href="/portfolio/index.html" class="nav__logo deploy_link nav__link">
                     <img class="avatar deploy_link" style="height: 81px;"
                         src="/portfolio/assets/img/avatar.jpeg" alt="avatar_footer">
                 </a>
 
-                <div class="footer__subtitle"
+                <!-- <div class="footer__subtitle"
                     style="height: 100%; display: flex; flex-direction: column; justify-content: space-evenly;">
                     <p>Automation & Cloud</p>
                     <p>Scripting & Tools</p>
                     <p>Data & Pipelines</p>
                     <p>Analytics & Monitoring</p>
-                </div>
+                </div> -->
             </div>
 
             <ul class="footer__links">
                 <li>
-                    <a href="/portfolio/pages/habbies" class="footer__link deploy_link nav__link">loisir</a>
+                    <a href="/portfolio/pages/habbies" class="footer__link nav__link">loisir</a>
                 </li>
                 <li>
-                    <a href="/portfolio/pages/contatc" class="footer__link deploy_link nav__link">Projets</a>
+                    <a href="/portfolio/pages/contatc" class="footer__link nav__link">Projets</a>
                 </li>
                 <li>
-                    <a href="/portfolio/pages/contatc" class="footer__link deploy_link nav__link">Contact</a>
+                    <a href="/portfolio/pages/contatc" class="footer__link nav__link">Contact</a>
                 </li>
             </ul>
 
-            <div class="">
+            <div class="footer__links__pages">
                 <a href="https://www.linkedin.com/in/el-habib-benaboud-data/" target="_blank" class="home__social-icon">
-                    <i class="fa-brands fa-linkedin general__card__title"></i>
+                    <i class="fa-brands fa-linkedin footer__contact"></i>
                 </a>
                 <a href="https://github.com/Abib-44" target="_blank" class="home__social-icon">
-                    <i class="fa-brands fa-github general__card__title"></i>
+                    <i class="fa-brands fa-github footer__contact"></i>
                 </a>
                 <a href="mailto:eh.benaboud@email.com" class="home__social-icon">
-                    <i class="fa-classic fa-solid fa-at general__card__title"></i>
+                    <i class="fa-classic fa-solid fa-at footer__contact"></i>
                 </a>
             </div>
         </div>

@@ -1,21 +1,48 @@
-// Seleziona gli elementi
+document.addEventListener("DOMContentLoaded", () => {
 const navMenu = document.getElementById('nav-menu');
 const navOpen = document.getElementById('nav-open');
 const navClose = document.getElementById('nav-close');
 
-// Funzione per aprire il menu
-navOpen.addEventListener('click', () => {
+function isMobile() {
+  return window.innerWidth < 768; // mobile se <768px
+}
+
+function openMenu() {
+  if (!isMobile()) return; // non fare nulla su desktop
   navMenu.classList.add('show-menu');
   navOpen.style.display = 'none';
-  navClose.style.display = 'inline-block';
-});
+  navClose.style.display = 'block';
+}
 
-// Funzione per chiudere il menu
-navClose.addEventListener('click', () => {
+function closeMenu() {
+  if (!isMobile()) return; // non fare nulla su desktop
   navMenu.classList.remove('show-menu');
-  navOpen.style.display = 'inline-block';
+  navOpen.style.display = 'block';
   navClose.style.display = 'none';
+}
+
+// Eventi
+navOpen.addEventListener('click', openMenu);
+navClose.addEventListener('click', closeMenu);
+
+// Inizializzazione: mostra solo open su mobile
+if (isMobile()) {
+  navOpen.style.display = 'block';
+  navClose.style.display = 'none';
+} else {
+  navOpen.style.display = 'none';
+  navClose.style.display = 'none';
+}
+
+// Aggiorna se ridimensioni finestra
+window.addEventListener('resize', () => {
+  if (!isMobile()) {
+    navMenu.classList.remove('show-menu');
+    navOpen.style.display = 'none';
+    navClose.style.display = 'none';
+  } else {
+    navOpen.style.display = 'block';
+  }
 });
 
-// Nascondi il close all'inizio
-navClose.style.display = 'none';
+});
