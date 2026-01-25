@@ -1,0 +1,6 @@
+{
+  "liveSassCompile.settings.excludeList": [
+    "**/_site/**"
+  ],
+  "liveSassCompile.settings.generateMap": true
+}

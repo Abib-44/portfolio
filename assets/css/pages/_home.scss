@@ -455,6 +455,8 @@ img {
 }
 
 .skills__list {
+
+    margin-bottom: 30px;
   row-gap: 1.5rem;
   padding-left: 2.7rem;
 }
@@ -1091,7 +1093,7 @@ width: 100%;
     justify-content: center;
   }
   .services__content {
-    padding: 6rem 0 2rem 2.5rem;
+        padding: 2rem 0 2rem 2rem;
   }
   .services__icon {
     font-size: 2rem;

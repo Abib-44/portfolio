@@ -465,6 +465,7 @@ img {
 }
 
 .skills__list {
+  margin-bottom: 30px;
   row-gap: 1.5rem;
   padding-left: 2.7rem;
 }
@@ -1088,7 +1089,7 @@ img {
     justify-content: center;
   }
   .services__content {
-    padding: 6rem 0 2rem 2.5rem;
+    padding: 2rem 0 2rem 2rem;
   }
   .services__icon {
     font-size: 2rem;
@@ -1154,148 +1155,193 @@ img {
     bottom: -4.5rem;
   }
 }
-.home__projects__section-wrapper {
-  position: relative;
-}
-
-.home__projects__container {
-  display: flex;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  gap: 1.5rem;
-  padding: 1rem 0;
-  scroll-behavior: smooth;
-}
-
-.home__projects__container::-webkit-scrollbar {
-  display: none;
-}
-
-.home__project__card {
+.project__card__carussel {
   flex: 0 0 300px;
   scroll-snap-align: start;
-  background: #fff;
-  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--container-color);
+  border-radius: 16px;
   overflow: hidden;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
-.home__project__card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+.project__card__carussel:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
 }
-
-/* Pulsanti laterali */
-.project-nav-btn {
-  background: #4e73df;
-  border: none;
-  color: white;
-  font-size: 1.5rem;
-  padding: 0.5rem 1rem;
-  border-radius: 50%;
-  cursor: pointer;
-  z-index: 10;
-}
-
-.project-nav-btn:hover {
-  background: #2e59d9;
-}
-
-.project-nav-btn.hidden {
+.project__card__carussel.hidden {
   display: none;
 }
 
-.home__projects__nav {
-  display: flex;
-  justify-content: flex-end;
-}
-
-/* Responsive */
-@media screen and (max-width: 768px) {
-  .home__project__card {
-    flex: 0 0 250px;
-  }
-}
-@media screen and (max-width: 480px) {
-  .home__project__card {
-    flex: 0 0 200px;
-  }
-}
-.home__project__card {
-  flex: 0 0 300px;
-  display: flex;
-  flex-direction: column;
-  background: #fff;
-  border-radius: 16px;
-  overflow: hidden;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.home__project__card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.12);
-}
-
-.home__project__img-wrapper {
+/* Image */
+.project__card__carussel__img {
   width: 100%;
   height: 180px;
-  overflow: hidden;
-}
-
-.home__project__img {
-  width: 100%;
-  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   transition: transform 0.4s ease;
 }
 
-#nextProject {
-  margin-left: 10px;
-}
-
-.home__project__card:hover .home__project__img {
-  transform: scale(1.05);
-}
-
-.home__project__content {
-  padding: 1rem 1.2rem;
+/* Content */
+.project__card__carussel__content {
   display: flex;
   flex-direction: column;
   gap: 0.6rem;
+  padding: 1rem 1.2rem;
+  background-color: var(--container-color);
+  height: 65%;
 }
 
-.home__project__title {
-  font-size: 1.25rem;
-  font-weight: 700;
-  color: #333;
+/* Header */
+.project__card__carussel__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
 }
 
-.home__project__description {
-  font-size: 0.95rem;
-  color: #555;
-  flex: 1;
-  line-height: 1.4;
+.project__card__carussel__title-group {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
-.home__project__link {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  background-color: #4e73df;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 8px;
+.project__card__carussel__icon {
+  font-size: 1.4rem;
+  color: var(--first-color);
+}
+
+.project__card__carussel__title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--title-color);
+}
+
+/* Category */
+.project__card__carussel__category {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--first-color);
+  background-color: var(--first-color-lighter);
+  padding: 0.2rem 0.6rem;
+  border-radius: 12px;
+  white-space: nowrap;
+}
+
+/* Description */
+.project__card__carussel__description {
   font-size: 0.9rem;
-  text-align: center;
-  align-self: flex-start;
-  transition: background 0.3s ease, transform 0.2s ease;
+  line-height: 1.4;
+  color: var(--text-color);
 }
 
-.home__project__link:hover {
-  background-color: #2e59d9;
+/* Stack */
+.project__card__carussel__stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.project__card__carussel__stack li {
+  font-size: 0.75rem;
+  padding: 0.3rem 0.6rem;
+  background-color: var(--input-color);
+  border-radius: 6px;
+  color: var(--title-color);
+  font-weight: 500;
+}
+
+/* Button */
+.project__card__carussel__button {
+  margin-top: auto;
+  transition: transform 0.3s ease;
+}
+
+.project__card__carussel__button:hover {
   transform: translateY(-2px);
+}
+
+/* Carousel container */
+.home__projects__container {
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 1rem 0;
+  scroll-behavior: smooth;
+}
+.home__projects__container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .project__card__carussel {
+    flex: 0 0 250px;
+  }
+  .project__card__carussel__img {
+    height: 150px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .project__card__carussel {
+    flex: 0 0 200px;
+  }
+  .project__card__carussel__img {
+    height: 120px;
+  }
+  .project__card__carussel__title {
+    font-size: 1rem;
+  }
+  .project__card__carussel__description {
+    font-size: 0.8rem;
+  }
+  .project__card__carussel__stack li {
+    font-size: 0.7rem;
+  }
+}
+.home__projects__nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.project-nav-btn {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--container-color);
+  color: var(--title-color);
+  font-size: 1.6rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  transition: background-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+}
+.project-nav-btn:hover {
+  background-color: var(--first-color);
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+.project-nav-btn:active {
+  transform: scale(0.92);
+}
+.project-nav-btn:focus-visible {
+  outline: 2px solid var(--first-color);
+  outline-offset: 3px;
+}
+.project-nav-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
 }
 
 .general__center_button {
