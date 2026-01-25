@@ -3,8 +3,14 @@
   justify-content: center;
   gap: 1rem;
   margin-bottom: var(--mb-2);
+
+    margin-top: 20px;
 }
 
+a {
+
+    color: var(--title-color);
+}
 .general__filter:hover,
 .general__filter.active {
   background-color: var(--first-color);

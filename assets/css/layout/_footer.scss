@@ -5,12 +5,15 @@
 
 .footer__links {
 
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
 }
-.footer__links li a{
-      font-size: 20px;
+
+.footer__links li a {
+
+  color: var(--title-color);
+  font-size: 20px;
 }
 
 .footer__logo {
@@ -29,7 +32,7 @@
 
 .footer__contact {
 
-  
+
   color: var(--title-color);
 }
 
@@ -41,19 +44,19 @@
 
 @media screen and (max-width: 767px) {
   .footer__container {
-display: flex;
-flex-wrap: wrap;
-}
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-.footer__links__pages {
+  .footer__links__pages {
 
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-}
+  }
 
-main {
+  main {
 
     padding: 0px 25px;
-}
+  }
 }
