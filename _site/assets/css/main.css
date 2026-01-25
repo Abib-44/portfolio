@@ -180,7 +180,20 @@ img {
   color: var(--first-color);
 }
 
+.mobile {
+  display: flex;
+  align-items: center;
+}
+
+.mobile-nav {
+  display: none;
+}
+
 @media screen and (max-width: 767px) {
+  .mobile-nav {
+    display: block;
+    font-size: 25px;
+  }
   .nav__menu {
     position: fixed;
     bottom: -100%;
@@ -196,6 +209,13 @@ img {
 .nav__list {
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
+}
+
+.nav__list {
+  display: flex;
+  -moz-column-gap: 2rem;
+  column-gap: 2rem;
+  flex-direction: column;
 }
 
 .nav__link {
