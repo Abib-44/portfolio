@@ -1,4 +1,4 @@
-baseurl: "/jekyll"
+baseurl: "/portfolio"
 sass:
   sass_dir: assets/css
   style: expanded
