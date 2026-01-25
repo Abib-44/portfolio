@@ -1,0 +1,119 @@
+.general__card {
+  background-color: var(--container-color);
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.general__card:hover {
+  transform: translateY(-4px);
+}
+
+.general__card.hidden {
+  display: none;
+
+}
+
+.general__card .button {
+  margin-top: auto;
+}
+
+.general__card .button__icon {
+  transition: transform 0.3s ease;
+}
+
+.general__card .button:hover .button__icon {
+  transform: translateX(6px);
+}
+
+
+/* ---------- Header ---------- */
+
+.general__card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--mb-0-75);
+}
+
+.general__card__title {
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-semi-bold);
+  color: var(--title-color);
+}
+
+/* ---------- Category badge ---------- */
+
+.general__card__category {
+  font-size: var(--smaller-font-size);
+  font-weight: var(--font-medium);
+  color: var(--first-color);
+  background-color: var(--first-color-lighter);
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  white-space: nowrap;
+}
+
+/* ---------- Description ---------- */
+
+.general__card__description {
+  font-size: var(--small-font-size);
+  line-height: 1.65;
+  color: var(--text-color);
+  margin-bottom: var(--mb-1);
+}
+
+/* ---------- Tech stack ---------- */
+
+.general__card__stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: var(--mb-1);
+}
+
+.general__card__stack li {
+  font-size: var(--smaller-font-size);
+  padding: 0.35rem 0.75rem;
+  background-color: var(--input-color);
+  border-radius: 0.5rem;
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+}
+
+
+/* ---------- Link ---------- */
+
+.general__card__intro {
+  max-width: 720px;
+  margin: 0 auto var(--mb-2);
+  text-align: center;
+  font-size: var(--small-font-size);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+
+.general__card__containers {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+
+
+.general__card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.general__card__title-group {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.general__card__icon {
+  font-size: 1.4rem;
+  color: var(--first-color);
+}

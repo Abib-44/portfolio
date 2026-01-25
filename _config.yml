@@ -1,0 +1,9 @@
+baseurl: "/jekyll"
+sass:
+  sass_dir: assets/css
+  style: expanded
+
+exclude:
+  - _site
+  - node_modules
+  - vendor

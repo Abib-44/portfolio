@@ -1,0 +1,33 @@
+.general__filters {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: var(--mb-2);
+}
+
+.general__filter:hover,
+.general__filter.active {
+  background-color: var(--first-color);
+  color: #fff;
+}
+.general__container {
+  gap: 25px;
+}
+
+.static-arrow {
+  color: var(--first-color);
+  font-size: 24px; 
+  margin-left: 10px;
+}
+
+.general__filter {
+  padding: 0.5rem 1.25rem;
+  border-radius: 2rem;
+  border: none;
+  background-color: var(--input-color);
+  color: var(--title-color);
+  font-size: var(--small-font-size);
+  font-weight: var(--font-medium);
+  cursor: pointer;
+  transition: 0.3s;
+}
