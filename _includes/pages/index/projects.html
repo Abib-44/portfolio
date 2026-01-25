@@ -1,16 +1,28 @@
 <section class="home__projects section" id="portfolio">
-  <h2 class="general__section__title">Projects</h2>
-  <span class="general__section__subtitle">Voici quelques-uns de mes projets récents</span>
+      <h2 class="general__section__title">Projects</h2>
+      <span class="general__section__subtitle">Voici quelques-uns de mes projets récents</span>
 
-  <div class="home__projects__container container grid">
+
+
+<div class="container">
+
+    <div class="home__projects__nav">
+      <button id="prevProject" class="project-nav-btn">‹</button>
+      <button id="nextProject" class="project-nav-btn">›</button>
+    </div>
+
+  <div class="home__projects__container  grid">
 
     <!-- Projet 1 -->
     <article class="home__project__card">
-      <img src="https://imgs.search.brave.com/XMex97I32pnL0H09A7JsdsDA8gl_R-yV7LqNENOpxAE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/ZmlsZXN0YWNrY29u/dGVudC5jb20vYXV0/b19pbWFnZS9yZXNp/emU9d2lkdGg6Mzc1/LGhlaWdodDoyMDAs/Zml0OmNyb3AvY29t/cHJlc3MvY2FjaGU9/ZXhwaXJ5Om1heC81/cHJYZ0cxSFFETzFO/ZlQ0aXNZSg" alt="Projet Airflow-Docker" class="home__project__img">
+      <img
+        src="https://imgs.search.brave.com/XMex97I32pnL0H09A7JsdsDA8gl_R-yV7LqNENOpxAE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/ZmlsZXN0YWNrY29u/dGVudC5jb20vYXV0/b19pbWFnZS9yZXNp/emU9d2lkdGg6Mzc1/LGhlaWdodDoyMDAs/Zml0OmNyb3AvY29t/cHJlc3MvY2FjaGU9/ZXhwaXJ5Om1heC81/cHJYZ0cxSFFETzFO/ZlQ0aXNZSg"
+        alt="Projet Airflow-Docker" class="home__project__img">
       <div class="home__project__content">
         <h3 class="home__project__title">Projet Airflow-Docker</h3>
         <p class="home__project__description">
-          Orchestration de workflows avec Apache Airflow, PostgreSQL et pgAdmin. Conteneurisé avec Docker pour pipelines de données reproductibles.
+          Orchestration de workflows avec Apache Airflow, PostgreSQL et pgAdmin. Conteneurisé avec Docker pour pipelines
+          de données reproductibles.
         </p>
         <a href="https://github.com/Abib-44/airflow" class="button button--flex" target="_blank">
           Voir le projet
@@ -20,11 +32,14 @@
 
     <!-- Projet 2 -->
     <article class="home__project__card">
-      <img src="https://imgs.search.brave.com/KgUPkc5xQbqtsczJ2GdQW8jkLOq2GYV1vpVsOhyp4JA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS12ZWN0b3Iv/ZGF0YS1hbmFseXNp/cy1pbmZvZ3JhcGhp/Yy1pc29tZXRyaWMt/Zmxvd2NoYXJ0XzEy/ODQtMTExNzYuanBn/P3NlbXQ9YWlzX2h5/YnJpZCZ3PTc0MCZx/PTgw" alt="Pipeline CSV" class="home__project__img">
+      <img
+        src="https://imgs.search.brave.com/KgUPkc5xQbqtsczJ2GdQW8jkLOq2GYV1vpVsOhyp4JA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS12ZWN0b3Iv/ZGF0YS1hbmFseXNp/cy1pbmZvZ3JhcGhp/Yy1pc29tZXRyaWMt/Zmxvd2NoYXJ0XzEy/ODQtMTExNzYuanBn/P3NlbXQ9YWlzX2h5/YnJpZCZ3PTc0MCZx/PTgw"
+        alt="Pipeline CSV" class="home__project__img">
       <div class="home__project__content">
         <h3 class="home__project__title">Pipeline CSV</h3>
         <p class="home__project__description">
-          Nettoyage et traitement automatique de fichiers CSV avec Python et Pandas. Conteneurisé avec Docker et stockage dans SQLite.
+          Nettoyage et traitement automatique de fichiers CSV avec Python et Pandas. Conteneurisé avec Docker et
+          stockage dans SQLite.
         </p>
         <a href="https://github.com/200habib/csv" class="button button--flex" target="_blank">
           Voir le projet
@@ -34,11 +49,14 @@
 
     <!-- Projet 3 -->
     <article class="home__project__card">
-      <img src="https://imgs.search.brave.com/KgUPkc5xQbqtsczJ2GdQW8jkLOq2GYV1vpVsOhyp4JA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS12ZWN0b3Iv/ZGF0YS1hbmFseXNp/cy1pbmZvZ3JhcGhp/Yy1pc29tZXRyaWMt/Zmxvd2NoYXJ0XzEy/ODQtMTExNzYuanBn/P3NlbXQ9YWlzX2h5/YnJpZCZ3PTc0MCZx/PTgw" alt="CI/CD Python" class="home__project__img">
+      <img
+        src="https://imgs.search.brave.com/KgUPkc5xQbqtsczJ2GdQW8jkLOq2GYV1vpVsOhyp4JA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS12ZWN0b3Iv/ZGF0YS1hbmFseXNp/cy1pbmZvZ3JhcGhp/Yy1pc29tZXRyaWMt/Zmxvd2NoYXJ0XzEy/ODQtMTExNzYuanBn/P3NlbXQ9YWlzX2h5/YnJpZCZ3PTc0MCZx/PTgw"
+        alt="CI/CD Python" class="home__project__img">
       <div class="home__project__content">
         <h3 class="home__project__title">CI/CD Python avec Docker</h3>
         <p class="home__project__description">
-          Pipeline CI/CD complet pour applications Python avec Docker et MinIO, automatisant tests, build et déploiement.
+          Pipeline CI/CD complet pour applications Python avec Docker et MinIO, automatisant tests, build et
+          déploiement.
         </p>
         <a href="https://github.com/Abib-44/python-ci-minio" class="button button--flex" target="_blank">
           Voir le projet
@@ -48,10 +66,8 @@
 
 
   </div>
-  <div class="home__projects__nav">
-    <button id="prevProject" class="project-nav-btn">‹</button>
-    <button id="nextProject" class="project-nav-btn">›</button>
-  </div>
+
+</div>
   <!-- Bouton voir tous les projets -->
   <div class="general__center_button">
     <a href="/portfolio/pages/projects.html" class="button button--flex">Regarde tous mes projets</a>

@@ -11,9 +11,6 @@
   scroll-behavior: smooth;
 }
 
-.home__projects {
-  position: relative;
-}
 
 .home__projects__container::-webkit-scrollbar {
   display: none;
@@ -36,9 +33,6 @@
 
 /* Pulsanti laterali */
 .project-nav-btn {
-    position: absolute;
-    top: 50%;
-    /* transform: translateY(-50%); */
     background: #4e73df;
     border: none; 
     color: white;
@@ -47,11 +41,7 @@
     border-radius: 50%;
     cursor: pointer;
     z-index: 10;
-    transition: background 0.3s ease;
 }
-
-#prevProject { left:230px; }
-#nextProject { right:230px; }
 
 .project-nav-btn:hover {
   background: #2e59d9;
@@ -61,6 +51,12 @@
   display: none;
 }
 
+
+.home__projects__nav {
+
+    display: flex;
+    justify-content: flex-end;
+}
 /* Responsive */
 @media screen and (max-width: 768px) {
   .home__project__card { flex: 0 0 250px; }
@@ -97,6 +93,10 @@
   height: 100%;
   object-fit: cover;
   transition: transform 0.4s ease;
+}
+
+#nextProject {
+      margin-left: 10px;
 }
 
 .home__project__card:hover .home__project__img {
