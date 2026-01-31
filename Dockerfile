@@ -1,4 +1,7 @@
-FROM jekyll/jekyll:4
+FROM ruby:3.1-alpine
+
+RUN apk add --no-cache build-base nodejs git \
+    && gem install jekyll bundler
 
 WORKDIR /srv/jekyll
 COPY . .
