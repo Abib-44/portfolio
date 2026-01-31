@@ -1,4 +1,4 @@
-FROM jekyll/jekyll:4.3
+FROM jekyll/jekyll:latest
 
 WORKDIR /srv/jekyll
 COPY . .
