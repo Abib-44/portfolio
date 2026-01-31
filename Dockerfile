@@ -10,5 +10,5 @@ RUN jekyll build -d /srv/jekyll/_site
 
 FROM nginx:alpine
 COPY --from=0 /srv/jekyll/_site /usr/share/nginx/html
-EXPOSE 81
+EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
