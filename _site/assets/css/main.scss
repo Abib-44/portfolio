@@ -2,9 +2,11 @@
 @use "pages/home";
 @use "pages/home/project";
 @use "pages/home/services";
+@use "pages/home/media-query";
+@use "pages/home/portfolio";
+@use "pages/home/contact";
 
 @use "pages/projects";
-@use "pages/contact";
 @use "pages/competences";
 @use "pages/hobbies";
 
@@ -20,3 +22,6 @@
 @use "layout/footer" ; 
 
 @use "layout/nav" ; 
+
+
+@use "abstracts/variables" ; 
