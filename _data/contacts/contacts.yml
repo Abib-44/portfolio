@@ -1,0 +1,28 @@
+- title: Phone
+  category: Contact
+  icon: fa-solid fa-phone
+  description: "06 52 68 72 48"
+  link: "tel:0652687248"
+  link_label: "Cliquez pour contacter"
+
+- title: Email
+  category: Contact
+  icon: fa-solid fa-envelope
+  description: "eh.benaboud@email.com"
+  link: "mailto:eh.benaboud@email.com"
+  link_label: "Cliquez pour contacter"
+
+- title: LinkedIn
+  category: Contact
+  icon: fa-brands fa-linkedin
+  description: "Mon profil LinkedIn"
+  link: "https://www.linkedin.com/in/el-habib-benaboud-data/"
+  link_label: "Cliquez pour visiter"
+  external: true
+
+- title: GitHub
+  category: Contact
+  icon: fa-brands fa-github
+  description: "https://github.com/Abib-44"
+  link: "https://github.com/Abib-44"
+  external: true

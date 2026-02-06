@@ -5,9 +5,9 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>portfolio</title>
-<link rel="stylesheet" href="/portfolio/assets/css/main.css">
+<link rel="stylesheet" href="/assets/css/main.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-<link rel="shortcut icon" href="/portfolio/assets/img/avatar-whitout.png" type="image/x-icon">
+<link rel="shortcut icon" href="/assets/img/avatar-whitout.png" type="image/x-icon">
 
 
 </head>
@@ -15,38 +15,38 @@
 <body>
   <header class="header" id="header">
   <nav class="nav container navbar">
-    <a href="/portfolio/index.html" class="nav__logo deploy_link">
-      <img class="avatar deploy_link" src="/portfolio/assets/img/avatar.jpeg" alt="avatar">
+    <a href="/index.html" class="nav__logo deploy_link">
+      <img class="avatar deploy_link" src="/assets/img/avatar.jpeg" alt="avatar">
     </a>
 
     <div class="nav__menu" id="nav-menu">
       <ul class="nav__list grid">
         <li class="nav__item">
-          <a href="/portfolio/index.html" class="deploy_link nav__link active-link">
+          <a href="/index.html" class="deploy_link nav__link active-link">
             <i class="uil uil-estate nav__icon"></i>Accueil
           </a>
         </li>
 
         <li class="nav__item">
-          <a href="/portfolio/pages/competences.html" class="deploy_link nav__link">
+          <a href="/pages/competences.html" class="deploy_link nav__link">
             <i class="uil uil-file-alt nav__icon"></i>Compétences
           </a>
         </li>
 
         <li class="nav__item">
-          <a href="/portfolio/pages/projects.html" class="deploy_link nav__link">
+          <a href="/pages/projects.html" class="deploy_link nav__link">
             <i class="uil uil-scenery nav__icon"></i>Projets
           </a>
         </li>
 
         <li class="nav__item">
-          <a href="/portfolio/pages/hobbies.html" class="deploy_link nav__link">
+          <a href="/pages/hobbies.html" class="deploy_link nav__link">
             <i class="uil uil-message nav__icon"></i>Loisirs
           </a>
         </li>
 
         <li class="nav__item">
-          <a href="/portfolio/pages/contact.html" class="deploy_link nav__link">
+          <a href="/pages/contact.html" class="deploy_link nav__link">
             <i class="uil uil-message nav__icon"></i>Contactez-moi
           </a>
         </li>
@@ -82,7 +82,7 @@
   </nav>
 </header>
   <main> 
-    <section class="home section" id="home">
+    <section class="home" id="home">
   <div class="home__container container grid">
     <div class="home__content grid">
       <div class="home__social">
@@ -98,7 +98,7 @@
       </div>
 
       <div class="home__img">
-        <img src="/portfolio/assets/img/avatar.jpeg" alt="" class="about__img" />
+        <img src="/assets/img/avatar.jpeg" alt="" class="about__img" />
       </div>
 
       <div class="home__data">
@@ -108,7 +108,7 @@
           Passionné par l'informatique, j'ai travaillé en tant que développeur backend et participé à plusieurs projets
           open source. 
         </p>
-        <a href="/portfolio/pages/contact.html" class="button button--flex">
+        <a href="/pages/contact.html" class="button button--flex">
           Contactez-moi <i class="uil uil-message button__icon"></i>
         </a>
       </div>
@@ -123,12 +123,12 @@
     </div>
   </div>
 </section>
-<section class="about section" id="about">
+<section class="about" id="about">
   <h2 class="general__section__title">À propos de moi</h2>
   <span class="general__section__subtitle">Mon introduction</span>
 
   <div class="about__container container grid">
-    <img src="/portfolio/assets/img/avatar_smoking.png" alt="" class="deploy_link" />
+    <img src="/assets/img/avatar_smoking.png" alt="" class="deploy_link" />
 
     <div class="about__data">
       <p class="about__description">
@@ -151,14 +151,14 @@
       </div>
 
       <div class="about__buttons">
-        <a download="" href="/portfolio/assets/MyCV.pdf" class="button button--flex">
+        <a download="" href="/assets/MyCV.pdf" class="button button--flex">
           Regardez mon parcours complet
         </a>
       </div>
     </div>
   </div>
 </section>
-<section class="qualification__section service__section" id="qualification">
+<section class="qualification__section service__section about" id="qualification">
   <h2 class="general__section__title">Expérience</h2>
   <span class="general__section__subtitle">Expériences professionnelles en informatique</span>
 
@@ -176,34 +176,54 @@
               <i class="uil uil-calendar-alt"></i> 2024
             </div>
 
-            <!-- <span class="button button--flex button--small button--link services__button">
-              Voir plus <i class="uil uil-arrow-right button__icon"></i>
-            </span> -->
-
             <div class="services__modal">
               <div class="services__modal-content">
-                <h4 class="services__modal-title">Stage professionnel</h4>
+                <h4 class="services__modal-title">Stage professionnel – Backend &amp; Data</h4>
                 <i class="uil uil-times services__modal-close"></i>
+
                 <ul class="services__modal-services grid">
                   <li class="services__modal-service">
                     <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>Conception et développement d’APIs backend orientées performance et fiabilité.</p>
+                    <p>
+                      Conception et développement d’APIs backend robustes et performantes, avec une attention
+                      particulière portée à la scalabilité et à la fiabilité.
+                    </p>
                   </li>
+
                   <li class="services__modal-service">
                     <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>Implémentation de pipelines de traitement de données et tâches asynchrones.</p>
+                    <p>
+                      Mise en œuvre de pipelines de traitement de données et de tâches asynchrones pour l’automatisation
+                      et l’optimisation des flux applicatifs.
+                    </p>
                   </li>
+
                   <li class="services__modal-service">
                     <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>Mise en place de workflows CI/CD et automatisation des déploiements.</p>
+                    <p>
+                      Implémentation de workflows CI/CD incluant tests automatisés, intégration continue et déploiement
+                      continu.
+                    </p>
                   </li>
+
                   <li class="services__modal-service">
                     <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>Travail en environnement cloud avec des équipes produit et DevOps.</p>
+                    <p>
+                      Collaboration dans un environnement cloud et DevOps, en interaction avec des équipes produit, data
+                      et infrastructure.
+                    </p>
                   </li>
                 </ul>
               </div>
             </div>
+
+
+
+
+
+
+
+
           </div>
 
           <div>
@@ -303,8 +323,7 @@
     </div>
   </div>
 </section>
-
-<section class="home__projects section" id="portfolio">
+<section class="home__projects about" id="portfolio">
   <h2 class="general__section__title">Projects</h2>
   <span class="general__section__subtitle">Voici quelques-uns de mes projets récents</span>
 
@@ -318,96 +337,177 @@
     </div>
 
     <div class="home__projects__container  grid">
-
-      <!-- Projet 1 -->
-      <article class="project__card__carussel">
-        <img src="https://imgs.search.brave.com/XMex97I32pnL0H09A7JsdsDA8gl_R-yV7LqNENOpxAE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/ZmlsZXN0YWNrY29u/dGVudC5jb20vYXV0/b19pbWFnZS9yZXNp/emU9d2lkdGg6Mzc1/LGhlaWdodDoyMDAs/Zml0OmNyb3AvY29t/cHJlc3MvY2FjaGU9/ZXhwaXJ5Om1heC81/cHJYZ0cxSFFETzFO/ZlQ0aXNZSg" alt="Projet Airflow-Docker" class="project__card__carussel__img" />
-
-        <div class="project__card__carussel__content">
-          <div class="project__card__carussel__header">
-            <div class="project__card__carussel__title-group">
-              <i class="project__card__carussel__icon fas fa-database"></i>
-              <h3 class="project__card__carussel__title">Pipeline ETL</h3>
+      
+      <article class="project__card__carussel" data-category="data">
+        <img src="https://imgs.search.brave.com/t5sKQdFeytmt8OOrYjU0JCq-RUkio1yI6mn1pUFw-qQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbm5v/d2lzZS5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMjIvMDgv/UGljLTMtMS5wbmc" alt="airflow" class="project__card__carussel__img" />
+        <div class="project__card__carussel__bottom">
+          <div class="project__card__carussel__content">
+            <div class="project__card__carussel__header">
+              <div class="project__card__carussel__title-group">
+                <i class="project__card__carussel__icon fas fa-database"></i>
+                <h3 class="project__card__carussel__title">airflow</h3>
+              </div>
+              <span class="project__card__carussel__category">Data</span>
             </div>
-            <span class="project__card__carussel__category">Data</span>
+
+            <p class="project__card__carussel__description">Orchestration de workflows avec Apache Airflow, PostgreSQL et pgAdmin. Conteneurisé avec Docker pour pipelines de données reproductibles.</p>
+
+            <ul class="project__card__carussel__stack">
+              
+              <li>Python</li>
+              
+              <li>SQL</li>
+              
+              <li>ETL</li>
+              
+            </ul>
           </div>
 
-          <p class="project__card__carussel__description">
-            Orchestration de workflows avec Apache Airflow, PostgreSQL et pgAdmin. Conteneurisé avec Docker pour
-            pipelines de données reproductibles.
-          </p>
+          <div class="project__card__carussel__button">
+            <a href="https://github.com/Abib-44/airflow" class="button button--flex" target="_blank">
+              Voir le projet
+            </a>
 
-          <ul class="project__card__carussel__stack">
-            <li>Python</li>
-            <li>SQL</li>
-            <li>ETL</li>
-          </ul>
-
-          <a href="https://github.com/Abib-44/airflow" class="button button--flex" target="_blank">
-            Voir le projet
-          </a>
+          </div>
         </div>
       </article>
-
-
-      <article class="project__card__carussel">
-        <img src="https://imgs.search.brave.com/KgUPkc5xQbqtsczJ2GdQW8jkLOq2GYV1vpVsOhyp4JA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS12ZWN0b3Iv/ZGF0YS1hbmFseXNp/cy1pbmZvZ3JhcGhp/Yy1pc29tZXRyaWMt/Zmxvd2NoYXJ0XzEy/ODQtMTExNzYuanBn/P3NlbXQ9YWlzX2h5/YnJpZCZ3PTc0MCZx/PTgw" alt="Pipeline CSV" class="project__card__carussel__img" />
-
-        <div class="project__card__carussel__content">
-          <div class="project__card__carussel__header">
-            <div class="project__card__carussel__title-group">
-              <i class="project__card__carussel__icon fas fa-database"></i>
-              <h3 class="project__card__carussel__title">Pipeline CSV</h3>
+      
+      <article class="project__card__carussel" data-category="data">
+        <img src="https://imgs.search.brave.com/yje2Attoe6VGHI6-hxS8vupOGFEsl_xsIKbPdWYFS0I/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/dmVjdGV1cnMtcHJl/bWl1bS9mb3JtYXQt/Y3N2LWZpY2hpZXIt/Y3N2LWV4dGVuc2lv/bi1kb2N1bWVudC1h/dS1mb3JtYXQtY3N2/LWlsbHVzdHJhdGlv/bi12ZWN0b3JpZWxs/ZV84NDkyNjQtNDQ0/LmpwZz9zZW10PWFp/c19oeWJyaWQmdz03/NDAmcT04MA" alt="Pipeline CSV" class="project__card__carussel__img" />
+        <div class="project__card__carussel__bottom">
+          <div class="project__card__carussel__content">
+            <div class="project__card__carussel__header">
+              <div class="project__card__carussel__title-group">
+                <i class="project__card__carussel__icon fas fa-database"></i>
+                <h3 class="project__card__carussel__title">Pipeline CSV</h3>
+              </div>
+              <span class="project__card__carussel__category">Data</span>
             </div>
-            <span class="project__card__carussel__category">Data</span>
+
+            <p class="project__card__carussel__description">Nettoyage et traitement automatique de fichiers CSV avec Python et Pandas. Conteneurisé avec Docker et stockage dans SQLite.</p>
+
+            <ul class="project__card__carussel__stack">
+              
+              <li>Python</li>
+              
+              <li>Pandas</li>
+              
+              <li>SQLite</li>
+              
+            </ul>
           </div>
 
-          <p class="project__card__carussel__description">
-            Nettoyage et traitement automatique de fichiers CSV avec Python et Pandas. Conteneurisé avec Docker et
-            stockage dans SQLite.
-          </p>
+          <div class="project__card__carussel__button">
+            <a href="https://github.com/200habib/csv" class="button button--flex" target="_blank">
+              Voir le projet
+            </a>
 
-          <ul class="project__card__carussel__stack">
-            <li>Python</li>
-            <li>Pandas</li>
-            <li>SQLite</li>
-          </ul>
-
-          <a href="https://github.com/200habib/csv" class="button button--flex" target="_blank">
-            Voir le projet
-          </a>
+          </div>
         </div>
       </article>
-
-
-      <article class="project__card__carussel">
-        <img src="https://imgs.search.brave.com/KgUPkc5xQbqtsczJ2GdQW8jkLOq2GYV1vpVsOhyp4JA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS12ZWN0b3Iv/ZGF0YS1hbmFseXNp/cy1pbmZvZ3JhcGhp/Yy1pc29tZXRyaWMt/Zmxvd2NoYXJ0XzEy/ODQtMTExNzYuanBn/P3NlbXQ9YWlzX2h5/YnJpZCZ3PTc0MCZx/PTgw" alt="CI/CD Python" class="project__card__carussel__img" />
-
-        <div class="project__card__carussel__content">
-          <div class="project__card__carussel__header">
-            <div class="project__card__carussel__title-group">
-              <i class="project__card__carussel__icon fas fa-cogs"></i>
-              <h3 class="project__card__carussel__title">CI/CD Python avec Docker</h3>
+      
+      <article class="project__card__carussel" data-category="devops">
+        <img src="https://imgs.search.brave.com/JTQFZMWEmS8oDba8WC5YdXMwjMWh3fVAED_wnbRosDs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5saWNkbi5jb20v/ZG1zL2ltYWdlL0Q1/NjNEQVFIQ0g4WG9f/S1VmSkEvaW1hZ2Ut/c2NhbGVfMTkxXzEx/MjgvMC8xNjY1NjEy/OTkyNjU2L21pbmlv/X2luY19fY292ZXI_/ZT0yMTQ3NDgzNjQ3/JnY9YmV0YSZ0PWJr/NnhpZUwtS0U2cnM1/UndDeDRZV1A1bk95/QjJBdkNEaFN0ZXF5/T1pEcU0" alt="Minio" class="project__card__carussel__img" />
+        <div class="project__card__carussel__bottom">
+          <div class="project__card__carussel__content">
+            <div class="project__card__carussel__header">
+              <div class="project__card__carussel__title-group">
+                <i class="project__card__carussel__icon fas fa-database"></i>
+                <h3 class="project__card__carussel__title">Minio</h3>
+              </div>
+              <span class="project__card__carussel__category">DevOps</span>
             </div>
-            <span class="project__card__carussel__category">DevOps</span>
+
+            <p class="project__card__carussel__description">Création d’un environnement de stockage local pour archiver des fichiers de projet et des sauvegardes, entièrement containerisé avec Docker.</p>
+
+            <ul class="project__card__carussel__stack">
+              
+              <li>Python</li>
+              
+              <li>Docker</li>
+              
+              <li>CI/CD</li>
+              
+            </ul>
           </div>
 
-          <p class="project__card__carussel__description">
-            Pipeline CI/CD complet pour applications Python avec Docker et MinIO, automatisant tests, build et
-            déploiement.
-          </p>
+          <div class="project__card__carussel__button">
+            <a href="https://github.com/Abib-44/python-ci-minio" class="button button--flex" target="_blank">
+              Voir le projet
+            </a>
 
-          <ul class="project__card__carussel__stack">
-            <li>Python</li>
-            <li>Docker</li>
-            <li>CI/CD</li>
-          </ul>
-
-          <a href="https://github.com/Abib-44/python-ci-minio" class="button button--flex" target="_blank">
-            Voir le projet
-          </a>
+          </div>
         </div>
       </article>
+      
+      <article class="project__card__carussel" data-category="backend">
+        <img src="https://imgs.search.brave.com/VcH1i1RkMxRXNrEktYGoCEv6z9a2kehuApN_lLKuTJA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9yZWZp/bmUtd2ViLmltZ2l4/Lm5ldC9ibG9nLzIw/MjMtMDgtMDctZmFz/dC1hcGkvc29jaWFs/LTIucG5nP3c9MTc4/OA" alt="FastSkeleton" class="project__card__carussel__img" />
+        <div class="project__card__carussel__bottom">
+          <div class="project__card__carussel__content">
+            <div class="project__card__carussel__header">
+              <div class="project__card__carussel__title-group">
+                <i class="project__card__carussel__icon fas fa-database"></i>
+                <h3 class="project__card__carussel__title">FastSkeleton</h3>
+              </div>
+              <span class="project__card__carussel__category">Backend</span>
+            </div>
+
+            <p class="project__card__carussel__description">Skeleton de projet prêt à l’emploi pour démarrer rapidement de nouvelles applications avec FastApi.</p>
+
+            <ul class="project__card__carussel__stack">
+              
+              <li>Python</li>
+              
+              <li>Docker</li>
+              
+              <li>CI/CD</li>
+              
+            </ul>
+          </div>
+
+          <div class="project__card__carussel__button">
+            <a href="https://github.com/Abib-44/FastSkeleton" class="button button--flex" target="_blank">
+              Voir le projet
+            </a>
+
+          </div>
+        </div>
+      </article>
+      
+      <article class="project__card__carussel" data-category="devops">
+        <img src="https://imgs.search.brave.com/KgUPkc5xQbqtsczJ2GdQW8jkLOq2GYV1vpVsOhyp4JA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS12ZWN0b3Iv/ZGF0YS1hbmFseXNp/cy1pbmZvZ3JhcGhp/Yy1pc29tZXRyaWMt/Zmxvd2NoYXJ0XzEy/ODQtMTExNzYuanBn/P3NlbXQ9YWlzX2h5/YnJpZCZ3PTc0MCZx/PTgw" alt="python ci/cd" class="project__card__carussel__img" />
+        <div class="project__card__carussel__bottom">
+          <div class="project__card__carussel__content">
+            <div class="project__card__carussel__header">
+              <div class="project__card__carussel__title-group">
+                <i class="project__card__carussel__icon fas fa-database"></i>
+                <h3 class="project__card__carussel__title">python ci/cd</h3>
+              </div>
+              <span class="project__card__carussel__category">DevOps</span>
+            </div>
+
+            <p class="project__card__carussel__description">Pipeline CI/CD complet pour applications Python avec Jenkins</p>
+
+            <ul class="project__card__carussel__stack">
+              
+              <li>Python</li>
+              
+              <li>Jenkins</li>
+              
+              <li>CI/CD</li>
+              
+            </ul>
+          </div>
+
+          <div class="project__card__carussel__button">
+            <a href="https://github.com/Abib-44/FastSkeleton" class="button button--flex" target="_blank">
+              Voir le projet
+            </a>
+
+          </div>
+        </div>
+      </article>
+      
 
     </div>
 
@@ -417,100 +517,168 @@
     <a href="/portfolio/pages/projects.html" class="button button--flex">Regarde tous mes projets</a>
   </div>
 </section>
-<section class="skills section" id="skills">
+<section class="skills about" id="skills">
   <h2 class="general__section__title">Compétences</h2>
   <span class="general__section__subtitle">Mon expertise technique</span>
 
   <div class="skills__container container grid">
-
-    <!-- Langages de programmation -->
+    
     <details class="skills__content">
       <summary class="skills__header">
-        <i class="fas fa-code skills__icon"></i>
-        <h2 class="skills__title">Langages de programmation</h2>
+        <div class="skills__header_sub">
+          <i class="fas fa-code skills__icon"></i>
+          <h2 class="skills__title">Langages de programmation</h2>
+        </div>
         <i class="fas fa-chevron-down static-arrow"></i>
       </summary>
       <div class="skills__list grid">
-        <div class="skills__data"><h3 class="skills__subtitle">Python</h3></div>
-        <div class="skills__data"><h3 class="skills__subtitle">PHP</h3></div>
-        <div class="skills__data"><h3 class="skills__subtitle">SQL</h3></div>
+        
+        <div class="skills__data">
+          <h3 class="skills__subtitle">Python</h3>
+        </div>
+        
+        <div class="skills__data">
+          <h3 class="skills__subtitle">PHP</h3>
+        </div>
+        
+        <div class="skills__data">
+          <h3 class="skills__subtitle">SQL</h3>
+        </div>
+        
       </div>
     </details>
-
-    <!-- Bases de données -->
+    
     <details class="skills__content">
       <summary class="skills__header">
-        <i class="fas fa-database skills__icon"></i>
-        <h2 class="skills__title">Bases de données</h2>
+        <div class="skills__header_sub">
+          <i class="fas fa-database skills__icon"></i>
+          <h2 class="skills__title">Bases de données</h2>
+        </div>
         <i class="fas fa-chevron-down static-arrow"></i>
       </summary>
       <div class="skills__list grid">
-        <div class="skills__data"><h3 class="skills__subtitle">MySQL</h3></div>
-        <div class="skills__data"><h3 class="skills__subtitle">MongoDB</h3></div>
-        <div class="skills__data"><h3 class="skills__subtitle">PostgreSQL</h3></div>
+        
+        <div class="skills__data">
+          <h3 class="skills__subtitle">MySQL</h3>
+        </div>
+        
+        <div class="skills__data">
+          <h3 class="skills__subtitle">MongoDB</h3>
+        </div>
+        
+        <div class="skills__data">
+          <h3 class="skills__subtitle">PostgreSQL</h3>
+        </div>
+        
       </div>
     </details>
-
-    <!-- Outils et analyse -->
+    
     <details class="skills__content">
       <summary class="skills__header">
-        <i class="fas fa-chart-line skills__icon"></i>
-        <h2 class="skills__title">Outils et analyse de données</h2>
+        <div class="skills__header_sub">
+          <i class="fas fa-chart-line skills__icon"></i>
+          <h2 class="skills__title">Outils et analyse de données</h2>
+        </div>
         <i class="fas fa-chevron-down static-arrow"></i>
       </summary>
       <div class="skills__list grid">
-        <div class="skills__data"><h3 class="skills__subtitle">Pandas</h3></div>
-        <div class="skills__data"><h3 class="skills__subtitle">NumPy</h3></div>
-        <div class="skills__data"><h3 class="skills__subtitle">ETL</h3></div>
+        
+        <div class="skills__data">
+          <h3 class="skills__subtitle">Pandas</h3>
+        </div>
+        
+        <div class="skills__data">
+          <h3 class="skills__subtitle">NumPy</h3>
+        </div>
+        
+        <div class="skills__data">
+          <h3 class="skills__subtitle">ETL</h3>
+        </div>
+        
       </div>
     </details>
-
-    <!-- Gestion de versions -->
+    
     <details class="skills__content">
       <summary class="skills__header">
-        <i class="fas fa-code-branch skills__icon"></i>
-        <h2 class="skills__title">Gestion de versions</h2>
+        <div class="skills__header_sub">
+          <i class="fas fa-code-branch skills__icon"></i>
+          <h2 class="skills__title">Gestion de versions</h2>
+        </div>
         <i class="fas fa-chevron-down static-arrow"></i>
       </summary>
       <div class="skills__list grid">
-        <div class="skills__data"><h3 class="skills__subtitle">Git</h3></div>
-        <div class="skills__data"><h3 class="skills__subtitle">GitHub</h3></div>
-        <div class="skills__data"><h3 class="skills__subtitle">GitLab</h3></div>
+        
+        <div class="skills__data">
+          <h3 class="skills__subtitle">Git</h3>
+        </div>
+        
+        <div class="skills__data">
+          <h3 class="skills__subtitle">GitHub</h3>
+        </div>
+        
+        <div class="skills__data">
+          <h3 class="skills__subtitle">GitLab</h3>
+        </div>
+        
       </div>
     </details>
-
-    <!-- Automatisation & CI/CD -->
+    
     <details class="skills__content">
       <summary class="skills__header">
-        <i class="fas fa-cogs skills__icon"></i>
-        <h2 class="skills__title">Automatisation &amp; CI/CD</h2>
+        <div class="skills__header_sub">
+          <i class="fas fa-cogs skills__icon"></i>
+          <h2 class="skills__title">Automatisation &amp; CI/CD</h2>
+        </div>
         <i class="fas fa-chevron-down static-arrow"></i>
       </summary>
       <div class="skills__list grid">
-        <div class="skills__data"><h3 class="skills__subtitle">Shell Scripting</h3></div>
-        <div class="skills__data"><h3 class="skills__subtitle">Jenkins</h3></div>
-        <div class="skills__data"><h3 class="skills__subtitle">Airflow</h3></div>
-        <div class="skills__data"><h3 class="skills__subtitle">Docker</h3></div>
-        <div class="skills__data"><h3 class="skills__subtitle">AWS</h3></div>
+        
+        <div class="skills__data">
+          <h3 class="skills__subtitle">Shell Scripting</h3>
+        </div>
+        
+        <div class="skills__data">
+          <h3 class="skills__subtitle">Jenkins</h3>
+        </div>
+        
+        <div class="skills__data">
+          <h3 class="skills__subtitle">Airflow</h3>
+        </div>
+        
+        <div class="skills__data">
+          <h3 class="skills__subtitle">Docker</h3>
+        </div>
+        
+        <div class="skills__data">
+          <h3 class="skills__subtitle">AWS</h3>
+        </div>
+        
       </div>
     </details>
-
-    <!-- Plateformes & Cloud -->
+    
     <details class="skills__content">
       <summary class="skills__header">
-        <i class="fas fa-cubes skills__icon"></i>
-        <h2 class="skills__title">Plateformes &amp; Cloud</h2>
+        <div class="skills__header_sub">
+          <i class="fas fa-cubes skills__icon"></i>
+          <h2 class="skills__title">Plateformes &amp; Cloud</h2>
+        </div>
         <i class="fas fa-chevron-down static-arrow"></i>
       </summary>
       <div class="skills__list grid">
-        <div class="skills__data"><h3 class="skills__subtitle">Amazon S3</h3></div>
-        <div class="skills__data"><h3 class="skills__subtitle">MinIO</h3></div>
+        
+        <div class="skills__data">
+          <h3 class="skills__subtitle">Amazon S3</h3>
+        </div>
+        
+        <div class="skills__data">
+          <h3 class="skills__subtitle">MinIO</h3>
+        </div>
+        
       </div>
     </details>
-
+    
   </div>
 
-   <!-- Bouton voir tous les projets -->
   <div class="general__center_button">
     <a href="/portfolio/pages/projects.html" class="button button--flex">Regarde tous mes competences</a>
   </div>
@@ -522,9 +690,9 @@
         <div class="footer__container container grid">
             <div class="footer__logo">
 
-                <a href="/portfolio/index.html" class="nav__logo deploy_link nav__link">
+                <a href="/index.html" class="nav__logo deploy_link nav__link">
                     <img class="avatar deploy_link" style="height: 81px;"
-                        src="/portfolio/assets/img/avatar.jpeg" alt="avatar_footer">
+                        src="/assets/img/avatar.jpeg" alt="avatar_footer">
                 </a>
 
                 <!-- <div class="footer__subtitle"
@@ -538,13 +706,13 @@
 
             <ul class="footer__links">
                 <li>
-                    <a href="/portfolio/pages/habbies" class="footer__link nav__link">loisir</a>
+                    <a href="/pages/habbies" class="footer__link nav__link">loisir</a>
                 </li>
                 <li>
-                    <a href="/portfolio/pages/contatc" class="footer__link nav__link">Projets</a>
+                    <a href="/pages/contatc" class="footer__link nav__link">Projets</a>
                 </li>
                 <li>
-                    <a href="/portfolio/pages/contatc" class="footer__link nav__link">Contact</a>
+                    <a href="/pages/contatc" class="footer__link nav__link">Contact</a>
                 </li>
             </ul>
 
@@ -566,9 +734,9 @@
         </p>
     </div>
 
-    <script src="/portfolio/assets/js/dark-mode.js"></script>
-    <script src="/portfolio/assets/js/scroll.js"></script>
-    <script src="/portfolio/assets/js/mobile.js"></script>
+    <script src="/assets/js/dark-mode.js"></script>
+    <script src="/assets/js/scroll.js"></script>
+    <script src="/assets/js/mobile.js"></script>
 </footer>
 </body>
 

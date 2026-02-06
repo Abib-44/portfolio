@@ -1,4 +1,4 @@
-<section class="home__projects section" id="portfolio">
+<section class="home__projects about" id="portfolio">
   <h2 class="general__section__title">Projects</h2>
   <span class="general__section__subtitle">Voici quelques-uns de mes projets récents</span>
 
@@ -12,102 +12,37 @@
     </div>
 
     <div class="home__projects__container  grid">
-
-      <!-- Projet 1 -->
-      <article class="project__card__carussel">
-        <img
-          src="https://imgs.search.brave.com/XMex97I32pnL0H09A7JsdsDA8gl_R-yV7LqNENOpxAE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/ZmlsZXN0YWNrY29u/dGVudC5jb20vYXV0/b19pbWFnZS9yZXNp/emU9d2lkdGg6Mzc1/LGhlaWdodDoyMDAs/Zml0OmNyb3AvY29t/cHJlc3MvY2FjaGU9/ZXhwaXJ5Om1heC81/cHJYZ0cxSFFETzFO/ZlQ0aXNZSg"
-          alt="Projet Airflow-Docker" class="project__card__carussel__img" />
-
-        <div class="project__card__carussel__content">
-          <div class="project__card__carussel__header">
-            <div class="project__card__carussel__title-group">
-              <i class="project__card__carussel__icon fas fa-database"></i>
-              <h3 class="project__card__carussel__title">Pipeline ETL</h3>
+      {% for project in site.data.projects.projects %}
+      <article class="project__card__carussel" data-category="{{ project.category | downcase }}">
+        <img src="{{ project.image }}" alt="{{ project.title }}" class="project__card__carussel__img" />
+        <div class="project__card__carussel__bottom">
+          <div class="project__card__carussel__content">
+            <div class="project__card__carussel__header">
+              <div class="project__card__carussel__title-group">
+                <i class="project__card__carussel__icon fas fa-database"></i>
+                <h3 class="project__card__carussel__title">{{ project.title }}</h3>
+              </div>
+              <span class="project__card__carussel__category">{{ project.category }}</span>
             </div>
-            <span class="project__card__carussel__category">Data</span>
+
+            <p class="project__card__carussel__description">{{ project.description }}</p>
+
+            <ul class="project__card__carussel__stack">
+              {% for tech in project.stack %}
+              <li>{{ tech }}</li>
+              {% endfor %}
+            </ul>
           </div>
 
-          <p class="project__card__carussel__description">
-            Orchestration de workflows avec Apache Airflow, PostgreSQL et pgAdmin. Conteneurisé avec Docker pour
-            pipelines de données reproductibles.
-          </p>
+          <div class="project__card__carussel__button">
+            <a href="{{ project.url }}" class="button button--flex" target="_blank">
+              Voir le projet
+            </a>
 
-          <ul class="project__card__carussel__stack">
-            <li>Python</li>
-            <li>SQL</li>
-            <li>ETL</li>
-          </ul>
-
-          <a href="https://github.com/Abib-44/airflow" class="button button--flex" target="_blank">
-            Voir le projet
-          </a>
-        </div>
-      </article>
-
-
-      <article class="project__card__carussel">
-        <img
-          src="https://imgs.search.brave.com/KgUPkc5xQbqtsczJ2GdQW8jkLOq2GYV1vpVsOhyp4JA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS12ZWN0b3Iv/ZGF0YS1hbmFseXNp/cy1pbmZvZ3JhcGhp/Yy1pc29tZXRyaWMt/Zmxvd2NoYXJ0XzEy/ODQtMTExNzYuanBn/P3NlbXQ9YWlzX2h5/YnJpZCZ3PTc0MCZx/PTgw"
-          alt="Pipeline CSV" class="project__card__carussel__img" />
-
-        <div class="project__card__carussel__content">
-          <div class="project__card__carussel__header">
-            <div class="project__card__carussel__title-group">
-              <i class="project__card__carussel__icon fas fa-database"></i>
-              <h3 class="project__card__carussel__title">Pipeline CSV</h3>
-            </div>
-            <span class="project__card__carussel__category">Data</span>
           </div>
-
-          <p class="project__card__carussel__description">
-            Nettoyage et traitement automatique de fichiers CSV avec Python et Pandas. Conteneurisé avec Docker et
-            stockage dans SQLite.
-          </p>
-
-          <ul class="project__card__carussel__stack">
-            <li>Python</li>
-            <li>Pandas</li>
-            <li>SQLite</li>
-          </ul>
-
-          <a href="https://github.com/200habib/csv" class="button button--flex" target="_blank">
-            Voir le projet
-          </a>
         </div>
       </article>
-
-
-      <article class="project__card__carussel">
-        <img
-          src="https://imgs.search.brave.com/KgUPkc5xQbqtsczJ2GdQW8jkLOq2GYV1vpVsOhyp4JA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS12ZWN0b3Iv/ZGF0YS1hbmFseXNp/cy1pbmZvZ3JhcGhp/Yy1pc29tZXRyaWMt/Zmxvd2NoYXJ0XzEy/ODQtMTExNzYuanBn/P3NlbXQ9YWlzX2h5/YnJpZCZ3PTc0MCZx/PTgw"
-          alt="CI/CD Python" class="project__card__carussel__img" />
-
-        <div class="project__card__carussel__content">
-          <div class="project__card__carussel__header">
-            <div class="project__card__carussel__title-group">
-              <i class="project__card__carussel__icon fas fa-cogs"></i>
-              <h3 class="project__card__carussel__title">CI/CD Python avec Docker</h3>
-            </div>
-            <span class="project__card__carussel__category">DevOps</span>
-          </div>
-
-          <p class="project__card__carussel__description">
-            Pipeline CI/CD complet pour applications Python avec Docker et MinIO, automatisant tests, build et
-            déploiement.
-          </p>
-
-          <ul class="project__card__carussel__stack">
-            <li>Python</li>
-            <li>Docker</li>
-            <li>CI/CD</li>
-          </ul>
-
-          <a href="https://github.com/Abib-44/python-ci-minio" class="button button--flex" target="_blank">
-            Voir le projet
-          </a>
-        </div>
-      </article>
+      {% endfor %}
 
     </div>
 

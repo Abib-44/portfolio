@@ -1,78 +1,14 @@
+{% for skill in site.data.competences.hardskill %}
 <div class="general__card" data-category="hard">
   <div class="general__card__header">
     <div class="general__card__title-group">
-      <i class="general__card__icon fa-brands fa-python"></i>
-      <h3 class="general__card__title">Python</h3>
+      <i class="general__card__icon {{ skill.icon }}"></i>
+      <h3 class="general__card__title">{{ skill.title }}</h3>
     </div>
     <span class="general__card__category">Technique</span>
   </div>
   <p class="general__card__description">
-    Développement de scripts, automatisation, pipelines de données et traitement backend.
+    {{ skill.description }}
   </p>
 </div>
-
-<div class="general__card" data-category="hard">
-  <div class="general__card__header">
-    <div class="general__card__title-group">
-      <i class="general__card__icon fa-solid fa-database"></i>
-      <h3 class="general__card__title">SQL</h3>
-    </div>
-    <span class="general__card__category">Technique</span>
-  </div>
-  <p class="general__card__description">
-    Modélisation, requêtes complexes, optimisation et manipulation de données.
-  </p>
-</div>
-
-<div class="general__card" data-category="hard">
-  <div class="general__card__header">
-    <div class="general__card__title-group">
-      <i class="general__card__icon fa-solid fa-robot"></i>
-      <h3 class="general__card__title">CI/CD & Automation</h3>
-    </div>
-    <span class="general__card__category">Technique</span>
-  </div>
-  <p class="general__card__description">
-    Automatisation de déploiement, tests et intégration continue.
-  </p>
-</div>
-
-<div class="general__card" data-category="hard">
-  <div class="general__card__header">
-    <div class="general__card__title-group">
-      <i class="general__card__icon fa-solid fa-cloud"></i>
-      <h3 class="general__card__title">Cloud & Containers</h3>
-    </div>
-    <span class="general__card__category">Technique</span>
-  </div>
-  <p class="general__card__description">
-    Environnements cloud, Docker, orchestration et bonnes pratiques DevOps.
-  </p>
-</div>
-
-<div class="general__card" data-category="hard">
-  <div class="general__card__header">
-    <div class="general__card__title-group">
-      <i class="general__card__icon fa-solid fa-network-wired"></i>
-      <h3 class="general__card__title">API & Microservices</h3>
-    </div>
-    <span class="general__card__category">Technique</span>
-  </div>
-  <p class="general__card__description">
-    Conception, développement et gestion de microservices RESTful et APIs robustes.
-  </p>
-</div>
-
-
-<div class="general__card" data-category="hard">
-  <div class="general__card__header">
-    <div class="general__card__title-group">
-      <i class="general__card__icon fa-solid fa-vial"></i>
-      <h3 class="general__card__title">Testing & QA</h3>
-    </div>
-    <span class="general__card__category">Technique</span>
-  </div>
-  <p class="general__card__description">
-    Mise en place de tests unitaires, intégration et end-to-end pour garantir la qualité logicielle.
-  </p>
-</div>
+{% endfor %}

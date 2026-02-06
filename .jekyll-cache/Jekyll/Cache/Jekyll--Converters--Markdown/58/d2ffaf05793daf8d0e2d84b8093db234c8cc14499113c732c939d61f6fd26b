@@ -1,0 +1,45 @@
+I"t<h2 class="general__section__title">Loisirs</h2>
+<p><span class="general__section__subtitle">
+    Ce que j’aime faire en dehors du travail
+    <br />
+    <br />
+    Voici quelques-uns de mes loisirs favoris. Chacun représente une activité que j’apprécie et qui nourrit ma
+    curiosité et ma créativité.
+</span></p>
+
+<div class="loisirs__container container grid">
+    <div class="loisir-card">
+        <i class="uil uil-calculator loisir__icon"></i>
+        <h3 class="loisir__title">Mathématiques</h3>
+        <p class="loisir__description">Résolution de problèmes, énigmes logiques et analyse de structures
+            complexes.</p>
+    </div>
+
+    <div class="loisir-card">
+        <img src="../assets/img/chess-com.webp" alt="chess-com" style="height: 40px;" />
+        <h3 class="loisir__title">Échecs</h3>
+        <p class="loisir__description">Stratégie et réflexion, analyse de parties et compétition amicale.</p>
+    </div>
+
+    <div class="loisir-card">
+        <img src="https://imgs.search.brave.com/3QDv_N1I19AwvHxHmp6wClBwcqy_Fr7s3_4cwy38Hps/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTI5/NTc1MjQ4Ni9mci92/ZWN0b3JpZWwvaWMl/QzMlQjRuZS1kZS1s/aWduZS1kZS1ib3hl/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz1HTi05SGpJdk9Z/bnhoUFV1QlVjTXA3/Y2FPU01PZ1lkYkJZ/UFZJOWJraUFjPQ" alt="Boxing Icon" style="height: 40px;" />
+        <h3 class="loisir__title">Boxe</h3>
+        <p class="loisir__description">Sport de discipline et de rigueur, développement de la concentration et
+            de l’endurance.</p>
+    </div>
+
+    <div class="loisir-card">
+        <img src="../assets/img/code.webp" alt="chess-com" style="height: 40px;" />
+        <h3 class="loisir__title">Code</h3>
+        <p class="loisir__description">Exploration de nouveaux langages et projets personnels pour apprendre et
+            expérimenter.</p>
+    </div>
+
+    <div class="loisir-card">
+        <i class="uil uil-film loisir__icon"></i>
+        <h3 class="loisir__title">Films</h3>
+        <p class="loisir__description">Visionnage de films et documentaires pour s’inspirer et élargir ma
+            culture générale.</p>
+    </div>
+</div>
+:ET

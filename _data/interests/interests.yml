@@ -1,0 +1,41 @@
+- title: Mathématiques
+  category: Analyse
+  slug: analyse
+  icon: fa-solid fa-square-root-variable
+  description: >
+    Résolution de problèmes, énigmes logiques et analyse de structures complexes.
+
+- title: Échecs
+  category: Stratégie
+  slug: strategie
+  icon: fa-solid fa-chess
+  description: >
+    Stratégie et réflexion, analyse de parties et compétition amicale.
+
+- title: Boxe
+  category: Discipline
+  slug: discipline
+  icon: fa-solid fa-dumbbell
+  description: >
+    Sport de discipline et de rigueur, développement de la concentration et de l’endurance.
+
+- title: Code
+  category: Ingénierie
+  slug: ingenierie
+  icon: fa-solid fa-code
+  description: >
+    Exploration de nouveaux langages et projets personnels pour apprendre et expérimenter.
+
+- title: Films
+  category: Culture
+  slug: culture
+  icon: fa-solid fa-film
+  description: >
+    Visionnage de films et documentaires pour s’inspirer et élargir ma culture générale.
+
+- title: Course à pied
+  category: Endurance
+  slug: endurance
+  icon: fa-solid fa-person-running
+  description: >
+    Pratique régulière axée sur la constance, la gestion de l’effort et la progression sur le long terme.

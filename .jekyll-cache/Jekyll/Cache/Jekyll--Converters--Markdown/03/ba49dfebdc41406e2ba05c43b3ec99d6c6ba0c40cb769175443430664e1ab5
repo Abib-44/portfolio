@@ -1,0 +1,108 @@
+I"1<section class="section" id="loisirs">
+  <h2 class="general__section__title">Loisirs</h2>
+  <span class="general__section__subtitle">
+    Ce que j’aime faire en dehors du travail
+    <br /><br />
+    Voici quelques-uns de mes loisirs favoris. Chacun représente une activité que j’apprécie et qui nourrit ma
+    curiosité et ma créativité.
+  </span>
+
+  <div class="loisirs__container container grid">
+
+
+<article class="general__card" data-category="analyse">
+  <div class="general__card__header">
+    <div class="general__card__title-group">
+      <i class="general__card__icon fa-solid fa-square-root-variable"></i>
+      <h3 class="general__card__title">Mathématiques</h3>
+    </div>
+    <span class="general__card__category">Analyse</span>
+  </div>
+
+  <p class="general__card__description">
+    Résolution de problèmes, énigmes logiques et analyse de structures complexes.
+
+  </p>
+</article>
+
+<article class="general__card" data-category="strategie">
+  <div class="general__card__header">
+    <div class="general__card__title-group">
+      <i class="general__card__icon fa-solid fa-chess"></i>
+      <h3 class="general__card__title">Échecs</h3>
+    </div>
+    <span class="general__card__category">Stratégie</span>
+  </div>
+
+  <p class="general__card__description">
+    Stratégie et réflexion, analyse de parties et compétition amicale.
+
+  </p>
+</article>
+
+<article class="general__card" data-category="discipline">
+  <div class="general__card__header">
+    <div class="general__card__title-group">
+      <i class="general__card__icon fa-solid fa-dumbbell"></i>
+      <h3 class="general__card__title">Boxe</h3>
+    </div>
+    <span class="general__card__category">Discipline</span>
+  </div>
+
+  <p class="general__card__description">
+    Sport de discipline et de rigueur, développement de la concentration et de l’endurance.
+
+  </p>
+</article>
+
+<article class="general__card" data-category="ingenierie">
+  <div class="general__card__header">
+    <div class="general__card__title-group">
+      <i class="general__card__icon fa-solid fa-code"></i>
+      <h3 class="general__card__title">Code</h3>
+    </div>
+    <span class="general__card__category">Ingénierie</span>
+  </div>
+
+  <p class="general__card__description">
+    Exploration de nouveaux langages et projets personnels pour apprendre et expérimenter.
+
+  </p>
+</article>
+
+<article class="general__card" data-category="culture">
+  <div class="general__card__header">
+    <div class="general__card__title-group">
+      <i class="general__card__icon fa-solid fa-film"></i>
+      <h3 class="general__card__title">Films</h3>
+    </div>
+    <span class="general__card__category">Culture</span>
+  </div>
+
+  <p class="general__card__description">
+    Visionnage de films et documentaires pour s’inspirer et élargir ma culture générale.
+
+  </p>
+</article>
+
+<article class="general__card" data-category="endurance">
+  <div class="general__card__header">
+    <div class="general__card__title-group">
+      <i class="general__card__icon fa-solid fa-person-running"></i>
+      <h3 class="general__card__title">Course à pied</h3>
+    </div>
+    <span class="general__card__category">Endurance</span>
+  </div>
+
+  <p class="general__card__description">
+    Pratique régulière axée sur la constance, la gestion de l’effort et la progression sur le long terme.
+
+  </p>
+</article>
+
+
+
+</div>
+
+</section>
+:ET

@@ -1,77 +1,12 @@
+{% for skill in site.data.competences.softskill %}
 <div class="general__card" data-category="soft">
   <div class="general__card__header">
     <div class="general__card__title-group">
-      <i class="general__card__icon fa-solid fa-lightbulb"></i>
-      <h3 class="general__card__title">Résolution de problèmes</h3>
+      <i class="general__card__icon {{ skill.icon }}"></i>
+      <h3 class="general__card__title">{{ skill.title }}</h3>
     </div>
     <span class="general__card__category">Soft</span>
   </div>
-  <p class="general__card__description">
-    Analyse structurée et recherche de solutions robustes face à des systèmes complexes.
-  </p>
+  <p class="general__card__description">{{ skill.description }}</p>
 </div>
-
-<div class="general__card" data-category="soft">
-  <div class="general__card__header">
-    <div class="general__card__title-group">
-      <i class="general__card__icon fa-solid fa-person-running"></i>
-      <h3 class="general__card__title">Autonomie</h3>
-    </div>
-    <span class="general__card__category">Soft</span>
-  </div>
-  <p class="general__card__description">
-    Capacité à apprendre rapidement et à travailler efficacement sans supervision constante.
-  </p>
-</div>
-
-<div class="general__card" data-category="soft">
-  <div class="general__card__header">
-    <div class="general__card__title-group">
-      <i class="general__card__icon fa-solid fa-ruler-combined"></i>
-      <h3 class="general__card__title">Rigueur technique</h3>
-    </div>
-    <span class="general__card__category">Soft</span>
-  </div>
-  <p class="general__card__description">
-    Attention portée à la qualité du code, à la fiabilité et à la maintenabilité.
-  </p>
-</div>
-
-<div class="general__card" data-category="soft">
-  <div class="general__card__header">
-    <div class="general__card__title-group">
-      <i class="general__card__icon fa-solid fa-users"></i>
-      <h3 class="general__card__title">Travail en équipe</h3>
-    </div>
-    <span class="general__card__category">Soft</span>
-  </div>
-  <p class="general__card__description">
-    Collaboration avec des profils techniques et non techniques.
-  </p>
-</div>
-
-<div class="general__card" data-category="soft">
-  <div class="general__card__header">
-    <div class="general__card__title-group">
-      <i class="general__card__icon fa-solid fa-project-diagram"></i>
-      <h3 class="general__card__title">Gestion du temps</h3>
-    </div>
-    <span class="general__card__category">Soft</span>
-  </div>
-  <p class="general__card__description">
-    Organisation efficace du travail. Expérience avec Scrum et Kanban pour gérer les projets efficacement en équipe.
-  </p>
-</div>
-
-<div class="general__card" data-category="soft">
-  <div class="general__card__header">
-    <div class="general__card__title-group">
-      <i class="general__card__icon fa-solid fa-brain"></i>
-      <h3 class="general__card__title">Rapidité d’apprentissage</h3>
-    </div>
-    <span class="general__card__category">Soft</span>
-  </div>
-  <p class="general__card__description">
-    Capacité à assimiler rapidement de nouvelles technologies et méthodologies.
-  </p>
-</div>
+{% endfor %}

@@ -1,4 +1,5 @@
 .project__card__carussel {
+  max-width: 372px;
   flex: 0 0 300px;
   scroll-snap-align: start;
   display: flex;
@@ -17,6 +18,21 @@
   &.hidden {
     display: none;
   }
+}
+
+.project__card__carussel__bottom {
+    display: flex;
+
+    height: 241.5px;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.project__card__carussel__button {
+    display: flex;
+    padding: 1rem 1.2rem;
+    background-color: var(--container-color);
+    justify-content: center;
 }
 
 /* Image */

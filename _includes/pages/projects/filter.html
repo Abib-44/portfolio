@@ -1,7 +1,14 @@
-  <div class="general__filters">
-    <button class="general__filter active" data-filter="all">Tous</button>
-    <button class="general__filter" data-filter="data">Data</button>
-    <button class="general__filter" data-filter="automation">Automatisation</button>
-    <button class="general__filter" data-filter="cloud">Cloud</button>
-    <button class="general__filter" data-filter="backend">Backend</button>
-  </div>
+<div class="general__filters">
+  {% assign filters = 
+    "all:Tous,data:Data,automation:Automatisation,cloud:Cloud,backend:Backend" 
+    | split: "," 
+  %}
+  
+  {% for filter in filters %}
+    {% assign parts = filter | split: ":" %}
+    <button class="general__filter {% if forloop.first %}active{% endif %}" 
+            data-filter="{{ parts[0] }}">
+      {{ parts[1] }}
+    </button>
+  {% endfor %}
+</div>

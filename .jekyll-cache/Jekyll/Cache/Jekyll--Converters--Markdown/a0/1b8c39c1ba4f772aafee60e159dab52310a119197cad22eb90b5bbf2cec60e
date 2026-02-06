@@ -1,0 +1,60 @@
+I"+<section class="section" id="projects">
+
+
+  <h2 class="general__section__title">Projets</h2>
+<span class="general__section__subtitle">Sélection de travaux techniques</span>
+
+<p class="general__card__intro">
+  Vous trouverez ci-dessous une sélection de projets représentatifs de mon travail. Il ne s’agit pas de l’intégralité de
+  mes réalisations, mais seulement de quelques exemples clés. Pour découvrir l’ensemble de mes projets, je vous invite à consulter
+  mes deux GitHub : l’un dédié exclusivement au backend, et l’autre consacré à l’automatisation et l’analyse.
+</p>
+
+<div class="general__card__containers container grid">
+
+
+
+</div>
+
+  <div class="general__filters">
+  
+  
+  
+    
+    <button class="general__filter active" data-filter="all">
+      Tous
+    </button>
+  
+    
+    <button class="general__filter " data-filter="data">
+      Data
+    </button>
+  
+    
+    <button class="general__filter " data-filter="automation">
+      Automatisation
+    </button>
+  
+    
+    <button class="general__filter " data-filter="cloud">
+      Cloud
+    </button>
+  
+    
+    <button class="general__filter " data-filter="backend">
+      Backend
+    </button>
+  
+</div>
+
+<div class="general__card__containers container grid">
+  
+</div>
+
+
+
+</section>
+
+<script src="/assets/js/filter.js"></script>
+
+:ET

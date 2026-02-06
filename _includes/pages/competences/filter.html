@@ -1,5 +1,11 @@
-  <div class="general__filters">
-    <button class="general__filter active" data-filter="all">Toutes</button>
-    <button class="general__filter" data-filter="hard">Hard skills</button>
-    <button class="general__filter" data-filter="soft">Soft skills</button>
-  </div>
+{% assign filters = "all:Toutes,hard:Hard skills,soft:Soft skills" | split: "," %}
+
+<div class="general__filters">
+  {% for filter in filters %}
+    {% assign parts = filter | split: ":" %}
+    <button class="general__filter {% if forloop.first %}active{% endif %}" 
+            data-filter="{{ parts[0] }}">
+      {{ parts[1] }}
+    </button>
+  {% endfor %}
+</div>

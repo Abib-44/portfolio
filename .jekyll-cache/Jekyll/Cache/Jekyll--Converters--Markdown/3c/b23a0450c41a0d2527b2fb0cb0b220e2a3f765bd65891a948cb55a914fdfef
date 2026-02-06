@@ -1,0 +1,18 @@
+I"�<section class="section" id="loisirs">
+  <h2 class="general__section__title">Loisirs</h2>
+  <span class="general__section__subtitle">
+    Ce que j’aime faire en dehors du travail
+    <br /><br />
+    Voici quelques-uns de mes loisirs favoris. Chacun représente une activité que j’apprécie et qui nourrit ma
+    curiosité et ma créativité.
+  </span>
+
+  <div class="loisirs__container container grid">
+
+
+
+
+</div>
+
+</section>
+:ET

@@ -1,0 +1,102 @@
+I"�<section class="section" id="contact">
+  <h2 class="general__section__title">Contact</h2>
+  <span class="general__section__subtitle">
+    Professional contact details
+    <br /><br />
+    Au plaisir de faire votre connaissance et d’échanger autour d’opportunités professionnelles.
+  </span>
+
+  <div class="general__card__containers container grid">
+    
+    <article class="general__card" data-category="contact">
+      <div class="general__card__header">
+        <div class="general__card__title-group">
+          <i class="general__card__icon fa-solid fa-phone"></i>
+          <h3 class="general__card__title">Phone</h3>
+        </div>
+        <span class="general__card__category">Contact</span>
+      </div>
+
+      <p class="general__card__description">
+        
+        06 52 68 72 48
+        
+      </p>
+
+      
+      <a href="tel:0652687248" class="button button--flex">
+        Cliquez pour contacter
+        <i class="uil uil-arrow-right button__icon"></i>
+      </a>
+      
+    </article>
+    
+    <article class="general__card" data-category="contact">
+      <div class="general__card__header">
+        <div class="general__card__title-group">
+          <i class="general__card__icon fa-solid fa-envelope"></i>
+          <h3 class="general__card__title">Email</h3>
+        </div>
+        <span class="general__card__category">Contact</span>
+      </div>
+
+      <p class="general__card__description">
+        
+        eh.benaboud@email.com
+        
+      </p>
+
+      
+      <a href="mailto:eh.benaboud@email.com" class="button button--flex">
+        Cliquez pour contacter
+        <i class="uil uil-arrow-right button__icon"></i>
+      </a>
+      
+    </article>
+    
+    <article class="general__card" data-category="contact">
+      <div class="general__card__header">
+        <div class="general__card__title-group">
+          <i class="general__card__icon fa-brands fa-linkedin"></i>
+          <h3 class="general__card__title">LinkedIn</h3>
+        </div>
+        <span class="general__card__category">Contact</span>
+      </div>
+
+      <p class="general__card__description">
+        
+        <a href="https://www.linkedin.com/in/el-habib-benaboud-data/" target="_blank">Mon profil LinkedIn</a>
+        
+      </p>
+
+      
+      <a href="https://www.linkedin.com/in/el-habib-benaboud-data/" class="button button--flex" target="_blank">
+        Cliquez pour visiter
+        <i class="uil uil-arrow-right button__icon"></i>
+      </a>
+      
+    </article>
+    
+    <article class="general__card" data-category="contact">
+      <div class="general__card__header">
+        <div class="general__card__title-group">
+          <i class="general__card__icon fa-brands fa-github"></i>
+          <h3 class="general__card__title">GitHub</h3>
+        </div>
+        <span class="general__card__category">Contact</span>
+      </div>
+
+      <p class="general__card__description">
+        
+        <a href="https://github.com/Abib-44" target="_blank">https://github.com/Abib-44</a>
+        
+      </p>
+
+      
+    </article>
+    
+
+
+  </div>
+</section>
+:ET

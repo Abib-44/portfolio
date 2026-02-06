@@ -9,30 +9,18 @@
 
 <div class="general__card__containers container grid">
 
-  <article class="general__card" data-category="contact">
-    <div class="general__card__header">
-      <div class="general__card__title-group">
-        <i class="general__card__icon fa-brands fa-github"></i>
-        <h3 class="general__card__title">GitHub</h3>
-      </div>
-      <span class="general__card__category">Backend</span>
+{% for introduction in site.data.projects.introductions %}
+<article class="general__card" data-category="{{ introduction.category | downcase }}">
+  <div class="general__card__header">
+    <div class="general__card__title-group">
+      <i class="general__card__icon {{ introduction.icon }}"></i>
+      <h3 class="general__card__title">{{ introduction.title }}</h3>
     </div>
-    <p class="general__card__description button button--flex">
-      <a href="https://github.com/Abib-44" target="_blank">https://github.com/200habib</a>
-    </p>
-  </article>
+    <span class="general__card__category">{{ introduction.category }}</span>
+  </div>
+  <a class="button button--flex" href="{{ introduction.url }}" target="_blank">{{ introduction.url }}</a>
+</article>
+{% endfor %}
 
-  <article class="general__card" data-category="contact">
-    <div class="general__card__header">
-      <div class="general__card__title-group">
-        <i class="general__card__icon fa-brands fa-github"></i>
-        <h3 class="general__card__title">GitHub</h3>
-      </div>
-      <span class="general__card__category">Cloud</span>
-    </div>
-    <p class="general__card__description button button--flex">
-      <a href="https://github.com/Abib-44" target="_blank">https://github.com/Abib-44</a>
-    </p>
-  </article>
 
 </div>

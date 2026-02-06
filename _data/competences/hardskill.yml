@@ -1,0 +1,18 @@
+- title: Python
+  icon: "fa-brands fa-python"
+  description: "Développement de scripts, automatisation, pipelines de données et traitement backend."
+- title: SQL
+  icon: "fa-solid fa-database"
+  description: "Modélisation, requêtes complexes, optimisation et manipulation de données."
+- title: CI/CD & Automation
+  icon: "fa-solid fa-robot"
+  description: "Automatisation de déploiement, tests et intégration continue."
+- title: Cloud & Containers
+  icon: "fa-solid fa-cloud"
+  description: "Environnements cloud, Docker, orchestration et bonnes pratiques DevOps."
+- title: API & Microservices
+  icon: "fa-solid fa-network-wired"
+  description: "Conception, développement et gestion de microservices RESTful et APIs robustes."
+- title: Testing & QA
+  icon: "fa-solid fa-vial"
+  description: "Mise en place de tests unitaires, intégration et end-to-end pour garantir la qualité logicielle."

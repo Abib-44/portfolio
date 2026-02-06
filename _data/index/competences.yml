@@ -1,0 +1,43 @@
+
+  - category: "Langages de programmation"
+    icon: "fas fa-code"
+    items:
+      - Python
+      - PHP
+      - SQL
+
+  - category: "Bases de données"
+    icon: "fas fa-database"
+    items:
+      - MySQL
+      - MongoDB
+      - PostgreSQL
+
+  - category: "Outils et analyse de données"
+    icon: "fas fa-chart-line"
+    items:
+      - Pandas
+      - NumPy
+      - ETL
+
+  - category: "Gestion de versions"
+    icon: "fas fa-code-branch"
+    items:
+      - Git
+      - GitHub
+      - GitLab
+
+  - category: "Automatisation & CI/CD"
+    icon: "fas fa-cogs"
+    items:
+      - Shell Scripting
+      - Jenkins
+      - Airflow
+      - Docker
+      - AWS
+
+  - category: "Plateformes & Cloud"
+    icon: "fas fa-cubes"
+    items:
+      - Amazon S3
+      - MinIO

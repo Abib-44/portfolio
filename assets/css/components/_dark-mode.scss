@@ -3,7 +3,7 @@
   align-items: center;
   width: 60px;
   height: 28px;
-  background-color: var(--first-color);
+  background-color: hsl(240, 69%, 61%);
   border-radius: 50px;
   padding: 3px;
   position: relative;
@@ -12,7 +12,6 @@
 }
 
 .switch-knob {
-
   position: absolute;
   top: 3px;
   left: 3px;
@@ -29,7 +28,7 @@
   z-index: 400;
   width: 14px;
   height: 14px;
-  color: black; /* Assicura visibilità su sfondo chiaro */
+  color: black; 
 }
 
 .switch-moon {
@@ -37,30 +36,25 @@
 }
 
 .switch-sun {
-  right: 6px;
-}
-
-body.dark-theme .theme-box {
-  background-color: hsl(240, 8%, 15%);
+  right: 7px;
 }
 
 body.dark-theme .switch-knob {
-  transform: translateX(34px);
+  transform: translateX(32px);
 }
 
 body.dark-theme .switch-moon {
-  color: white; /* Contrasto su sfondo scuro */
+  color: white; 
 }
 
 body.dark-theme .switch-sun {
-  color: black; /* Contrasto visibile */
+  color: black; 
 }
 
-/* Rimozione della transizione di opacità per sparizione immediata */
 .switch-img {
   transition: none;
 }
 
 .switch-img.hidden {
-  display: none; /* L’icona scompare istantaneamente */
+  display: none;
 }

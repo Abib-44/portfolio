@@ -7,71 +7,33 @@
   </span>
 
   <div class="general__card__containers container grid">
-
+    {% for contact in site.data.contacts.contacts %}
     <article class="general__card" data-category="contact">
       <div class="general__card__header">
         <div class="general__card__title-group">
-          <i class="general__card__icon fa-solid fa-phone"></i>
-          <h3 class="general__card__title">Phone</h3>
+          <i class="general__card__icon {{ contact.icon }}"></i>
+          <h3 class="general__card__title">{{ contact.title }}</h3>
         </div>
-        <span class="general__card__category">Contact</span>
+        <span class="general__card__category">{{ contact.category }}</span>
       </div>
-      <p class="general__card__description">06 52 68 72 48</p>
-      <a href="tel:0652687248" class="button button--flex">
-        Cliquez pour contacter
-        <i class="uil uil-arrow-right button__icon"></i>
-      </a>
-    </article>
 
-    <!-- Email -->
-    <article class="general__card" data-category="contact">
-      <div class="general__card__header">
-        <div class="general__card__title-group">
-          <i class="general__card__icon fa-solid fa-envelope"></i>
-          <h3 class="general__card__title">Email</h3>
-        </div>
-        <span class="general__card__category">Contact</span>
-      </div>
-      <p class="general__card__description">eh.benaboud@email.com</p>
-      <a href="mailto:eh.benaboud@email.com" class="button button--flex">
-        Cliquez pour contacter
-        <i class="uil uil-arrow-right button__icon"></i>
-      </a>
-    </article>
-
-    <article class="general__card" data-category="contact">
-      <div class="general__card__header">
-        <div class="general__card__title-group">
-          <i class="general__card__icon fa-brands fa-linkedin"></i>
-          <h3 class="general__card__title">LinkedIn</h3>
-        </div>
-        <span class="general__card__category">Contact</span>
-      </div>
       <p class="general__card__description">
-        <a href="https://www.linkedin.com/in/el-habib-benaboud-data/" target="_blank">
-          Mon profil LinkedIn
-        </a>
+        {% if contact.external %}
+        <a href="{{ contact.link }}" target="_blank">{{ contact.description }}</a>
+        {% else %}
+        {{ contact.description }}
+        {% endif %}
       </p>
-      <a href="https://www.linkedin.com/in/el-habib-benaboud-data/" target="_blank"
-        class="button button--flex">
-        Cliquez pour visiter
+
+      {% if contact.link_label %}
+      <a href="{{ contact.link }}" class="button button--flex" {% if contact.external %}target="_blank" {% endif %}>
+        {{ contact.link_label }}
         <i class="uil uil-arrow-right button__icon"></i>
       </a>
+      {% endif %}
     </article>
+    {% endfor %}
 
-
-    <article class="general__card" data-category="contact">
-      <div class="general__card__header">
-        <div class="general__card__title-group">
-          <i class="general__card__icon fa-brands fa-github"></i>
-          <h3 class="general__card__title">GitHub</h3>
-        </div>
-        <span class="general__card__category">Contact</span>
-      </div>
-      <p class="general__card__description">
-        <a href="https://github.com/Abib-44" target="_blank">https://github.com/Abib-44</a>
-      </p>
-    </article>
 
   </div>
 </section>

@@ -1,0 +1,251 @@
+I"%<section class="section" id="projects">
+
+  <h2 class="general__section__title">Projets</h2>
+<span class="general__section__subtitle">Sélection de travaux techniques</span>
+
+<p class="general__card__intro">
+  Vous trouverez ci-dessous une sélection de projets représentatifs de mon travail. Il ne s’agit pas de l’intégralité de
+  mes réalisations, mais seulement de quelques exemples clés. Pour découvrir l’ensemble de mes projets, je vous invite à consulter
+  mes deux GitHub : l’un dédié exclusivement au backend, et l’autre consacré à l’automatisation et l’analyse.
+</p>
+
+<div class="general__card__containers container grid">
+
+
+<article class="general__card" data-category="backend">
+  <div class="general__card__header">
+    <div class="general__card__title-group">
+      <i class="general__card__icon fa-brands fa-github"></i>
+      <h3 class="general__card__title">GitHub</h3>
+    </div>
+    <span class="general__card__category">Backend</span>
+  </div>
+  <a class="button button--flex" href="https://github.com/200habib" target="_blank">https://github.com/200habib</a>
+</article>
+
+<article class="general__card" data-category="cloud">
+  <div class="general__card__header">
+    <div class="general__card__title-group">
+      <i class="general__card__icon fa-brands fa-github"></i>
+      <h3 class="general__card__title">GitHub</h3>
+    </div>
+    <span class="general__card__category">Cloud</span>
+  </div>
+  <a class="button button--flex" href="https://github.com/Abib-44" target="_blank">https://github.com/Abib-44</a>
+</article>
+
+
+
+</div>
+
+  <div class="general__filters">
+  
+  
+  
+    
+    <button class="general__filter active" data-filter="all">
+      Tous
+    </button>
+  
+    
+    <button class="general__filter " data-filter="data">
+      Data
+    </button>
+  
+    
+    <button class="general__filter " data-filter="automation">
+      Automatisation
+    </button>
+  
+    
+    <button class="general__filter " data-filter="cloud">
+      Cloud
+    </button>
+  
+    
+    <button class="general__filter " data-filter="backend">
+      Backend
+    </button>
+  
+</div>
+
+
+  <div class="general__card__containers container grid">
+  
+  <article class="project__card__carussel" data-category="data">
+    <img src="https://imgs.search.brave.com/t5sKQdFeytmt8OOrYjU0JCq-RUkio1yI6mn1pUFw-qQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbm5v/d2lzZS5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMjIvMDgv/UGljLTMtMS5wbmc" alt="airflow" class="project__card__carussel__img" />
+    <div class="project__card__carussel__bottom">
+      <div class="project__card__carussel__content">
+        <div class="project__card__carussel__header">
+          <div class="project__card__carussel__title-group">
+            <i class="project__card__carussel__icon fas fa-database"></i>
+            <h3 class="project__card__carussel__title">airflow</h3>
+          </div>
+          <span class="project__card__carussel__category">Data</span>
+        </div>
+
+        <p class="project__card__carussel__description">Orchestration de workflows avec Apache Airflow, PostgreSQL et pgAdmin. Conteneurisé avec Docker pour pipelines de données reproductibles.</p>
+
+        <ul class="project__card__carussel__stack">
+          
+          <li>Python</li>
+          
+          <li>SQL</li>
+          
+          <li>ETL</li>
+          
+        </ul>
+      </div>
+
+      <div class="project__card__carussel__button">
+      <a href="https://github.com/Abib-44/airflow" class="button button--flex" target="_blank">
+        Voir le projet
+      </a>
+
+      </div>
+    </div>
+  </article>
+  
+  <article class="project__card__carussel" data-category="data">
+    <img src="https://imgs.search.brave.com/yje2Attoe6VGHI6-hxS8vupOGFEsl_xsIKbPdWYFS0I/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/dmVjdGV1cnMtcHJl/bWl1bS9mb3JtYXQt/Y3N2LWZpY2hpZXIt/Y3N2LWV4dGVuc2lv/bi1kb2N1bWVudC1h/dS1mb3JtYXQtY3N2/LWlsbHVzdHJhdGlv/bi12ZWN0b3JpZWxs/ZV84NDkyNjQtNDQ0/LmpwZz9zZW10PWFp/c19oeWJyaWQmdz03/NDAmcT04MA" alt="Pipeline CSV" class="project__card__carussel__img" />
+    <div class="project__card__carussel__bottom">
+      <div class="project__card__carussel__content">
+        <div class="project__card__carussel__header">
+          <div class="project__card__carussel__title-group">
+            <i class="project__card__carussel__icon fas fa-database"></i>
+            <h3 class="project__card__carussel__title">Pipeline CSV</h3>
+          </div>
+          <span class="project__card__carussel__category">Data</span>
+        </div>
+
+        <p class="project__card__carussel__description">Nettoyage et traitement automatique de fichiers CSV avec Python et Pandas. Conteneurisé avec Docker et stockage dans SQLite.</p>
+
+        <ul class="project__card__carussel__stack">
+          
+          <li>Python</li>
+          
+          <li>Pandas</li>
+          
+          <li>SQLite</li>
+          
+        </ul>
+      </div>
+
+      <div class="project__card__carussel__button">
+      <a href="https://github.com/200habib/csv" class="button button--flex" target="_blank">
+        Voir le projet
+      </a>
+
+      </div>
+    </div>
+  </article>
+  
+  <article class="project__card__carussel" data-category="devops">
+    <img src="https://imgs.search.brave.com/JTQFZMWEmS8oDba8WC5YdXMwjMWh3fVAED_wnbRosDs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5saWNkbi5jb20v/ZG1zL2ltYWdlL0Q1/NjNEQVFIQ0g4WG9f/S1VmSkEvaW1hZ2Ut/c2NhbGVfMTkxXzEx/MjgvMC8xNjY1NjEy/OTkyNjU2L21pbmlv/X2luY19fY292ZXI_/ZT0yMTQ3NDgzNjQ3/JnY9YmV0YSZ0PWJr/NnhpZUwtS0U2cnM1/UndDeDRZV1A1bk95/QjJBdkNEaFN0ZXF5/T1pEcU0" alt="Minio" class="project__card__carussel__img" />
+    <div class="project__card__carussel__bottom">
+      <div class="project__card__carussel__content">
+        <div class="project__card__carussel__header">
+          <div class="project__card__carussel__title-group">
+            <i class="project__card__carussel__icon fas fa-database"></i>
+            <h3 class="project__card__carussel__title">Minio</h3>
+          </div>
+          <span class="project__card__carussel__category">DevOps</span>
+        </div>
+
+        <p class="project__card__carussel__description">Stockage objet MinIO (compatible S3)</p>
+
+        <ul class="project__card__carussel__stack">
+          
+          <li>Python</li>
+          
+          <li>Docker</li>
+          
+          <li>CI/CD</li>
+          
+        </ul>
+      </div>
+
+      <div class="project__card__carussel__button">
+      <a href="https://github.com/Abib-44/python-ci-minio" class="button button--flex" target="_blank">
+        Voir le projet
+      </a>
+
+      </div>
+    </div>
+  </article>
+  
+  <article class="project__card__carussel" data-category="backend">
+    <img src="https://imgs.search.brave.com/VcH1i1RkMxRXNrEktYGoCEv6z9a2kehuApN_lLKuTJA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9yZWZp/bmUtd2ViLmltZ2l4/Lm5ldC9ibG9nLzIw/MjMtMDgtMDctZmFz/dC1hcGkvc29jaWFs/LTIucG5nP3c9MTc4/OA" alt="FastSkeleton" class="project__card__carussel__img" />
+    <div class="project__card__carussel__bottom">
+      <div class="project__card__carussel__content">
+        <div class="project__card__carussel__header">
+          <div class="project__card__carussel__title-group">
+            <i class="project__card__carussel__icon fas fa-database"></i>
+            <h3 class="project__card__carussel__title">FastSkeleton</h3>
+          </div>
+          <span class="project__card__carussel__category">Backend</span>
+        </div>
+
+        <p class="project__card__carussel__description">Skeleton de projet prêt à l’emploi pour démarrer rapidement de nouvelles applications avec FastApi.</p>
+
+        <ul class="project__card__carussel__stack">
+          
+          <li>Python</li>
+          
+          <li>Docker</li>
+          
+          <li>CI/CD</li>
+          
+        </ul>
+      </div>
+
+      <div class="project__card__carussel__button">
+      <a href="https://github.com/Abib-44/FastSkeleton" class="button button--flex" target="_blank">
+        Voir le projet
+      </a>
+
+      </div>
+    </div>
+  </article>
+  
+  <article class="project__card__carussel" data-category="devops">
+    <img src="https://imgs.search.brave.com/KgUPkc5xQbqtsczJ2GdQW8jkLOq2GYV1vpVsOhyp4JA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS12ZWN0b3Iv/ZGF0YS1hbmFseXNp/cy1pbmZvZ3JhcGhp/Yy1pc29tZXRyaWMt/Zmxvd2NoYXJ0XzEy/ODQtMTExNzYuanBn/P3NlbXQ9YWlzX2h5/YnJpZCZ3PTc0MCZx/PTgw" alt="python ci/cd" class="project__card__carussel__img" />
+    <div class="project__card__carussel__bottom">
+      <div class="project__card__carussel__content">
+        <div class="project__card__carussel__header">
+          <div class="project__card__carussel__title-group">
+            <i class="project__card__carussel__icon fas fa-database"></i>
+            <h3 class="project__card__carussel__title">python ci/cd</h3>
+          </div>
+          <span class="project__card__carussel__category">DevOps</span>
+        </div>
+
+        <p class="project__card__carussel__description">Pipeline CI/CD complet pour applications Python avec Jenkins</p>
+
+        <ul class="project__card__carussel__stack">
+          
+          <li>Python</li>
+          
+          <li>Jenkins</li>
+          
+          <li>CI/CD</li>
+          
+        </ul>
+      </div>
+
+      <div class="project__card__carussel__button">
+      <a href="https://github.com/Abib-44/FastSkeleton" class="button button--flex" target="_blank">
+        Voir le projet
+      </a>
+
+      </div>
+    </div>
+  </article>
+  
+</div>
+
+</section>
+
+<script src="/assets/js/filter.js"></script>
+
+:ET
