@@ -6,56 +6,23 @@
 
     <div class="nav__menu" id="nav-menu">
       <ul class="nav__list grid">
+        {% for item in site.data.navigation %}
         <li class="nav__item">
-          <a href="{{ site.baseurl }}/index.html" class="deploy_link nav__link active-link">
-            <i class="uil uil-estate nav__icon"></i>Accueil
+          <a href="{{ site.baseurl }}{{ item.url }}"
+            class="deploy_link nav__link {% if page.url == item.url %}active-link{% endif %}">
+            <i class="{{ item.icon }} nav__icon"></i>{{ item.title }}
           </a>
         </li>
-
-        <li class="nav__item">
-          <a href="{{ site.baseurl }}/pages/competences.html" class="deploy_link nav__link">
-            <i class="uil uil-file-alt nav__icon"></i>Compétences
-          </a>
-        </li>
-
-        <li class="nav__item">
-          <a href="{{ site.baseurl }}/pages/projects.html" class="deploy_link nav__link">
-            <i class="uil uil-scenery nav__icon"></i>Projets
-          </a>
-        </li>
-
-        <li class="nav__item">
-          <a href="{{ site.baseurl }}/pages/hobbies.html" class="deploy_link nav__link">
-            <i class="uil uil-message nav__icon"></i>Loisirs
-          </a>
-        </li>
-
-        <li class="nav__item">
-          <a href="{{ site.baseurl }}/pages/contact.html" class="deploy_link nav__link">
-            <i class="uil uil-message nav__icon"></i>Contactez-moi
-          </a>
-        </li>
-
-
-
+        {% endfor %}
       </ul>
-
-
-
     </div>
-
-
-
 
     <div class="mobile">
       {% include component/darkMode.html %}
-
       <div class="nav__icon__navigation">
         <i class="fas fa-bars mobile-nav" id="nav-open"></i>
         <i class="fas fa-times mobile-nav" id="nav-close"></i>
       </div>
-
     </div>
-
   </nav>
 </header>

@@ -1,0 +1,28 @@
+- title: Stagiaire Backend Developer
+  subtitle: Entreprise technologique – Backend & Cloud
+  period: 2024
+  modal_title: Stage professionnel – Backend & Data
+  details:
+    - Conception et développement d’APIs backend robustes et performantes, avec attention à la scalabilité et à la fiabilité.
+    - Mise en œuvre de pipelines de traitement de données et de tâches asynchrones pour l’automatisation et l’optimisation.
+    - Implémentation de workflows CI/CD incluant tests automatisés, intégration continue et déploiement continu.
+    - Collaboration dans un environnement cloud et DevOps avec équipes produit, data et infrastructure.
+
+- title: Contributeur Open Source
+  subtitle: Projets open source – Backend & Data
+  period: "2024 – 2025"
+  modal_title: Contributions open source
+  details:
+    - Développement et amélioration de services backend open source.
+    - Refactoring, correction de bugs et optimisation des performances.
+    - Collaboration via Git, pull requests et revues de code distribuées.
+
+- title: Développeur Backend
+  subtitle: Backend & Cloud
+  period: "2025"
+  modal_title: Projets backend autonomes
+  details:
+    - Conception complète d’APIs REST, de la modélisation au déploiement.
+    - Gestion de bases de données, logique métier et optimisation des performances.
+    - Containerisation, automatisation des tests et déploiements cloud.
+    - Approche orientée clean architecture, maintenabilité et qualité logicielle.

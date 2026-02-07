@@ -1,0 +1,18 @@
+pages:
+  - title: Loisirs
+    url: "/pages/hobbies.html"
+  - title: Projets
+    url: "/pages/projects.html"
+  - title: Contact
+    url: "/pages/contact.html"
+
+socials:
+  - icon: "fa-brands fa-linkedin"
+    url: "https://www.linkedin.com/in/el-habib-benaboud-data/"
+    external: true
+  - icon: "fa-brands fa-github"
+    url: "https://github.com/Abib-44"
+    external: true
+  - icon: "fa-solid fa-at"
+    url: "mailto:eh.benaboud@email.com"
+    external: false

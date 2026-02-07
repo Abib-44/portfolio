@@ -1,0 +1,44 @@
+/*===================== About ==================*/
+.about {
+    padding-top: 105px;
+}
+
+.about__img {
+    width: 170px;
+    border-radius: 500%;
+    justify-self: center;
+    align-self: center;
+    /* border: 1px solid #fff; */
+}
+
+.about__description {
+    margin-bottom: var(--mb-2-5);
+}
+
+.about__info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: var(--mb-2-5);
+    gap: 25px;
+}
+
+.about__info-title {
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-semi-bold);
+    color: var(--title-color);
+}
+
+.about__info-name {
+    font-size: var(--smaller-font-size);
+}
+
+.about__info-name,
+.about__info-title {
+    display: block;
+    text-align: center;
+}
+
+.about__buttons {
+    display: flex;
+    justify-content: center;
+}

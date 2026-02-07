@@ -58,3 +58,20 @@ body.dark-theme .switch-sun {
 .switch-img.hidden {
   display: none;
 }
+
+.nav__btns {
+  display: flex;
+  align-items: center;
+    margin-right: 15px;
+}
+
+.change-theme {
+  font-size: 1.25rem;
+  color: var(--title-color);
+  margin-right: var(--mb-1);
+  cursor: pointer;
+}
+
+.change-theme:hover {
+  color: var(--first-color);
+}

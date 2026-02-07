@@ -3,161 +3,100 @@
   <span class="general__section__subtitle">Expériences professionnelles en informatique</span>
 
   <div class="qualification__container container grid services__container">
-
     <div class="qualification__sections">
       <div class="qualification__content qualifiation__active services__content" data-content id="education">
 
-        <!-- EXPERIENCE 1 : STAGE -->
-        <div class="qualification__data">
-          <div>
-            <h3 class="qualification__title">Stagiaire Backend Developer</h3>
-            <span class="qualification__subtitle">Entreprise technologique – Backend & Cloud</span>
-            <div class="qualification__calender">
-              <i class="uil uil-calendar-alt"></i> 2024
+        <div class="qualification__container">
+          {% for exp in site.data.index.experiences %}
+          {% assign is_right = forloop.index0 | modulo: 2 %}
+          <div class="qualification__data {% if is_right == 1 %}qualification__right{% endif %}">
+
+            <div class="qualification__middle__line qualification__middle__line__right">
+              <span class="qualification__rounder"></span>
+              <span class="qualification__line"></span>
             </div>
+            <div>
+              {% unless is_right == 1 %}
+              <div class="qualification__card">
+                <h3 class="qualification__title">{{ exp.title }}</h3>
+                <span class="qualification__subtitle">{{ exp.subtitle }}</span>
+                <div class="qualification__calender"><i class="uil uil-calendar-alt"></i> {{ exp.period }}</div>
 
-            <div class="services__modal">
-              <div class="services__modal-content">
-                <h4 class="services__modal-title">Stage professionnel – Backend & Data</h4>
-                <i class="uil uil-times services__modal-close"></i>
+                <div class="general__modal__plus">
+                  <div class="general__modal__plus__content">
+                    <div class="general__modal__plus__header">
+                      <h4 class="general__modal__plus__title">{{ exp.modal_title }}</h4>
+                      <i class="fa fa-times general__modal__plus__close"></i>
+                    </div>
 
-                <ul class="services__modal-services grid">
-                  <li class="services__modal-service">
-                    <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>
-                      Conception et développement d’APIs backend robustes et performantes, avec une attention
-                      particulière portée à la scalabilité et à la fiabilité.
-                    </p>
-                  </li>
+                    <ul class="general__modal__plus__details grid">
+                      {% for detail in exp.details %}
+                      <li class="general__modal__plus__item">
+                        <i class="uil uil-check-circle general__modal__plus__icon"></i>
+                        <p>{{ detail }}</p>
+                      </li>
+                      {% endfor %}
+                    </ul>
+                  </div>
+                </div>
 
-                  <li class="services__modal-service">
-                    <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>
-                      Mise en œuvre de pipelines de traitement de données et de tâches asynchrones pour l’automatisation
-                      et l’optimisation des flux applicatifs.
-                    </p>
-                  </li>
+                <div>
+                  <div class="general__content__plus">
+                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                    Voir les détails
+                  </div>
+                </div>
 
-                  <li class="services__modal-service">
-                    <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>
-                      Implémentation de workflows CI/CD incluant tests automatisés, intégration continue et déploiement
-                      continu.
-                    </p>
-                  </li>
-
-                  <li class="services__modal-service">
-                    <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>
-                      Collaboration dans un environnement cloud et DevOps, en interaction avec des équipes produit, data
-                      et infrastructure.
-                    </p>
-                  </li>
-                </ul>
               </div>
+              {% endunless %}
             </div>
 
+            <div class="qualification__middle__line">
+              <span class="qualification__rounder"></span>
+              <span class="qualification__line"></span>
+            </div>
 
+            <div>
+              {% if is_right == 1 %}
+              <div class="qualification__card">
+                <h3 class="qualification__title">{{ exp.title }}</h3>
+                <span class="qualification__subtitle">{{ exp.subtitle }}</span>
+                <div class="qualification__calender"><i class="uil uil-calendar-alt"></i> {{ exp.period }}</div>
 
+                <div class="general__modal__plus">
+                  <div class="general__modal__plus__content">
+                    <div class="general__modal__plus__header">
+                      <h4 class="general__modal__plus__title">{{ exp.modal_title }}</h4>
+                      <i class="fa fa-times general__modal__plus__close"></i>
+                    </div>
 
+                    <ul class="general__modal__plus__details grid">
+                      {% for detail in exp.details %}
+                      <li class="general__modal__plus__item">
+                        <i class="uil uil-check-circle general__modal__plus__icon"></i>
+                        <p>{{ detail }}</p>
+                      </li>
+                      {% endfor %}
+                    </ul>
+                  </div>
+                </div>
 
+                <div>
+                  <div class="general__content__plus">
+                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                    Voir les détails
+                  </div>
+                </div>
 
-
-
+              </div>
+              {% endif %}
+            </div>
           </div>
-
-          <div>
-            <span class="qualification__rounder"></span>
-            <span class="qualification__line"></span>
-          </div>
+          {% endfor %}
         </div>
 
-        <!-- EXPERIENCE 2 : OPEN SOURCE -->
-        <div class="qualification__data">
-          <div></div>
 
-          <div>
-            <span class="qualification__rounder"></span>
-            <span class="qualification__line"></span>
-          </div>
 
-          <div>
-            <h3 class="qualification__title">Contributeur Open Source</h3>
-            <span class="qualification__subtitle">Projets open source – Backend & Data</span>
-            <div class="qualification__calender">
-              <i class="uil uil-calendar-alt"></i> 2024 – 2025
-            </div>
-
-            <!-- <span class="button button--flex button--small button--link services__button">
-              Voir plus <i class="uil uil-arrow-right button__icon"></i>
-            </span> -->
-
-            <div class="services__modal">
-              <div class="services__modal-content">
-                <h4 class="services__modal-title">Contributions open source</h4>
-                <i class="uil uil-times services__modal-close"></i>
-                <ul class="services__modal-services grid">
-                  <li class="services__modal-service">
-                    <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>Développement et amélioration de services backend open source.</p>
-                  </li>
-                  <li class="services__modal-service">
-                    <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>Refactoring, correction de bugs et optimisation des performances.</p>
-                  </li>
-                  <li class="services__modal-service">
-                    <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>Collaboration via Git, pull requests et revues de code distribuées.</p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- EXPERIENCE 3 : PROJETS PERSONNELS -->
-        <div class="qualification__data">
-          <div>
-            <h3 class="qualification__title">Développeur Backend</h3>
-            <span class="qualification__subtitle">Backend & Cloud</span>
-            <div class="qualification__calender">
-              <i class="uil uil-calendar-alt"></i> 2025 – Présent
-            </div>
-
-            <!-- <span class="button button--flex button--small button--link services__button">
-              Voir plus <i class="uil uil-arrow-right button__icon"></i>
-            </span> -->
-
-            <div class="services__modal">
-              <div class="services__modal-content">
-                <h4 class="services__modal-title">Projets backend autonomes</h4>
-                <i class="uil uil-times services__modal-close"></i>
-                <ul class="services__modal-services grid">
-                  <li class="services__modal-service">
-                    <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>Conception complète d’APIs REST, de la modélisation au déploiement.</p>
-                  </li>
-                  <li class="services__modal-service">
-                    <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>Gestion de bases de données, logique métier et optimisation des performances.</p>
-                  </li>
-                  <li class="services__modal-service">
-                    <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>Containerisation, automatisation des tests et déploiements cloud.</p>
-                  </li>
-                  <li class="services__modal-service">
-                    <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>Approche orientée clean architecture, maintenabilité et qualité logicielle.</p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <span class="qualification__rounder"></span>
-          </div>
-        </div>
 
       </div>
     </div>

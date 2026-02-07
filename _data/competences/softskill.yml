@@ -1,18 +1,23 @@
-  - title: Résolution de problèmes
-    icon: "fa-solid fa-lightbulb"
-    description: "Analyse structurée et recherche de solutions robustes face à des systèmes complexes."
-  - title: Autonomie
-    icon: "fa-solid fa-person-running"
-    description: "Capacité à apprendre rapidement et à travailler efficacement sans supervision constante."
-  - title: Rigueur technique
-    icon: "fa-solid fa-ruler-combined"
-    description: "Attention portée à la qualité du code, à la fiabilité et à la maintenabilité."
-  - title: Travail en équipe
-    icon: "fa-solid fa-users"
-    description: "Collaboration avec des profils techniques et non techniques."
-  - title: Gestion du temps
-    icon: "fa-solid fa-project-diagram"
-    description: "Organisation efficace du travail. Expérience avec Scrum et Kanban pour gérer les projets efficacement en équipe."
-  - title: Rapidité d’apprentissage
-    icon: "fa-solid fa-brain"
-    description: "Capacité à assimiler rapidement de nouvelles technologies et méthodologies."
+- title: Résolution de problèmes
+  icon: "fa-solid fa-lightbulb"
+  description: "Analyse structurée et recherche de solutions robustes face à des systèmes complexes."
+
+- title: Autonomie
+  icon: "fa-solid fa-person-running"
+  description: "Capacité à apprendre rapidement et à travailler efficacement sans supervision constante."
+
+- title: Rigueur technique
+  icon: "fa-solid fa-ruler-combined"
+  description: "Attention portée à la qualité du code, à la fiabilité et à la maintenabilité."
+
+- title: Travail en équipe
+  icon: "fa-solid fa-users"
+  description: "Collaboration avec des profils techniques et non techniques."
+
+- title: Gestion du temps
+  icon: "fa-solid fa-project-diagram"
+  description: "Organisation efficace du travail. Expérience avec Scrum et Kanban pour gérer les projets efficacement en équipe."
+
+- title: Rapidité d’apprentissage
+  icon: "fa-solid fa-brain"
+  description: "Capacité à assimiler rapidement de nouvelles technologies et méthodologies."

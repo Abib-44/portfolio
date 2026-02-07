@@ -8,3 +8,6 @@
   color: var(--text-color);
   line-height: 1.6;
 }
+
+.general__modal__plus { display: none; }
+.general__modal__plus.active { display: block; }

@@ -3,12 +3,46 @@
   <div class="general__card__header">
     <div class="general__card__title-group">
       <i class="general__card__icon {{ skill.icon }}"></i>
-      <h3 class="general__card__title">{{ skill.title }}</h3>
+      <h3 class="general__card__title">{{ skill.title | escape }}</h3>
     </div>
-    <span class="general__card__category">Technique</span>
+    <span class="general__card__category">Hard</span>
   </div>
-  <p class="general__card__description">
-    {{ skill.description }}
-  </p>
+
+  <p class="general__card__description">{{ skill.description | escape }}</p>
+
+  {% if skill.details %}
+    <div class="general__content__plus">
+      <i class="fa fa-plus-circle"></i>
+      Voir les détails
+    </div>
+
+    {% for exp in skill.details %}
+      <div class="qualification__card">
+        <h3 class="qualification__title">{{ exp.title }}</h3>
+        <span class="qualification__subtitle">{{ exp.subtitle }}</span>
+        <div class="qualification__calender">
+          <i class="uil uil-calendar-alt"></i> {{ exp.period }}
+        </div>
+
+        <div class="general__modal__plus">
+          <div class="general__modal__plus__content">
+            <div class="general__modal__plus__header">
+              <h4 class="general__modal__plus__title">{{ exp.modal_title }}</h4>
+              <i class="fa fa-times general__modal__plus__close"></i>
+            </div>
+
+            <ul class="general__modal__plus__details grid">
+              {% for detail in exp.details %}
+                <li class="general__modal__plus__item">
+                  <i class="uil uil-check-circle general__modal__plus__icon"></i>
+                  <p>{{ detail }}</p>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  {% endif %}
 </div>
 {% endfor %}

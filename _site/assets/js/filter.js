@@ -14,9 +14,8 @@ buttons.forEach(btn => {
       element.style.display = 'block';
 
       if (filterValue !== "all") {
-        // prendi tutte le categorie dell'elemento e crea un array
         const categories = element.dataset.category.split(',').map(c => c.trim());
-        // se l'array non include il filtro, nascondi
+
         if (!categories.includes(filterValue)) {
           element.style.display = 'none';
         }

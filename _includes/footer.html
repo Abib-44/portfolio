@@ -2,12 +2,10 @@
     <div class="footer__bg">
         <div class="footer__container container grid">
             <div class="footer__logo">
-
                 <a href="{{ site.baseurl }}/index.html" class="nav__logo deploy_link nav__link">
                     <img class="avatar deploy_link" style="height: 81px;"
                         src="{{ site.baseurl }}/assets/img/avatar.jpeg" alt="avatar_footer">
                 </a>
-
                 <!-- <div class="footer__subtitle"
                     style="height: 100%; display: flex; flex-direction: column; justify-content: space-evenly;">
                     <p>Automation & Cloud</p>
@@ -16,29 +14,23 @@
                     <p>Analytics & Monitoring</p>
                 </div> -->
             </div>
-
             <ul class="footer__links">
+                {% for page in site.data.footer_links.pages %}
                 <li>
-                    <a href="{{ site.baseurl }}/pages/habbies" class="footer__link nav__link">loisir</a>
+                    <a href="{{ site.baseurl }}{{ page.url }}" class="footer__link nav__link">
+                        {{ page.title }}
+                    </a>
                 </li>
-                <li>
-                    <a href="{{ site.baseurl }}/pages/contatc" class="footer__link nav__link">Projets</a>
-                </li>
-                <li>
-                    <a href="{{ site.baseurl }}/pages/contatc" class="footer__link nav__link">Contact</a>
-                </li>
+                {% endfor %}
             </ul>
 
             <div class="footer__links__pages">
-                <a href="https://www.linkedin.com/in/el-habib-benaboud-data/" target="_blank" class="home__social-icon">
-                    <i class="fa-brands fa-linkedin footer__contact"></i>
+                {% for social in site.data.footer_links.socials %}
+                <a href="{{ social.url }}" class="home__social-icon" {% if social.external %}target="_blank" {% endif
+                    %}>
+                    <i class="{{ social.icon }} footer__contact"></i>
                 </a>
-                <a href="https://github.com/Abib-44" target="_blank" class="home__social-icon">
-                    <i class="fa-brands fa-github footer__contact"></i>
-                </a>
-                <a href="mailto:eh.benaboud@email.com" class="home__social-icon">
-                    <i class="fa-classic fa-solid fa-at footer__contact"></i>
-                </a>
+                {% endfor %}
             </div>
         </div>
 
@@ -50,4 +42,7 @@
     <script src="{{ site.baseurl }}/assets/js/dark-mode.js"></script>
     <script src="{{ site.baseurl }}/assets/js/scroll.js"></script>
     <script src="{{ site.baseurl }}/assets/js/mobile.js"></script>
+
+    <script src="{{ site.baseurl }}/assets/js/open.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/i.js"></script>
 </footer>

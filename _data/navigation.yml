@@ -1,0 +1,19 @@
+- title: Accueil
+  url: "/index.html"
+  icon: "uil uil-estate"
+
+- title: Compétences
+  url: "/pages/competences.html"
+  icon: "uil uil-file-alt"
+
+- title: Projets
+  url: "/pages/projects.html"
+  icon: "uil uil-scenery"
+
+- title: Loisirs
+  url: "/pages/hobbies.html"
+  icon: "uil uil-message"
+
+- title: Contactez-moi
+  url: "/pages/contact.html"
+  icon: "uil uil-message"

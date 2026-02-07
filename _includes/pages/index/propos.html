@@ -7,29 +7,30 @@
 
     <div class="about__data">
       <p class="about__description">
-        Je suis motivé par l’automatisation, les systèmes cloud et l’utilisation d’outils comme Pandas et SQL pour
-        l’analyse et l’amélioration des processus. J’ai travaillé en entreprise sur des projets backend et cloud, en
-        utilisant Docker et les pipelines CI/CD, contribuant au développement de fonctionnalités importantes.
-        Curieux et appliqué, je souhaite continuer à apprendre tout en participant à des projets concrets et
-        innovants.
+        J’ai découvert l’informatique à 14 ans, fasciné par la technologie et sa complexité.
+        Ma passion m’a conduit à un bac scientifique et à une formation full stack, où j’ai effectué un stage caritatif
+        et contribué à une plateforme web avec d’autres développeurs.
+        Par la suite, j’ai travaillé comme développeur backend dans une entreprise cloud, améliorant la qualité du code
+        et concevant des systèmes performants.
+        Discipliné et autodidacte, je suis motivé par les défis techniques et l’optimisation des systèmes.
       </p>
 
       <div class="about__info">
+        {% for stat in site.data.index.about_stats %}
         <div>
-          <span class="about__info-title">50+</span>
-          <span class="about__info-name">Projets</span>
+          <span class="about__info-title">{{ stat.title }}</span>
+          <span class="about__info-name">
+            {{ stat.label }}
+          </span>
         </div>
-        <div>
-          <span class="about__info-title">7</span>
-          <span class="about__info-name">Mois <br />d'expérience</span>
-        </div>
+        {% endfor %}
       </div>
 
-      <div class="about__buttons">
+      <!-- <div class="about__buttons">
         <a download="" href="{{ site.baseurl }}/assets/MyCV.pdf" class="button button--flex">
           Regardez mon parcours complet
         </a>
-      </div>
+      </div> -->
     </div>
   </div>
 </section>
