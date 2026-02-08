@@ -1,7 +1,7 @@
 <div class="loisirs__container container grid">
 
   {% for item in site.data.interests.interests %}
-  <article class="general__card" data-category="{{ item.slug }}">
+  <article class="general__card" data-category="{{ item.slug }}" data-full-description="{{ item.description }}">
     <div class="general__card__header">
       <div class="general__card__title-group">
         <i class="general__card__icon {{ item.icon }}"></i>
@@ -11,10 +11,23 @@
     </div>
 
     <p class="general__card__description">
-      {{ item.description }}
-    </p>
+      {{ item.mini-description }}
+    </p>  
+    <div class="general__content__plus">
+      <i class="fa fa-plus-circle" aria-hidden="true"></i>
+      Voir les détails
+    </div>
   </article>
-  {% endfor %}
 
+  <div class="general__modal__plus">
+    <div class="general__modal__plus__content">
+      <div class="general__modal__plus__header">
+        <h4 class="general__modal__plus__title"></h4>
+        <i class="general__modal__plus__close fa fa-times"></i>
+      </div>
+      <p class="general__modal__plus__description"></p>
+    </div>
+  </div>
+  {% endfor %}
 
 </div>

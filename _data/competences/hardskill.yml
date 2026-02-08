@@ -1,18 +1,29 @@
 - title: Python
   icon: "fa-brands fa-python"
-  description: "Développement de scripts, automatisation, pipelines de données et traitement backend."
+  mini-description: "J’utilise Python pour automatiser et traiter des données."
+  description: "Je développe des scripts et pipelines de données backend, en automatisant les processus pour gagner du temps et assurer la fiabilité des systèmes."
+
 - title: SQL
   icon: "fa-solid fa-database"
-  description: "Modélisation, requêtes complexes, optimisation et manipulation de données."
+  mini-description: "Je manipule et optimise les bases de données."
+  description: "Je conçois des modèles de données, écris des requêtes complexes et optimise les performances pour garantir des traitements rapides et fiables."
+
 - title: CI/CD & Automation
   icon: "fa-solid fa-robot"
-  description: "Automatisation de déploiement, tests et intégration continue."
+  mini-description: "Je crée des pipelines CI/CD pour automatiser le workflow."
+  description: "Je mets en place des intégrations continues, des tests automatisés et des déploiements fiables pour garantir la qualité et la reproductibilité des projets."
+
 - title: Cloud & Containers
   icon: "fa-solid fa-cloud"
-  description: "Environnements cloud, Docker, orchestration et bonnes pratiques DevOps."
-- title: API & Microservices
+  mini-description: "Je travaille avec Docker et les environnements cloud."
+  description: "Je configure et gère des environnements cloud et conteneurisés, en appliquant les bonnes pratiques DevOps pour assurer la scalabilité et la maintenabilité."
+
+- title: API
   icon: "fa-solid fa-network-wired"
-  description: "Conception, développement et gestion de microservices RESTful et APIs robustes."
+  mini-description: "Je développe des APIs ."
+  description: "Je conçois et développe des RESTful robustes et évolutifs, en assurant la cohérence, la sécurité et la performance des applications."
+
 - title: Testing & QA
   icon: "fa-solid fa-vial"
-  description: "Mise en place de tests unitaires, intégration et end-to-end pour garantir la qualité logicielle."
+  mini-description: "Je mets en place des tests pour garantir la qualité."
+  description: "Je crée des tests unitaires, d’intégration et end-to-end pour m’assurer que les applications fonctionnent correctement et respectent les standards de qualité."

@@ -1,5 +1,5 @@
 {% for skill in site.data.competences.softskill %}
-<div class="general__card" data-category="soft">
+<div class="general__card" data-category="soft" data-full-description="{{ skill.description }}">
   <div class="general__card__header">
     <div class="general__card__title-group">
       <i class="general__card__icon {{ skill.icon }}"></i>
@@ -8,13 +8,14 @@
     <span class="general__card__category">Soft</span>
   </div>
 
-  <p class="general__card__description">{{ skill.description }}</p>
+  <p class="general__card__description">{{ skill.mini-description }}</p>
 
   <div class="general__content__plus">
     <i class="fa fa-plus-circle" aria-hidden="true"></i>
     Voir les détails
   </div>
 </div>
+
 <div class="general__modal__plus">
   <div class="general__modal__plus__content">
     <div class="general__modal__plus__header">
@@ -24,5 +25,4 @@
     <p class="general__modal__plus__description"></p>
   </div>
 </div>
-
 {% endfor %}

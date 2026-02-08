@@ -1,0 +1,365 @@
+I"p3<section class="skills section" id="skills">
+
+    <h2 class="general__section__title">Compétences</h2>
+  <span class="general__section__subtitle">
+    Présentation générale, non exhaustive, des compétences acquises et développées au cours de mon parcours
+  </span>
+
+  
+
+<div class="general__filters">
+  
+    
+    <button class="general__filter active" data-filter="all">
+      Toutes
+    </button>
+  
+    
+    <button class="general__filter " data-filter="hard">
+      Hard skills
+    </button>
+  
+    
+    <button class="general__filter " data-filter="soft">
+      Soft skills
+    </button>
+  
+</div>
+
+
+  <div class="general__card__containers container grid">
+
+    
+<div class="general__card" data-category="soft">
+  <div class="general__card__header">
+    <div class="general__card__title-group">
+      <i class="general__card__icon fa-solid fa-lightbulb"></i>
+      <h3 class="general__card__title">Résolution de problèmes</h3>
+    </div>
+    <span class="general__card__category">Soft</span>
+  </div>
+
+  <!-- <p class="general__card__description">J’aime résoudre des problèmes et corriger des bugs : c’est une vraie passion pour moi. Affronter des situations complexes et trouver des solutions efficaces me motive chaque jour.</p> -->
+
+  <div class="general__content__plus">
+    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+    Voir les détails
+  </div>
+</div>
+<div class="general__modal__plus">
+  <div class="general__modal__plus__content">
+    <div class="general__modal__plus__header">
+      <h4 class="general__modal__plus__title"></h4>
+      <i class="general__modal__plus__close fa fa-times"></i>
+    </div>
+    <p class="general__modal__plus__description"></p>
+  </div>
+</div>
+
+
+<div class="general__card" data-category="soft">
+  <div class="general__card__header">
+    <div class="general__card__title-group">
+      <i class="general__card__icon fa-solid fa-person-running"></i>
+      <h3 class="general__card__title">Autonomie</h3>
+    </div>
+    <span class="general__card__category">Soft</span>
+  </div>
+
+  <!-- <p class="general__card__description">Au cours de mes études et de mes expériences professionnelles, j’ai développé une forte autonomie : je peux apprendre rapidement et mener des projets à bien sans supervision constante.</p> -->
+
+  <div class="general__content__plus">
+    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+    Voir les détails
+  </div>
+</div>
+<div class="general__modal__plus">
+  <div class="general__modal__plus__content">
+    <div class="general__modal__plus__header">
+      <h4 class="general__modal__plus__title"></h4>
+      <i class="general__modal__plus__close fa fa-times"></i>
+    </div>
+    <p class="general__modal__plus__description"></p>
+  </div>
+</div>
+
+
+<div class="general__card" data-category="soft">
+  <div class="general__card__header">
+    <div class="general__card__title-group">
+      <i class="general__card__icon fa-solid fa-ruler-combined"></i>
+      <h3 class="general__card__title">Rigueur technique</h3>
+    </div>
+    <span class="general__card__category">Soft</span>
+  </div>
+
+  <!-- <p class="general__card__description">Depuis mon enfance, j’aime faire les choses correctement. Pendant ma scolarité et mes premières expériences professionnelles, j’ai appris à porter attention à la qualité, à la fiabilité et à la maintenabilité de mon travail.</p> -->
+
+  <div class="general__content__plus">
+    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+    Voir les détails
+  </div>
+</div>
+<div class="general__modal__plus">
+  <div class="general__modal__plus__content">
+    <div class="general__modal__plus__header">
+      <h4 class="general__modal__plus__title"></h4>
+      <i class="general__modal__plus__close fa fa-times"></i>
+    </div>
+    <p class="general__modal__plus__description"></p>
+  </div>
+</div>
+
+
+<div class="general__card" data-category="soft">
+  <div class="general__card__header">
+    <div class="general__card__title-group">
+      <i class="general__card__icon fa-solid fa-users"></i>
+      <h3 class="general__card__title">Travail en équipe</h3>
+    </div>
+    <span class="general__card__category">Soft</span>
+  </div>
+
+  <!-- <p class="general__card__description">J’aime travailler en équipe : je pratique le football depuis 5 ans et cette expérience m’a appris l’importance de la collaboration, de la communication et du soutien mutuel.</p> -->
+
+  <div class="general__content__plus">
+    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+    Voir les détails
+  </div>
+</div>
+<div class="general__modal__plus">
+  <div class="general__modal__plus__content">
+    <div class="general__modal__plus__header">
+      <h4 class="general__modal__plus__title"></h4>
+      <i class="general__modal__plus__close fa fa-times"></i>
+    </div>
+    <p class="general__modal__plus__description"></p>
+  </div>
+</div>
+
+
+<div class="general__card" data-category="soft">
+  <div class="general__card__header">
+    <div class="general__card__title-group">
+      <i class="general__card__icon fa-solid fa-project-diagram"></i>
+      <h3 class="general__card__title">Gestion du temps</h3>
+    </div>
+    <span class="general__card__category">Soft</span>
+  </div>
+
+  <!-- <p class="general__card__description">La gestion du temps me tient à cœur : je crois que bien organiser mon travail me permet d’être plus performant et de réaliser davantage de tâches efficacement.</p> -->
+
+  <div class="general__content__plus">
+    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+    Voir les détails
+  </div>
+</div>
+<div class="general__modal__plus">
+  <div class="general__modal__plus__content">
+    <div class="general__modal__plus__header">
+      <h4 class="general__modal__plus__title"></h4>
+      <i class="general__modal__plus__close fa fa-times"></i>
+    </div>
+    <p class="general__modal__plus__description"></p>
+  </div>
+</div>
+
+
+<div class="general__card" data-category="soft">
+  <div class="general__card__header">
+    <div class="general__card__title-group">
+      <i class="general__card__icon fa-solid fa-brain"></i>
+      <h3 class="general__card__title">Rapidité d’apprentissage</h3>
+    </div>
+    <span class="general__card__category">Soft</span>
+  </div>
+
+  <!-- <p class="general__card__description">Mes expériences professionnelles m’ont permis de développer une grande polyvalence et une capacité à m’adapter rapidement à de nouveaux environnements et technologies.</p> -->
+
+  <div class="general__content__plus">
+    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+    Voir les détails
+  </div>
+</div>
+<div class="general__modal__plus">
+  <div class="general__modal__plus__content">
+    <div class="general__modal__plus__header">
+      <h4 class="general__modal__plus__title"></h4>
+      <i class="general__modal__plus__close fa fa-times"></i>
+    </div>
+    <p class="general__modal__plus__description"></p>
+  </div>
+</div>
+
+
+
+    
+<div class="general__card" data-category="soft">
+  <div class="general__card__header">
+    <div class="general__card__title-group">
+      <i class="general__card__icon fa-solid fa-lightbulb"></i>
+      <h3 class="general__card__title">Résolution de problèmes</h3>
+    </div>
+    <span class="general__card__category">Soft</span>
+  </div>
+
+  <p class="general__card__description">J’aime résoudre des problèmes et corriger des bugs : c’est une vraie passion pour moi. Affronter des situations complexes et trouver des solutions efficaces me motive chaque jour.</p>
+
+  <div class="general__content__plus">
+    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+    Voir les détails
+  </div>
+</div>
+<div class="general__modal__plus">
+  <div class="general__modal__plus__content">
+    <div class="general__modal__plus__header">
+      <h4 class="general__modal__plus__title"></h4>
+      <i class="general__modal__plus__close fa fa-times"></i>
+    </div>
+    <p class="general__modal__plus__description"></p>
+  </div>
+</div>
+
+
+<div class="general__card" data-category="soft">
+  <div class="general__card__header">
+    <div class="general__card__title-group">
+      <i class="general__card__icon fa-solid fa-person-running"></i>
+      <h3 class="general__card__title">Autonomie</h3>
+    </div>
+    <span class="general__card__category">Soft</span>
+  </div>
+
+  <p class="general__card__description">Au cours de mes études et de mes expériences professionnelles, j’ai développé une forte autonomie : je peux apprendre rapidement et mener des projets à bien sans supervision constante.</p>
+
+  <div class="general__content__plus">
+    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+    Voir les détails
+  </div>
+</div>
+<div class="general__modal__plus">
+  <div class="general__modal__plus__content">
+    <div class="general__modal__plus__header">
+      <h4 class="general__modal__plus__title"></h4>
+      <i class="general__modal__plus__close fa fa-times"></i>
+    </div>
+    <p class="general__modal__plus__description"></p>
+  </div>
+</div>
+
+
+<div class="general__card" data-category="soft">
+  <div class="general__card__header">
+    <div class="general__card__title-group">
+      <i class="general__card__icon fa-solid fa-ruler-combined"></i>
+      <h3 class="general__card__title">Rigueur technique</h3>
+    </div>
+    <span class="general__card__category">Soft</span>
+  </div>
+
+  <p class="general__card__description">Depuis mon enfance, j’aime faire les choses correctement. Pendant ma scolarité et mes premières expériences professionnelles, j’ai appris à porter attention à la qualité, à la fiabilité et à la maintenabilité de mon travail.</p>
+
+  <div class="general__content__plus">
+    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+    Voir les détails
+  </div>
+</div>
+<div class="general__modal__plus">
+  <div class="general__modal__plus__content">
+    <div class="general__modal__plus__header">
+      <h4 class="general__modal__plus__title"></h4>
+      <i class="general__modal__plus__close fa fa-times"></i>
+    </div>
+    <p class="general__modal__plus__description"></p>
+  </div>
+</div>
+
+
+<div class="general__card" data-category="soft">
+  <div class="general__card__header">
+    <div class="general__card__title-group">
+      <i class="general__card__icon fa-solid fa-users"></i>
+      <h3 class="general__card__title">Travail en équipe</h3>
+    </div>
+    <span class="general__card__category">Soft</span>
+  </div>
+
+  <p class="general__card__description">J’aime travailler en équipe : je pratique le football depuis 5 ans et cette expérience m’a appris l’importance de la collaboration, de la communication et du soutien mutuel.</p>
+
+  <div class="general__content__plus">
+    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+    Voir les détails
+  </div>
+</div>
+<div class="general__modal__plus">
+  <div class="general__modal__plus__content">
+    <div class="general__modal__plus__header">
+      <h4 class="general__modal__plus__title"></h4>
+      <i class="general__modal__plus__close fa fa-times"></i>
+    </div>
+    <p class="general__modal__plus__description"></p>
+  </div>
+</div>
+
+
+<div class="general__card" data-category="soft">
+  <div class="general__card__header">
+    <div class="general__card__title-group">
+      <i class="general__card__icon fa-solid fa-project-diagram"></i>
+      <h3 class="general__card__title">Gestion du temps</h3>
+    </div>
+    <span class="general__card__category">Soft</span>
+  </div>
+
+  <p class="general__card__description">La gestion du temps me tient à cœur : je crois que bien organiser mon travail me permet d’être plus performant et de réaliser davantage de tâches efficacement.</p>
+
+  <div class="general__content__plus">
+    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+    Voir les détails
+  </div>
+</div>
+<div class="general__modal__plus">
+  <div class="general__modal__plus__content">
+    <div class="general__modal__plus__header">
+      <h4 class="general__modal__plus__title"></h4>
+      <i class="general__modal__plus__close fa fa-times"></i>
+    </div>
+    <p class="general__modal__plus__description"></p>
+  </div>
+</div>
+
+
+<div class="general__card" data-category="soft">
+  <div class="general__card__header">
+    <div class="general__card__title-group">
+      <i class="general__card__icon fa-solid fa-brain"></i>
+      <h3 class="general__card__title">Rapidité d’apprentissage</h3>
+    </div>
+    <span class="general__card__category">Soft</span>
+  </div>
+
+  <p class="general__card__description">Mes expériences professionnelles m’ont permis de développer une grande polyvalence et une capacité à m’adapter rapidement à de nouveaux environnements et technologies.</p>
+
+  <div class="general__content__plus">
+    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+    Voir les détails
+  </div>
+</div>
+<div class="general__modal__plus">
+  <div class="general__modal__plus__content">
+    <div class="general__modal__plus__header">
+      <h4 class="general__modal__plus__title"></h4>
+      <i class="general__modal__plus__close fa fa-times"></i>
+    </div>
+    <p class="general__modal__plus__description"></p>
+  </div>
+</div>
+
+
+
+  </div>
+</section>
+
+<script src="/assets/js/filter.js"></script>
+
+:ET

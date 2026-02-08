@@ -1,83 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
-
-<head>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>competences</title>
-<link rel="stylesheet" href="/assets/css/main.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-<link rel="shortcut icon" href="/assets/img/avatar-whitout.png" type="image/x-icon">
-
-
-</head>
-
-<body>
-  <header class="header" id="header">
-  <nav class="nav container navbar">
-    <a href="/index.html" class="nav__logo deploy_link">
-      <img class="avatar deploy_link" src="/assets/img/avatar.jpeg" alt="avatar">
-    </a>
-
-    <div class="nav__menu" id="nav-menu">
-      <ul class="nav__list grid">
-        
-        <li class="nav__item">
-          <a href="/index.html"
-            class="deploy_link nav__link ">
-            <i class="uil uil-estate nav__icon"></i>Accueil
-          </a>
-        </li>
-        
-        <li class="nav__item">
-          <a href="/pages/competences.html"
-            class="deploy_link nav__link active-link">
-            <i class="uil uil-file-alt nav__icon"></i>Compétences
-          </a>
-        </li>
-        
-        <li class="nav__item">
-          <a href="/pages/projects.html"
-            class="deploy_link nav__link ">
-            <i class="uil uil-scenery nav__icon"></i>Projets
-          </a>
-        </li>
-        
-        <li class="nav__item">
-          <a href="/pages/hobbies.html"
-            class="deploy_link nav__link ">
-            <i class="uil uil-message nav__icon"></i>Loisirs
-          </a>
-        </li>
-        
-        <li class="nav__item">
-          <a href="/pages/contact.html"
-            class="deploy_link nav__link ">
-            <i class="uil uil-message nav__icon"></i>Contactez-moi
-          </a>
-        </li>
-        
-      </ul>
-    </div>
-
-    <div class="mobile">
-      <div class="nav__btns">
-  <div id="theme-button" class="theme-box">
-    <div class="switch-knob"></div>
-    <i class="switch-img switch-moon fa-solid fa-moon"></i>
-    <i class="switch-img switch-sun fa-solid fa-sun hidden"></i>
-  </div>
-</div>
-
-      <div class="nav__icon__navigation">
-        <i class="fas fa-bars mobile-nav" id="nav-open"></i>
-        <i class="fas fa-times mobile-nav" id="nav-close"></i>
-      </div>
-    </div>
-  </nav>
-</header>
-  <main> 
-    <section class="skills section" id="skills">
+I"�5<section class="skills section" id="skills">
 
     <h2 class="general__section__title">Compétences</h2>
   <span class="general__section__subtitle">
@@ -274,23 +195,22 @@
 
 
     
-<div class="general__card" data-category="hard" data-full-description="Je développe des scripts et pipelines de données backend, en automatisant les processus pour gagner du temps et assurer la fiabilité des systèmes.">
+<div class="general__card" data-category="soft">
   <div class="general__card__header">
     <div class="general__card__title-group">
-      <i class="general__card__icon fa-brands fa-python"></i>
-      <h3 class="general__card__title">Python</h3>
+      <i class="general__card__icon fa-solid fa-lightbulb"></i>
+      <h3 class="general__card__title">Résolution de problèmes</h3>
     </div>
-    <span class="general__card__category">Hard</span>
+    <span class="general__card__category">Soft</span>
   </div>
 
-  <p class="general__card__description">J’utilise Python pour automatiser et traiter des données.</p>
+  <p class="general__card__description">J’aime résoudre des problèmes et corriger des bugs : c’est une vraie passion pour moi. Affronter des situations complexes et trouver des solutions efficaces me motive chaque jour.</p>
 
   <div class="general__content__plus">
     <i class="fa fa-plus-circle" aria-hidden="true"></i>
     Voir les détails
   </div>
 </div>
-
 <div class="general__modal__plus">
   <div class="general__modal__plus__content">
     <div class="general__modal__plus__header">
@@ -301,23 +221,23 @@
   </div>
 </div>
 
-<div class="general__card" data-category="hard" data-full-description="Je conçois des modèles de données, écris des requêtes complexes et optimise les performances pour garantir des traitements rapides et fiables.">
+
+<div class="general__card" data-category="soft">
   <div class="general__card__header">
     <div class="general__card__title-group">
-      <i class="general__card__icon fa-solid fa-database"></i>
-      <h3 class="general__card__title">SQL</h3>
+      <i class="general__card__icon fa-solid fa-person-running"></i>
+      <h3 class="general__card__title">Autonomie</h3>
     </div>
-    <span class="general__card__category">Hard</span>
+    <span class="general__card__category">Soft</span>
   </div>
 
-  <p class="general__card__description">Je manipule et optimise les bases de données.</p>
+  <p class="general__card__description">Au cours de mes études et de mes expériences professionnelles, j’ai développé une forte autonomie : je peux apprendre rapidement et mener des projets à bien sans supervision constante.</p>
 
   <div class="general__content__plus">
     <i class="fa fa-plus-circle" aria-hidden="true"></i>
     Voir les détails
   </div>
 </div>
-
 <div class="general__modal__plus">
   <div class="general__modal__plus__content">
     <div class="general__modal__plus__header">
@@ -328,23 +248,23 @@
   </div>
 </div>
 
-<div class="general__card" data-category="hard" data-full-description="Je mets en place des intégrations continues, des tests automatisés et des déploiements fiables pour garantir la qualité et la reproductibilité des projets.">
+
+<div class="general__card" data-category="soft">
   <div class="general__card__header">
     <div class="general__card__title-group">
-      <i class="general__card__icon fa-solid fa-robot"></i>
-      <h3 class="general__card__title">CI/CD &amp; Automation</h3>
+      <i class="general__card__icon fa-solid fa-ruler-combined"></i>
+      <h3 class="general__card__title">Rigueur technique</h3>
     </div>
-    <span class="general__card__category">Hard</span>
+    <span class="general__card__category">Soft</span>
   </div>
 
-  <p class="general__card__description">Je crée des pipelines CI/CD pour automatiser le workflow.</p>
+  <p class="general__card__description">Depuis mon enfance, j’aime faire les choses correctement. Pendant ma scolarité et mes premières expériences professionnelles, j’ai appris à porter attention à la qualité, à la fiabilité et à la maintenabilité de mon travail.</p>
 
   <div class="general__content__plus">
     <i class="fa fa-plus-circle" aria-hidden="true"></i>
     Voir les détails
   </div>
 </div>
-
 <div class="general__modal__plus">
   <div class="general__modal__plus__content">
     <div class="general__modal__plus__header">
@@ -355,23 +275,23 @@
   </div>
 </div>
 
-<div class="general__card" data-category="hard" data-full-description="Je configure et gère des environnements cloud et conteneurisés, en appliquant les bonnes pratiques DevOps pour assurer la scalabilité et la maintenabilité.">
+
+<div class="general__card" data-category="soft">
   <div class="general__card__header">
     <div class="general__card__title-group">
-      <i class="general__card__icon fa-solid fa-cloud"></i>
-      <h3 class="general__card__title">Cloud &amp; Containers</h3>
+      <i class="general__card__icon fa-solid fa-users"></i>
+      <h3 class="general__card__title">Travail en équipe</h3>
     </div>
-    <span class="general__card__category">Hard</span>
+    <span class="general__card__category">Soft</span>
   </div>
 
-  <p class="general__card__description">Je travaille avec Docker et les environnements cloud.</p>
+  <p class="general__card__description">J’aime travailler en équipe : je pratique le football depuis 5 ans et cette expérience m’a appris l’importance de la collaboration, de la communication et du soutien mutuel.</p>
 
   <div class="general__content__plus">
     <i class="fa fa-plus-circle" aria-hidden="true"></i>
     Voir les détails
   </div>
 </div>
-
 <div class="general__modal__plus">
   <div class="general__modal__plus__content">
     <div class="general__modal__plus__header">
@@ -382,23 +302,23 @@
   </div>
 </div>
 
-<div class="general__card" data-category="hard" data-full-description="Je conçois et développe des RESTful robustes et évolutifs, en assurant la cohérence, la sécurité et la performance des applications.">
+
+<div class="general__card" data-category="soft">
   <div class="general__card__header">
     <div class="general__card__title-group">
-      <i class="general__card__icon fa-solid fa-network-wired"></i>
-      <h3 class="general__card__title">API</h3>
+      <i class="general__card__icon fa-solid fa-project-diagram"></i>
+      <h3 class="general__card__title">Gestion du temps</h3>
     </div>
-    <span class="general__card__category">Hard</span>
+    <span class="general__card__category">Soft</span>
   </div>
 
-  <p class="general__card__description">Je développe des APIs .</p>
+  <p class="general__card__description">La gestion du temps me tient à cœur : je crois que bien organiser mon travail me permet d’être plus performant et de réaliser davantage de tâches efficacement.</p>
 
   <div class="general__content__plus">
     <i class="fa fa-plus-circle" aria-hidden="true"></i>
     Voir les détails
   </div>
 </div>
-
 <div class="general__modal__plus">
   <div class="general__modal__plus__content">
     <div class="general__modal__plus__header">
@@ -409,23 +329,23 @@
   </div>
 </div>
 
-<div class="general__card" data-category="hard" data-full-description="Je crée des tests unitaires, d’intégration et end-to-end pour m’assurer que les applications fonctionnent correctement et respectent les standards de qualité.">
+
+<div class="general__card" data-category="soft">
   <div class="general__card__header">
     <div class="general__card__title-group">
-      <i class="general__card__icon fa-solid fa-vial"></i>
-      <h3 class="general__card__title">Testing &amp; QA</h3>
+      <i class="general__card__icon fa-solid fa-brain"></i>
+      <h3 class="general__card__title">Rapidité d’apprentissage</h3>
     </div>
-    <span class="general__card__category">Hard</span>
+    <span class="general__card__category">Soft</span>
   </div>
 
-  <p class="general__card__description">Je mets en place des tests pour garantir la qualité.</p>
+  <p class="general__card__description">Mes expériences professionnelles m’ont permis de développer une grande polyvalence et une capacité à m’adapter rapidement à de nouveaux environnements et technologies.</p>
 
   <div class="general__content__plus">
     <i class="fa fa-plus-circle" aria-hidden="true"></i>
     Voir les détails
   </div>
 </div>
-
 <div class="general__modal__plus">
   <div class="general__modal__plus__content">
     <div class="general__modal__plus__header">
@@ -443,77 +363,4 @@
 
 <script src="/assets/js/filter.js"></script>
 
-
-  </main>
-  <footer class="footer">
-    <div class="footer__bg">
-        <div class="footer__container container grid">
-            <div class="footer__logo">
-                <a href="/index.html" class="nav__logo deploy_link nav__link">
-                    <img class="avatar deploy_link" style="height: 81px;"
-                        src="/assets/img/avatar.jpeg" alt="avatar_footer">
-                </a>
-                <!-- <div class="footer__subtitle"
-                    style="height: 100%; display: flex; flex-direction: column; justify-content: space-evenly;">
-                    <p>Automation & Cloud</p>
-                    <p>Scripting & Tools</p>
-                    <p>Data & Pipelines</p>
-                    <p>Analytics & Monitoring</p>
-                </div> -->
-            </div>
-            <ul class="footer__links">
-                
-                <li>
-                    <a href="/pages/hobbies.html" class="footer__link nav__link">
-                        Loisirs
-                    </a>
-                </li>
-                
-                <li>
-                    <a href="/pages/projects.html" class="footer__link nav__link">
-                        Projets
-                    </a>
-                </li>
-                
-                <li>
-                    <a href="/pages/contact.html" class="footer__link nav__link">
-                        Contact
-                    </a>
-                </li>
-                
-            </ul>
-
-            <div class="footer__links__pages">
-                
-                <a href="https://www.linkedin.com/in/el-habib-benaboud-data/" class="home__social-icon" target="_blank" >
-                    <i class="fa-brands fa-linkedin footer__contact"></i>
-                </a>
-                
-                <a href="https://github.com/Abib-44" class="home__social-icon" target="_blank" >
-                    <i class="fa-brands fa-github footer__contact"></i>
-                </a>
-                
-                <a href="mailto:eh.benaboud@email.com" class="home__social-icon" >
-                    <i class="fa-solid fa-at footer__contact"></i>
-                </a>
-                
-            </div>
-        </div>
-
-        <p class="footer__copy">
-            © 2026 Benaboud · Tous droits réservés
-        </p>
-    </div>
-
-</footer>
-
-    <script src="/assets/js/dark-mode.js"></script>
-    <script src="/assets/js/scroll.js"></script>
-    <script src="/assets/js/mobile.js"></script>
-
-    <script src="/assets/js/open.js"></script>
-    <script src="/assets/js/i.js"></script>
-    <script src="/assets/js/open-cmpt.js"></script>
-</body>
-
-</html>
+:ET

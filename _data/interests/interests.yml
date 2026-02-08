@@ -2,40 +2,40 @@
   category: Analyse
   slug: analyse
   icon: fa-solid fa-square-root-variable
-  description: >
-    Résolution de problèmes, énigmes logiques et analyse de structures complexes.
+  mini-description: "Depuis mon enfance, je suis fasciné par les mathématiques."
+  description: "Depuis que je suis petit, les mathématiques me fascinent, surtout la logique mathématique, que l’on retrouve aussi en informatique et dans la résolution de problèmes."
 
 - title: Échecs
   category: Stratégie
   slug: strategie
   icon: fa-solid fa-chess
-  description: >
-    Stratégie et réflexion, analyse de parties et compétition amicale.
+  mini-description: "J’aime la stratégie et les défis intellectuels."
+  description: "Les échecs me passionnent car ils offrent une infinité de mouvements et de stratégies. J’apprécie analyser les parties et réfléchir à chaque décision pour anticiper l’adversaire."
 
 - title: Boxe
   category: Discipline
   slug: discipline
   icon: fa-solid fa-dumbbell
-  description: >
-    Sport de discipline et de rigueur, développement de la concentration et de l’endurance.
+  mini-description: "La boxe m’enseigne discipline et dépassement de soi."
+  description: "Je pratique la boxe parce qu’elle m’apporte de la discipline et me pousse à dépasser mes limites, tout en renforçant ma persévérance et ma concentration."
 
 - title: Code
   category: Ingénierie
   slug: ingenierie
   icon: fa-solid fa-code
-  description: >
-    Exploration de nouveaux langages et projets personnels pour apprendre et expérimenter.
+  mini-description: "J’adore créer et résoudre des problèmes avec le code."
+  description: "Ce que j’aime le plus dans le code, c’est pouvoir résoudre des problèmes ou créer de nouvelles fonctionnalités qui peuvent bénéficier à moi ou à d’autres. C’est un moyen concret de construire et d’améliorer des systèmes."
 
 - title: Films
   category: Culture
   slug: culture
   icon: fa-solid fa-film
-  description: >
-    Visionnage de films et documentaires pour s’inspirer et élargir ma culture générale.
+  mini-description: "Je me détends en regardant des films avec mes amis."
+  description: "Regarder des films me relaxe et j’aime partager ce moment avec mes amis. Mon film préféré est 'Will Hunting', que j’admire pour son mélange d’émotion et d’intelligence."
 
 - title: Course à pied
   category: Endurance
   slug: endurance
   icon: fa-solid fa-person-running
-  description: >
-    Pratique régulière axée sur la constance, la gestion de l’effort et la progression sur le long terme.
+  mini-description: "La course me détend et me maintient en forme."
+  description: "J’aime courir car c’est une activité relaxante qui me permet de rester en forme et de vider mon esprit, tout en améliorant ma discipline personnelle et ma constance."
