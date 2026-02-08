@@ -1,6 +1,6 @@
 - title: airflow
-  category: Data
-  description: Orchestration de workflows avec Apache Airflow, PostgreSQL et pgAdmin. Conteneurisé avec Docker pour pipelines de données reproductibles.
+  category: Automatisation
+  description: "Orchestration complète de workflows avec Apache Airflow, PostgreSQL et pgAdmin, entièrement conteneurisée avec Docker."
   stack:
     - Python
     - SQL
@@ -9,8 +9,8 @@
   url: "https://github.com/Abib-44/airflow"
 
 - title: Pipeline CSV
-  category: Data
-  description: Nettoyage et traitement automatique de fichiers CSV avec Python et Pandas. Conteneurisé avec Docker et stockage dans SQLite.
+  category: Automatisation
+  description: "Pipeline automatisée pour le nettoyage et le traitement de fichiers CSV avec Python et Pandas, conteneurisée avec Docker et stockée dans SQLite."
   stack:
     - Python
     - Pandas
@@ -18,20 +18,50 @@
   image: "https://imgs.search.brave.com/yje2Attoe6VGHI6-hxS8vupOGFEsl_xsIKbPdWYFS0I/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/dmVjdGV1cnMtcHJl/bWl1bS9mb3JtYXQt/Y3N2LWZpY2hpZXIt/Y3N2LWV4dGVuc2lv/bi1kb2N1bWVudC1h/dS1mb3JtYXQtY3N2/LWlsbHVzdHJhdGlv/bi12ZWN0b3JpZWxs/ZV84NDkyNjQtNDQ0/LmpwZz9zZW10PWFp/c19oeWJyaWQmdz03/NDAmcT04MA"
   url: "https://github.com/200habib/csv"
 
+- title: Python CI/CD
+  category: Automatisation
+  description: Pipeline CI/CD pour projets Python, intégrant tests automatisés avec pytest, linting et déploiement conteneurisé avec Docker.
+  stack:
+    - Python
+    - Pytest
+    - GitHub Actions
+  image: "https://imgs.search.brave.com/UazKgO11W62l-RA0jgwJSRk6Lc4xLDpdOCwPqMEaYnU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cHJvZC53ZWJzaXRl/LWZpbGVzLmNvbS82/MTMwZmExNTAxNzk0/ZTM3YzIxODY3Y2Yv/NjE5MTkzZmMzMDY4/N2QyNzQxYmFiYmRk/XzYxMzI5ZWUyNjFi/YjRjODBkZmQwNjJk/Nl9ibG9nLWhlYWRl/ci1waXBlbGluZS5w/bmc"
+  url: "https://github.com/Abib-44/Python-CI-CD-GitHub-Actions"
 
-- title: Minio
-  category: DevOps
-  description: Création d’un environnement de stockage local pour archiver des fichiers de projet et des sauvegardes, entièrement containerisé avec Docker.
+- title: MinIO
+  category: Cloud
+  description: Solution locale et sécurisée pour l’archivage de fichiers et backups, avec MinIO et Docker, implémentée sur serveur et prête à être utilisée dans des projets Python ou API FastAPI.
   stack:
     - Python
     - Docker
-    - CI/CD
-  image: "https://imgs.search.brave.com/JTQFZMWEmS8oDba8WC5YdXMwjMWh3fVAED_wnbRosDs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5saWNkbi5jb20v/ZG1zL2ltYWdlL0Q1/NjNEQVFIQ0g4WG9f/S1VmSkEvaW1hZ2Ut/c2NhbGVfMTkxXzEx/MjgvMC8xNjY1NjEy/OTkyNjU2L21pbmlv/X2luY19fY292ZXI_/ZT0yMTQ3NDgzNjQ3/JnY9YmV0YSZ0PWJr/NnhpZUwtS0U2cnM1/UndDeDRZV1A1bk95/QjJBdkNEaFN0ZXF5/T1pEcU0"
-  url: "https://github.com/Abib-44/python-ci-minio"
+    - Cloud
+  image: "https://imgs.search.brave.com/HvWYGme4LlxpLSkz1OguPqEC9KlC6DUbF9m47xyR7Cs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cHJvZC53ZWJzaXRl/LWZpbGVzLmNvbS82/ODFjODQyNjUxOWQ4/ZGI4Zjg2N2MxZTgv/NjhkNGI5N2QzZDA4/OWY3MjZkMDFjYWQx/X0ljb24tc3VwcG9y/dC5zdmc"
+  url: "https://github.com/Abib-44/minio-setup"
+
+- title: FastAPI + React
+  category: Cloud
+  description: "Stack Docker complet avec FastAPI, React, PostgreSQL et pgAdmin, conçu comme base solide et modulaire pour tout futur projet web ou API."
+  stack:
+    - Python
+    - React
+    - FastApi
+    - Docker
+  image: "https://imgs.search.brave.com/SfPXTZWGe5YkxYduVuk4tCThn-H5W9vXczDBRVKxgfU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdG9y/YWdlLmdvb2dsZWFw/aXMuY29tL2Rhdmlk/bXVyYXlhLmNvbS9h/c3NldHMvYmxvZy9m/YXN0YXBpLXNwYTMu/cG5n"
+  url: "https://github.com/Abib-44/Dockerized-FastAPI-React"
+
+- title: FastAPI + PostgreSQL
+  category: Cloud
+  description: "Application backend Python entièrement containerisée avec FastAPI, PostgreSQL et pgAdmin. Architecture modulaire. Connexion à la base de données et déploiement rapide via Docker."
+  stack:
+    - Python
+    - FastApi
+    - Docker
+  image: "https://imgs.search.brave.com/Li5Q0sjuXEfrF7W2onEk2Go8Hd-m42fCN6-C537mVKw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdG9y/YWdlLmdvb2dsZWFw/aXMuY29tL2Rhdmlk/bXVyYXlhLmNvbS9h/c3NldHMvYmxvZy9m/YXN0YXBpLWNpLWNk/LnBuZw"
+  url: "https://github.com/Abib-44/fastapi-postgres-pgadmin"
 
 - title: FastSkeleton
   category: Backend
-  description: Skeleton de projet prêt à l’emploi pour démarrer rapidement de nouvelles applications avec FastApi.
+  description: Template de projet prêt à l’emploi pour accélérer le développement d’applications FastAPI, avec une architecture propre et modulable, idéal pour les prototypes et les déploiements professionnels.
   stack:
     - Python
     - Docker
@@ -39,12 +69,30 @@
   image: "https://imgs.search.brave.com/VcH1i1RkMxRXNrEktYGoCEv6z9a2kehuApN_lLKuTJA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9yZWZp/bmUtd2ViLmltZ2l4/Lm5ldC9ibG9nLzIw/MjMtMDgtMDctZmFz/dC1hcGkvc29jaWFs/LTIucG5nP3c9MTc4/OA"
   url: "https://github.com/Abib-44/FastSkeleton"
 
-- title: python ci/cd
-  category: DevOps
-  description: Pipeline CI/CD complet pour applications Python avec Jenkins
+- title: Portail Étudiant
+  category: Backend
+  description: Portail web universitaire permettant aux étudiants de gérer leurs inscriptions, prendre des rendez-vous avec le personnel administratif et échanger des messages.
   stack:
-    - Python
-    - Jenkins
-    - CI/CD
-  image: "https://imgs.search.brave.com/KgUPkc5xQbqtsczJ2GdQW8jkLOq2GYV1vpVsOhyp4JA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS12ZWN0b3Iv/ZGF0YS1hbmFseXNp/cy1pbmZvZ3JhcGhp/Yy1pc29tZXRyaWMt/Zmxvd2NoYXJ0XzEy/ODQtMTExNzYuanBn/P3NlbXQ9YWlzX2h5/YnJpZCZ3PTc0MCZx/PTgw"
-  url: "https://github.com/Abib-44/FastSkeleton"
+    - PHP
+    - API
+    - MYSQL
+  image: "https://imgs.search.brave.com/vhpc2yiCFP8yVFaVw_o44MCz52NNdrV92BLla9YwjmQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTM5/OTQ5MDQ0OS9mci9w/aG90by91bml2ZXJz/aXQlQzMlQTktZGUt/Y2xhc3NlLXZpZGUt/b3UtY29sbGFnZS1k/ZS1yZXRvdXItJUMz/JUEwLWwlQzMlQTlj/b2xlLWlsbHVzdHJh/dGlvbi0zZC5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9Rm9T/NE1MMTZKQVpCZXd2/bFJrLXI3TTZsNjNP/NDRzcFgyV2k1UmQt/LTlfcz0"
+  url: "https://github.com/200habib/university"
+
+- title: Blog
+  category: Backend
+  description: Plateforme de partage d’opinions, de réflexions et de projets personnels, permettant aux visiteurs de découvrir, commenter et interagir avec des contenus techniques et créatifs."
+  stack:
+    - PHP
+    - API
+    - MYSQL
+  image: "https://imgs.search.brave.com/aA7UDwj8AV2cRkGtZa5AW7knQy9fXoHPFAQwrNcjZus/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMtY3NlLmNhbnZh/LmNvbS9ibG9iLzE3/MjAzNTQvY3JlZXJ1/bmJsb2cyMDE5d29y/ZHByZXNzLnBuZw"
+  url: "https://github.com/200habib/Blog."
+
+- title: Server-Monitoring
+  category: Bash
+  description: Solution professionnelle pour le suivi en temps réel des serveurs et de leurs performances. Analyse l’utilisation mémoire et système, génère des logs.
+  stack:
+    - Bash
+  image: "https://imgs.search.brave.com/i9fP1NOlNDWTBlt74G1bXL3NwYhsnDj3QU6KZFvHVfM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wNzIv/NTQ1LzYwOC9zbWFs/bC9hbmFseXN0LXdv/cmtpbmctd2l0aC1k/YXRhLXZpc3VhbGl6/YXRpb24tb24tbXVs/dGlwbGUtY29tcHV0/ZXItbW9uaXRvcnMt/cGhvdG8uanBlZw"
+  url: "https://github.com/Abib-44/Server-Monitoring"

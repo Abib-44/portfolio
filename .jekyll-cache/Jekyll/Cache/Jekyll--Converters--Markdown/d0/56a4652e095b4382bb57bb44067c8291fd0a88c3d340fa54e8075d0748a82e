@@ -1,0 +1,419 @@
+I"�E<section class="section" id="projects">
+
+  <h2 class="general__section__title">Projets</h2>
+<span class="general__section__subtitle">Sélection de travaux techniques</span>
+
+<p class="general__card__intro">
+  Vous trouverez ci-dessous une sélection de projets représentatifs de mon travail. Il ne s’agit pas de l’intégralité de
+  mes réalisations, mais seulement de quelques exemples clés. Pour découvrir l’ensemble de mes projets, je vous invite à consulter
+  mes deux GitHub : l’un dédié exclusivement au backend, et l’autre consacré à l’automatisation et l’analyse.
+</p>
+
+<div class="general__card__containers container grid">
+
+
+<article class="general__card" data-category="backend">
+  <div class="general__card__header">
+    <div class="general__card__title-group">
+      <i class="general__card__icon fa-brands fa-github"></i>
+      <h3 class="general__card__title">GitHub</h3>
+    </div>
+    <span class="general__card__category">Backend</span>
+  </div>
+  <a class="button button--flex" href="https://github.com/200habib" target="_blank">https://github.com/200habib</a>
+</article>
+
+<article class="general__card" data-category="cloud">
+  <div class="general__card__header">
+    <div class="general__card__title-group">
+      <i class="general__card__icon fa-brands fa-github"></i>
+      <h3 class="general__card__title">GitHub</h3>
+    </div>
+    <span class="general__card__category">Cloud</span>
+  </div>
+  <a class="button button--flex" href="https://github.com/Abib-44" target="_blank">https://github.com/Abib-44</a>
+</article>
+
+
+
+</div>
+
+  <div class="general__filters">
+  
+  
+  
+    
+    <button class="general__filter active" data-filter="all">
+      Tous
+    </button>
+  
+    
+    <button class="general__filter " data-filter="cloud">
+      Cloud
+    </button>
+  
+    
+    <button class="general__filter " data-filter="bash">
+      Bash
+    </button>
+  
+    
+    <button class="general__filter " data-filter="automatisation">
+      Automatisation
+    </button>
+  
+    
+    <button class="general__filter " data-filter="backend">
+      Backend
+    </button>
+  
+</div>
+
+
+  <div class="general__card__containers container grid">
+  
+  <article class="project__card__carussel" data-category="automatisation">
+    <img src="https://imgs.search.brave.com/t5sKQdFeytmt8OOrYjU0JCq-RUkio1yI6mn1pUFw-qQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbm5v/d2lzZS5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMjIvMDgv/UGljLTMtMS5wbmc" alt="airflow" class="project__card__carussel__img" />
+    <div class="project__card__carussel__bottom">
+      <div class="project__card__carussel__content">
+        <div class="project__card__carussel__header">
+          <div class="project__card__carussel__title-group">
+            <i class="project__card__carussel__icon fas fa-database"></i>
+            <h3 class="project__card__carussel__title">airflow</h3>
+          </div>
+          <span class="project__card__carussel__category">Automatisation</span>
+        </div>
+
+        <p class="project__card__carussel__description">Orchestration complète de workflows avec Apache Airflow, PostgreSQL et pgAdmin, entièrement conteneurisée avec Docker. Conçue pour des pipelines de données fiables, reproductibles et facilement inté</p>
+
+        <ul class="project__card__carussel__stack">
+          
+          <li>Python</li>
+          
+          <li>SQL</li>
+          
+          <li>ETL</li>
+          
+        </ul>
+      </div>
+
+      <div class="project__card__carussel__button">
+      <a href="https://github.com/Abib-44/airflow" class="button button--flex" target="_blank">
+        Voir le projet
+      </a>
+
+      </div>
+    </div>
+  </article>
+  
+  <article class="project__card__carussel" data-category="automatisation">
+    <img src="https://imgs.search.brave.com/yje2Attoe6VGHI6-hxS8vupOGFEsl_xsIKbPdWYFS0I/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/dmVjdGV1cnMtcHJl/bWl1bS9mb3JtYXQt/Y3N2LWZpY2hpZXIt/Y3N2LWV4dGVuc2lv/bi1kb2N1bWVudC1h/dS1mb3JtYXQtY3N2/LWlsbHVzdHJhdGlv/bi12ZWN0b3JpZWxs/ZV84NDkyNjQtNDQ0/LmpwZz9zZW10PWFp/c19oeWJyaWQmdz03/NDAmcT04MA" alt="Pipeline CSV" class="project__card__carussel__img" />
+    <div class="project__card__carussel__bottom">
+      <div class="project__card__carussel__content">
+        <div class="project__card__carussel__header">
+          <div class="project__card__carussel__title-group">
+            <i class="project__card__carussel__icon fas fa-database"></i>
+            <h3 class="project__card__carussel__title">Pipeline CSV</h3>
+          </div>
+          <span class="project__card__carussel__category">Automatisation</span>
+        </div>
+
+        <p class="project__card__carussel__description">Pipeline automatisée pour le nettoyage et le traitement de fichiers CSV avec Python et Pandas, entièrement conteneurisée avec Docker et stockée dans SQLite.</p>
+
+        <ul class="project__card__carussel__stack">
+          
+          <li>Python</li>
+          
+          <li>Pandas</li>
+          
+          <li>SQLite</li>
+          
+        </ul>
+      </div>
+
+      <div class="project__card__carussel__button">
+      <a href="https://github.com/200habib/csv" class="button button--flex" target="_blank">
+        Voir le projet
+      </a>
+
+      </div>
+    </div>
+  </article>
+  
+  <article class="project__card__carussel" data-category="automatisation">
+    <img src="https://imgs.search.brave.com/UazKgO11W62l-RA0jgwJSRk6Lc4xLDpdOCwPqMEaYnU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cHJvZC53ZWJzaXRl/LWZpbGVzLmNvbS82/MTMwZmExNTAxNzk0/ZTM3YzIxODY3Y2Yv/NjE5MTkzZmMzMDY4/N2QyNzQxYmFiYmRk/XzYxMzI5ZWUyNjFi/YjRjODBkZmQwNjJk/Nl9ibG9nLWhlYWRl/ci1waXBlbGluZS5w/bmc" alt="Workflow Python Automatisé" class="project__card__carussel__img" />
+    <div class="project__card__carussel__bottom">
+      <div class="project__card__carussel__content">
+        <div class="project__card__carussel__header">
+          <div class="project__card__carussel__title-group">
+            <i class="project__card__carussel__icon fas fa-database"></i>
+            <h3 class="project__card__carussel__title">Workflow Python Automatisé</h3>
+          </div>
+          <span class="project__card__carussel__category">Automatisation</span>
+        </div>
+
+        <p class="project__card__carussel__description">Pipeline complète CI/CD pour projets Python, intégrant tests automatisés avec pytest, linting et déploiement conteneurisé avec Docker. Garantit qualité, fiabilité et reproductibilité des pipelines de données.</p>
+
+        <ul class="project__card__carussel__stack">
+          
+          <li>Python</li>
+          
+          <li>Automatisation</li>
+          
+          <li>GitHub Actions</li>
+          
+        </ul>
+      </div>
+
+      <div class="project__card__carussel__button">
+      <a href="https://github.com/Abib-44/Python-CI-CD-GitHub-Actions" class="button button--flex" target="_blank">
+        Voir le projet
+      </a>
+
+      </div>
+    </div>
+  </article>
+  
+  <article class="project__card__carussel" data-category="cloud">
+    <img src="https://imgs.search.brave.com/JTQFZMWEmS8oDba8WC5YdXMwjMWh3fVAED_wnbRosDs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5saWNkbi5jb20v/ZG1zL2ltYWdlL0Q1/NjNEQVFIQ0g4WG9f/S1VmSkEvaW1hZ2Ut/c2NhbGVfMTkxXzEx/MjgvMC8xNjY1NjEy/OTkyNjU2L21pbmlv/X2luY19fY292ZXI_/ZT0yMTQ3NDgzNjQ3/JnY9YmV0YSZ0PWJr/NnhpZUwtS0U2cnM1/UndDeDRZV1A1bk95/QjJBdkNEaFN0ZXF5/T1pEcU0" alt="Minio" class="project__card__carussel__img" />
+    <div class="project__card__carussel__bottom">
+      <div class="project__card__carussel__content">
+        <div class="project__card__carussel__header">
+          <div class="project__card__carussel__title-group">
+            <i class="project__card__carussel__icon fas fa-database"></i>
+            <h3 class="project__card__carussel__title">Minio</h3>
+          </div>
+          <span class="project__card__carussel__category">Cloud</span>
+        </div>
+
+        <p class="project__card__carussel__description">Solution locale et sécurisée pour l’archivage de fichiers et backups, avec MinIO et Docker, implémentée sur serveur et prête à être utilisée dans des projets Python ou API FastAPI.</p>
+
+        <ul class="project__card__carussel__stack">
+          
+          <li>Python</li>
+          
+          <li>Docker</li>
+          
+          <li>Cloud</li>
+          
+        </ul>
+      </div>
+
+      <div class="project__card__carussel__button">
+      <a href="https://github.com/Abib-44/minio-setup" class="button button--flex" target="_blank">
+        Voir le projet
+      </a>
+
+      </div>
+    </div>
+  </article>
+  
+  <article class="project__card__carussel" data-category="cloud">
+    <img src="https://imgs.search.brave.com/SfPXTZWGe5YkxYduVuk4tCThn-H5W9vXczDBRVKxgfU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdG9y/YWdlLmdvb2dsZWFw/aXMuY29tL2Rhdmlk/bXVyYXlhLmNvbS9h/c3NldHMvYmxvZy9m/YXN0YXBpLXNwYTMu/cG5n" alt="FastAPI + React" class="project__card__carussel__img" />
+    <div class="project__card__carussel__bottom">
+      <div class="project__card__carussel__content">
+        <div class="project__card__carussel__header">
+          <div class="project__card__carussel__title-group">
+            <i class="project__card__carussel__icon fas fa-database"></i>
+            <h3 class="project__card__carussel__title">FastAPI + React</h3>
+          </div>
+          <span class="project__card__carussel__category">Cloud</span>
+        </div>
+
+        <p class="project__card__carussel__description">Stack Docker complet avec FastAPI, React, PostgreSQL et pgAdmin, conçu comme base solide et modulaire pour tout futur projet web ou API.</p>
+
+        <ul class="project__card__carussel__stack">
+          
+          <li>Python</li>
+          
+          <li>React</li>
+          
+          <li>FastApi</li>
+          
+          <li>Docker</li>
+          
+        </ul>
+      </div>
+
+      <div class="project__card__carussel__button">
+      <a href="https://github.com/Abib-44/Dockerized-FastAPI-React" class="button button--flex" target="_blank">
+        Voir le projet
+      </a>
+
+      </div>
+    </div>
+  </article>
+  
+  <article class="project__card__carussel" data-category="cloud">
+    <img src="https://imgs.search.brave.com/Li5Q0sjuXEfrF7W2onEk2Go8Hd-m42fCN6-C537mVKw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdG9y/YWdlLmdvb2dsZWFw/aXMuY29tL2Rhdmlk/bXVyYXlhLmNvbS9h/c3NldHMvYmxvZy9m/YXN0YXBpLWNpLWNk/LnBuZw" alt="FastAPI" class="project__card__carussel__img" />
+    <div class="project__card__carussel__bottom">
+      <div class="project__card__carussel__content">
+        <div class="project__card__carussel__header">
+          <div class="project__card__carussel__title-group">
+            <i class="project__card__carussel__icon fas fa-database"></i>
+            <h3 class="project__card__carussel__title">FastAPI</h3>
+          </div>
+          <span class="project__card__carussel__category">Cloud</span>
+        </div>
+
+        <p class="project__card__carussel__description">Application backend Python entièrement containerisée avec FastAPI, PostgreSQL et pgAdmin. Architecture modulaire. Connexion à la base de données et déploiement rapide via Docker.</p>
+
+        <ul class="project__card__carussel__stack">
+          
+          <li>Python</li>
+          
+          <li>FastApi</li>
+          
+          <li>Docker</li>
+          
+        </ul>
+      </div>
+
+      <div class="project__card__carussel__button">
+      <a href="https://github.com/Abib-44/fastapi-postgres-pgadmin" class="button button--flex" target="_blank">
+        Voir le projet
+      </a>
+
+      </div>
+    </div>
+  </article>
+  
+  <article class="project__card__carussel" data-category="backend">
+    <img src="https://imgs.search.brave.com/VcH1i1RkMxRXNrEktYGoCEv6z9a2kehuApN_lLKuTJA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9yZWZp/bmUtd2ViLmltZ2l4/Lm5ldC9ibG9nLzIw/MjMtMDgtMDctZmFz/dC1hcGkvc29jaWFs/LTIucG5nP3c9MTc4/OA" alt="FastSkeleton" class="project__card__carussel__img" />
+    <div class="project__card__carussel__bottom">
+      <div class="project__card__carussel__content">
+        <div class="project__card__carussel__header">
+          <div class="project__card__carussel__title-group">
+            <i class="project__card__carussel__icon fas fa-database"></i>
+            <h3 class="project__card__carussel__title">FastSkeleton</h3>
+          </div>
+          <span class="project__card__carussel__category">Backend</span>
+        </div>
+
+        <p class="project__card__carussel__description">Template de projet prêt à l’emploi pour accélérer le développement d’applications FastAPI, avec une architecture propre et modulable, idéal pour les prototypes et les déploiements professionnels.</p>
+
+        <ul class="project__card__carussel__stack">
+          
+          <li>Python</li>
+          
+          <li>Docker</li>
+          
+          <li>CI/CD</li>
+          
+        </ul>
+      </div>
+
+      <div class="project__card__carussel__button">
+      <a href="https://github.com/Abib-44/FastSkeleton" class="button button--flex" target="_blank">
+        Voir le projet
+      </a>
+
+      </div>
+    </div>
+  </article>
+  
+  <article class="project__card__carussel" data-category="backend">
+    <img src="https://imgs.search.brave.com/vhpc2yiCFP8yVFaVw_o44MCz52NNdrV92BLla9YwjmQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTM5/OTQ5MDQ0OS9mci9w/aG90by91bml2ZXJz/aXQlQzMlQTktZGUt/Y2xhc3NlLXZpZGUt/b3UtY29sbGFnZS1k/ZS1yZXRvdXItJUMz/JUEwLWwlQzMlQTlj/b2xlLWlsbHVzdHJh/dGlvbi0zZC5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9Rm9T/NE1MMTZKQVpCZXd2/bFJrLXI3TTZsNjNP/NDRzcFgyV2k1UmQt/LTlfcz0" alt="Portail Étudiant" class="project__card__carussel__img" />
+    <div class="project__card__carussel__bottom">
+      <div class="project__card__carussel__content">
+        <div class="project__card__carussel__header">
+          <div class="project__card__carussel__title-group">
+            <i class="project__card__carussel__icon fas fa-database"></i>
+            <h3 class="project__card__carussel__title">Portail Étudiant</h3>
+          </div>
+          <span class="project__card__carussel__category">Backend</span>
+        </div>
+
+        <p class="project__card__carussel__description">Portail web universitaire permettant aux étudiants de gérer leurs inscriptions, prendre des rendez-vous avec le personnel administratif et échanger des messages.</p>
+
+        <ul class="project__card__carussel__stack">
+          
+          <li>PHP</li>
+          
+          <li>API</li>
+          
+          <li>MYSQL</li>
+          
+        </ul>
+      </div>
+
+      <div class="project__card__carussel__button">
+      <a href="https://github.com/200habib/university" class="button button--flex" target="_blank">
+        Voir le projet
+      </a>
+
+      </div>
+    </div>
+  </article>
+  
+  <article class="project__card__carussel" data-category="backend">
+    <img src="https://imgs.search.brave.com/aA7UDwj8AV2cRkGtZa5AW7knQy9fXoHPFAQwrNcjZus/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMtY3NlLmNhbnZh/LmNvbS9ibG9iLzE3/MjAzNTQvY3JlZXJ1/bmJsb2cyMDE5d29y/ZHByZXNzLnBuZw" alt="Blog" class="project__card__carussel__img" />
+    <div class="project__card__carussel__bottom">
+      <div class="project__card__carussel__content">
+        <div class="project__card__carussel__header">
+          <div class="project__card__carussel__title-group">
+            <i class="project__card__carussel__icon fas fa-database"></i>
+            <h3 class="project__card__carussel__title">Blog</h3>
+          </div>
+          <span class="project__card__carussel__category">Backend</span>
+        </div>
+
+        <p class="project__card__carussel__description">Plateforme de partage d’opinions, de réflexions et de projets personnels, permettant aux visiteurs de découvrir, commenter et interagir avec des contenus techniques et créatifs."</p>
+
+        <ul class="project__card__carussel__stack">
+          
+          <li>PHP</li>
+          
+          <li>API</li>
+          
+          <li>MYSQL</li>
+          
+        </ul>
+      </div>
+
+      <div class="project__card__carussel__button">
+      <a href="https://github.com/200habib/Blog." class="button button--flex" target="_blank">
+        Voir le projet
+      </a>
+
+      </div>
+    </div>
+  </article>
+  
+  <article class="project__card__carussel" data-category="bash">
+    <img src="https://imgs.search.brave.com/i9fP1NOlNDWTBlt74G1bXL3NwYhsnDj3QU6KZFvHVfM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wNzIv/NTQ1LzYwOC9zbWFs/bC9hbmFseXN0LXdv/cmtpbmctd2l0aC1k/YXRhLXZpc3VhbGl6/YXRpb24tb24tbXVs/dGlwbGUtY29tcHV0/ZXItbW9uaXRvcnMt/cGhvdG8uanBlZw" alt="Server-Monitoring" class="project__card__carussel__img" />
+    <div class="project__card__carussel__bottom">
+      <div class="project__card__carussel__content">
+        <div class="project__card__carussel__header">
+          <div class="project__card__carussel__title-group">
+            <i class="project__card__carussel__icon fas fa-database"></i>
+            <h3 class="project__card__carussel__title">Server-Monitoring</h3>
+          </div>
+          <span class="project__card__carussel__category">Bash</span>
+        </div>
+
+        <p class="project__card__carussel__description">Solution professionnelle pour le suivi en temps réel des serveurs et de leurs performances. Analyse l’utilisation mémoire et système, génère des logs structurés avec alertes automatiques et détecte les anomalies pour une maintenance proactive.</p>
+
+        <ul class="project__card__carussel__stack">
+          
+          <li>Bash</li>
+          
+        </ul>
+      </div>
+
+      <div class="project__card__carussel__button">
+      <a href="https://github.com/Abib-44/Server-Monitoring" class="button button--flex" target="_blank">
+        Voir le projet
+      </a>
+
+      </div>
+    </div>
+  </article>
+  
+</div>
+
+</section>
+
+<script src="/assets/js/filter.js"></script>
+
+:ET

@@ -1,28 +1,28 @@
-- title: Stagiaire Backend Developer
-  subtitle: Entreprise technologique – Backend & Cloud
+- title: Stagiaire Développeur Full-Stack
+  subtitle: Développement Web & mise en production
   period: 2024
-  modal_title: Stage professionnel – Backend & Data
+  modal_title: Stage professionnel – Développement Full-Stack
   details:
-    - Conception et développement d’APIs backend robustes et performantes, avec attention à la scalabilité et à la fiabilité.
-    - Mise en œuvre de pipelines de traitement de données et de tâches asynchrones pour l’automatisation et l’optimisation.
-    - Implémentation de workflows CI/CD incluant tests automatisés, intégration continue et déploiement continu.
-    - Collaboration dans un environnement cloud et DevOps avec équipes produit, data et infrastructure.
+    - Développement d’un site web Full-Stack en PHP au sein d’une équipe de développeurs.
+    - Implémentation de fonctionnalités backend et frontend, en coordination avec les autres membres de l’équipe.
+    - Déploiement de l’application sur un serveur distant et mise en production.
+    - Environnement technique → PHP, HTML/CSS, SQL/MySQL, Git/GitHub, Déploiement serveur.
 
-- title: Contributeur Open Source
-  subtitle: Projets open source – Backend & Data
+- title: Développeur Full-Stack
+  subtitle: Open Source
   period: "2024 – 2025"
-  modal_title: Contributions open source
+  modal_title: Contributions open source Full-Stack
   details:
-    - Développement et amélioration de services backend open source.
-    - Refactoring, correction de bugs et optimisation des performances.
-    - Collaboration via Git, pull requests et revues de code distribuées.
+    - Contribution active à des projets open source Full-Stack en collaboration avec d’autres développeurs.
+    - Travail en environnement collaboratif → revue de code, refactoring et amélioration continue.
+    - Environnement technique → PHP, React, Docker, Docker Compose, SQL/PostgreSQL, Git/GitHub, CI/CD.
 
-- title: Développeur Backend
-  subtitle: Backend & Cloud
+- title: Développeur Backend 
+  subtitle: En entreprise
   period: "2025"
-  modal_title: Projets backend autonomes
+  modal_title: Développement backend
   details:
-    - Conception complète d’APIs REST, de la modélisation au déploiement.
-    - Gestion de bases de données, logique métier et optimisation des performances.
-    - Containerisation, automatisation des tests et déploiements cloud.
-    - Approche orientée clean architecture, maintenabilité et qualité logicielle.
+    - Conception et implémentation complète d’APIs REST, de l’architecture au déploiement.
+    - Modélisation des données, gestion de la logique métier et optimisation des performances.
+    - Containerisation des services, automatisation des tests.
+    - Environnement technique → PHP, Laravel, Bash, Docker, Docker Compose, Kubernetes, Ansible, SQL/MySQL, MinIO, Git/GitLab, CI/CD.

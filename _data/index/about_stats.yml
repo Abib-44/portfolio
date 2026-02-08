@@ -1,8 +1,8 @@
 - title: "50+"
   label: "Projets<br />Backend & Data"
-
-- title: "7"
-  label: "Mois<br />Expérience Backend"
+  
+- title: "Expérience"
+  label: "Backend<br/>en entreprise"
 
 - title: "Docker · CI/CD"
   label: "Pipelines et environnements automatisés"
