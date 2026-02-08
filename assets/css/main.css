@@ -992,7 +992,7 @@ body {
 }
 
 .qualification__middle__line {
-  height: 110px;
+  height: 130px;
 }
 
 .qualification__middle__line__right {
@@ -1005,7 +1005,7 @@ body {
   }
   .qualification__middle__line__right {
     display: block;
-    height: 110px;
+    height: 155px;
     margin-right: 13px;
   }
   .qualification__container {
@@ -1016,6 +1016,7 @@ body {
     justify-content: flex-start;
     -moz-column-gap: 0rem;
          column-gap: 0rem;
+    align-items: center;
   }
 }
 /* ===================== PROJECTS SECTION ===================== */
