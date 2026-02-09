@@ -30,7 +30,7 @@
   - category: "Automatisation & CI/CD"
     icon: "fas fa-cogs"
     items:
-      - Shell Scripting
+      - Bash
       - Jenkins
       - Airflow
       - Docker

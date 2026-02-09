@@ -153,6 +153,30 @@
   display: none;
 }
 
+
+.index__conpetences__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0px 35px 0px 35px;
+}
+
+.skills__content {
+  margin-bottom: 20px;
+}
+
+.skills__header {
+  display: flex;
+  margin-bottom: 20px;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+.skills__header_sub {
+  display: flex;
+  align-items: center;
+}
+
 @media screen and (max-width: 767px) {
   .qualification__middle__line {
     display: none;

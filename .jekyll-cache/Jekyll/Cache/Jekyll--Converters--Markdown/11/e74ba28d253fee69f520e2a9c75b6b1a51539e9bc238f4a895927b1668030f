@@ -1,83 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
-
-<head>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>portfolio</title>
-<link rel="stylesheet" href="/assets/css/main.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-<link rel="shortcut icon" href="/assets/img/avatar-whitout.png" type="image/x-icon">
-
-
-</head>
-
-<body>
-  <header class="header" id="header">
-  <nav class="nav container navbar">
-    <a href="/index.html" class="nav__logo deploy_link">
-      <img class="avatar deploy_link" src="/assets/img/avatar.jpeg" alt="avatar">
-    </a>
-
-    <div class="nav__menu" id="nav-menu">
-      <ul class="nav__list grid">
-        
-        <li class="nav__item">
-          <a href="/index.html"
-            class="deploy_link nav__link ">
-            <i class="uil uil-estate nav__icon"></i>Accueil
-          </a>
-        </li>
-        
-        <li class="nav__item">
-          <a href="/pages/competences.html"
-            class="deploy_link nav__link ">
-            <i class="uil uil-file-alt nav__icon"></i>Compétences
-          </a>
-        </li>
-        
-        <li class="nav__item">
-          <a href="/pages/projects.html"
-            class="deploy_link nav__link ">
-            <i class="uil uil-scenery nav__icon"></i>Projets
-          </a>
-        </li>
-        
-        <li class="nav__item">
-          <a href="/pages/hobbies.html"
-            class="deploy_link nav__link ">
-            <i class="uil uil-message nav__icon"></i>Loisirs
-          </a>
-        </li>
-        
-        <li class="nav__item">
-          <a href="/pages/contact.html"
-            class="deploy_link nav__link ">
-            <i class="uil uil-message nav__icon"></i>Contactez-moi
-          </a>
-        </li>
-        
-      </ul>
-    </div>
-
-    <div class="mobile">
-      <div class="nav__btns">
-  <div id="theme-button" class="theme-box">
-    <div class="switch-knob"></div>
-    <i class="switch-img switch-moon fa-solid fa-moon"></i>
-    <i class="switch-img switch-sun fa-solid fa-sun hidden"></i>
-  </div>
-</div>
-
-      <div class="nav__icon__navigation">
-        <i class="fas fa-bars mobile-nav" id="nav-open"></i>
-        <i class="fas fa-times mobile-nav" id="nav-close"></i>
-      </div>
-    </div>
-  </nav>
-</header>
-  <main> 
-    <section class="home" id="home">
+I"m�<section class="home" id="home">
   <div class="home__container container grid">
     <div class="home__content grid">
       <div class="home__social">
@@ -772,14 +693,17 @@
       <div class="index__conpetences__list">
         
         <div class="general__content__border">
+          
           <h3 class="skills__subtitle">Python</h3>
         </div>
         
         <div class="general__content__border">
+          
           <h3 class="skills__subtitle">PHP</h3>
         </div>
         
         <div class="general__content__border">
+          
           <h3 class="skills__subtitle">SQL</h3>
         </div>
         
@@ -797,14 +721,17 @@
       <div class="index__conpetences__list">
         
         <div class="general__content__border">
+          
           <h3 class="skills__subtitle">MySQL</h3>
         </div>
         
         <div class="general__content__border">
+          
           <h3 class="skills__subtitle">MongoDB</h3>
         </div>
         
         <div class="general__content__border">
+          
           <h3 class="skills__subtitle">PostgreSQL</h3>
         </div>
         
@@ -822,14 +749,17 @@
       <div class="index__conpetences__list">
         
         <div class="general__content__border">
+          
           <h3 class="skills__subtitle">Pandas</h3>
         </div>
         
         <div class="general__content__border">
+          
           <h3 class="skills__subtitle">NumPy</h3>
         </div>
         
         <div class="general__content__border">
+          
           <h3 class="skills__subtitle">ETL</h3>
         </div>
         
@@ -847,14 +777,17 @@
       <div class="index__conpetences__list">
         
         <div class="general__content__border">
+          
           <h3 class="skills__subtitle">Git</h3>
         </div>
         
         <div class="general__content__border">
+          
           <h3 class="skills__subtitle">GitHub</h3>
         </div>
         
         <div class="general__content__border">
+          
           <h3 class="skills__subtitle">GitLab</h3>
         </div>
         
@@ -872,22 +805,27 @@
       <div class="index__conpetences__list">
         
         <div class="general__content__border">
-          <h3 class="skills__subtitle">Bash</h3>
+          
+          <h3 class="skills__subtitle">Shell Scripting</h3>
         </div>
         
         <div class="general__content__border">
+          
           <h3 class="skills__subtitle">Jenkins</h3>
         </div>
         
         <div class="general__content__border">
+          
           <h3 class="skills__subtitle">Airflow</h3>
         </div>
         
         <div class="general__content__border">
+          
           <h3 class="skills__subtitle">Docker</h3>
         </div>
         
         <div class="general__content__border">
+          
           <h3 class="skills__subtitle">AWS</h3>
         </div>
         
@@ -905,10 +843,12 @@
       <div class="index__conpetences__list">
         
         <div class="general__content__border">
+          
           <h3 class="skills__subtitle">Amazon S3</h3>
         </div>
         
         <div class="general__content__border">
+          
           <h3 class="skills__subtitle">MinIO</h3>
         </div>
         
@@ -921,77 +861,4 @@
     <a href="/pages/competences.html" class="button button--flex">Regarde tous mes competences</a>
   </div>
 </section>
-
-  </main>
-  <footer class="footer">
-    <div class="footer__bg">
-        <div class="footer__container container grid">
-            <div class="footer__logo">
-                <a href="/index.html" class="nav__logo deploy_link nav__link">
-                    <img class="avatar deploy_link" style="height: 81px;"
-                        src="/assets/img/avatar.jpeg" alt="avatar_footer">
-                </a>
-                <!-- <div class="footer__subtitle"
-                    style="height: 100%; display: flex; flex-direction: column; justify-content: space-evenly;">
-                    <p>Automation & Cloud</p>
-                    <p>Scripting & Tools</p>
-                    <p>Data & Pipelines</p>
-                    <p>Analytics & Monitoring</p>
-                </div> -->
-            </div>
-            <ul class="footer__links">
-                
-                <li>
-                    <a href="/pages/hobbies.html" class="footer__link nav__link">
-                        Loisirs
-                    </a>
-                </li>
-                
-                <li>
-                    <a href="/pages/projects.html" class="footer__link nav__link">
-                        Projets
-                    </a>
-                </li>
-                
-                <li>
-                    <a href="/pages/contact.html" class="footer__link nav__link">
-                        Contact
-                    </a>
-                </li>
-                
-            </ul>
-
-            <div class="footer__links__pages">
-                
-                <a href="https://www.linkedin.com/in/el-habib-benaboud-data/" class="home__social-icon" target="_blank" >
-                    <i class="fa-brands fa-linkedin footer__contact"></i>
-                </a>
-                
-                <a href="https://github.com/Abib-44" class="home__social-icon" target="_blank" >
-                    <i class="fa-brands fa-github footer__contact"></i>
-                </a>
-                
-                <a href="mailto:eh.benaboud@email.com" class="home__social-icon" >
-                    <i class="fa-solid fa-at footer__contact"></i>
-                </a>
-                
-            </div>
-        </div>
-
-        <p class="footer__copy">
-            © 2026 Benaboud · Tous droits réservés
-        </p>
-    </div>
-
-</footer>
-
-    <script src="/assets/js/dark-mode.js"></script>
-    <script src="/assets/js/scroll.js"></script>
-    <script src="/assets/js/mobile.js"></script>
-
-    <script src="/assets/js/open.js"></script>
-    <script src="/assets/js/i.js"></script>
-    <script src="/assets/js/open-cmpt.js"></script>
-</body>
-
-</html>
+:ET
