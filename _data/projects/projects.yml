@@ -16,7 +16,7 @@
     - Pandas
     - SQLite
   image: "https://imgs.search.brave.com/yje2Attoe6VGHI6-hxS8vupOGFEsl_xsIKbPdWYFS0I/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/dmVjdGV1cnMtcHJl/bWl1bS9mb3JtYXQt/Y3N2LWZpY2hpZXIt/Y3N2LWV4dGVuc2lv/bi1kb2N1bWVudC1h/dS1mb3JtYXQtY3N2/LWlsbHVzdHJhdGlv/bi12ZWN0b3JpZWxs/ZV84NDkyNjQtNDQ0/LmpwZz9zZW10PWFp/c19oeWJyaWQmdz03/NDAmcT04MA"
-  url: "https://github.com/200habib/csv"
+  url: "https://github.com/Abib-dev/csv"
 
 - title: Python CI/CD
   category: Automatisation
@@ -77,7 +77,7 @@
     - API
     - MYSQL
   image: "https://imgs.search.brave.com/vhpc2yiCFP8yVFaVw_o44MCz52NNdrV92BLla9YwjmQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTM5/OTQ5MDQ0OS9mci9w/aG90by91bml2ZXJz/aXQlQzMlQTktZGUt/Y2xhc3NlLXZpZGUt/b3UtY29sbGFnZS1k/ZS1yZXRvdXItJUMz/JUEwLWwlQzMlQTlj/b2xlLWlsbHVzdHJh/dGlvbi0zZC5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9Rm9T/NE1MMTZKQVpCZXd2/bFJrLXI3TTZsNjNP/NDRzcFgyV2k1UmQt/LTlfcz0"
-  url: "https://github.com/200habib/university"
+  url: "https://github.com/Abib-dev/university"
 
 - title: Blog
   category: Backend
@@ -87,7 +87,7 @@
     - API
     - MYSQL
   image: "https://imgs.search.brave.com/aA7UDwj8AV2cRkGtZa5AW7knQy9fXoHPFAQwrNcjZus/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMtY3NlLmNhbnZh/LmNvbS9ibG9iLzE3/MjAzNTQvY3JlZXJ1/bmJsb2cyMDE5d29y/ZHByZXNzLnBuZw"
-  url: "https://github.com/200habib/Blog."
+  url: "https://github.com/Abib-dev/Blog."
 
 - title: Server-Monitoring
   category: Bash

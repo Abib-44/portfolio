@@ -1,0 +1,8 @@
+FROM jekyll/jekyll:latest
+
+RUN gem install webrick
+
+WORKDIR /srv/jekyll
+VOLUME /srv/jekyll
+
+CMD ["jekyll", "serve", "--watch", "--host", "0.0.0.0"]
